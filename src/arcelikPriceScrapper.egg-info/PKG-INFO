@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: arcelikPriceScrapper
+Version: 0.1.0
+Summary: Python price scrapper for Arcelik product prices.
+Author: Cyber-Syntax
+License-Expression: GPL-3.0-or-later
+Keywords: arcelik,sales,pricing,desktop
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: curl-cffi>=0.16.3
+Requires-Dist: selectolax>=1.0.1

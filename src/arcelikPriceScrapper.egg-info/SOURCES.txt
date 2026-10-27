@@ -1,0 +1,9 @@
+pyproject.toml
+src/arcelikPriceScrapper/__init__.py
+src/arcelikPriceScrapper/main.py
+src/arcelikPriceScrapper.egg-info/PKG-INFO
+src/arcelikPriceScrapper.egg-info/SOURCES.txt
+src/arcelikPriceScrapper.egg-info/dependency_links.txt
+src/arcelikPriceScrapper.egg-info/entry_points.txt
+src/arcelikPriceScrapper.egg-info/requires.txt
+src/arcelikPriceScrapper.egg-info/top_level.txt
