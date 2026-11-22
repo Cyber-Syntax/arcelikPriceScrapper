@@ -58,7 +58,7 @@ jobs:
       startsWith(github.event.label.name, 'scrape:')
 
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 360
 
     steps:
       - name: Checkout repository
@@ -157,6 +157,20 @@ jobs:
 
           echo "ran=true" >> "$GITHUB_OUTPUT"
 
+      - name: Persist scraper caches
+        if: success()
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/categories.json data/explicit_products.json data/specs_cache.json || true
+          if git diff --cached --quiet; then
+            echo "cache degismedi"
+            exit 0
+          fi
+          git commit -m "chore: update scraper caches"
+          git push
+
       - name: Upload workflow artifact
         if: always()
         uses: actions/upload-artifact@v7
@@ -178,6 +192,8 @@ jobs:
             Dosya adlarinda UTC tarih/saat bilgisi vardir.
             Bu Release her yeni scraper calismasinda guncellenir.
 
-          files: out/*
-          fail_on_unmatched_files: true
+          files: |
+            out/*
+            out/kampanyalar/*
+          fail_on_unmatched_files: false
           overwrite_files: true

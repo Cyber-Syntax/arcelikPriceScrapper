@@ -1307,13 +1307,6 @@ include_children = true      # tum alt kategoriler icin
 slug = "su-aritma-cihazi"
 app_category = "Su Arıtma Cihazı"
 
-# KURAL: blog/... fiyat kaynagi degil; kod ve ADR-0009 ile her zaman dislanir.
-# Asagidaki blog kategorisi bilincli olarak commented; config'e almayin.
-# # [L2] Su Sebili & Su Arıtma > Su Arıtma Blog
-# [[categories.include]]
-# slug = "blog/su-aritma"
-# app_category = "Su Arıtma Blog"
-
 # [L2] Su Sebili & Su Arıtma > Su Sebili
 [[categories.include]]
 slug = "su-sebili"
@@ -1323,6 +1316,11 @@ app_category = "Su Sebili"
 [[categories.include]]
 slug = "buz-yapan-su-sebili"
 app_category = "Su Sebili"
+
+# [L2] Spor ve Outdoor > Araç Buzdolabı
+[[categories.include]]
+slug = "arac-buzdolabi"
+app_category = "Araç Buzdolabı"
 
 # # [L1] Yedek Parça Ve Aksesuar
 # [[categories.include]]
@@ -1335,9 +1333,7 @@ app_category = "Su Sebili"
 # app_category = "Aksesuarlar"
 
 # [L3] Yedek Parça Ve Aksesuar > Aksesuarlar > Beyaz Eşya Yedek Parça ve Aksesuarları [duplicate slug]
-
 # [L3] Yedek Parça Ve Aksesuar > Aksesuarlar > Pişirici Yedek Parça ve Aksesuarları [duplicate slug]
-
 # [L3] Yedek Parça Ve Aksesuar > Aksesuarlar > Küçük Ev Aletleri Yedek Parça ve Aksesuarları [duplicate slug]
 
 # # [L3] Yedek Parça Ve Aksesuar > Aksesuarlar > Taşınabilir Güneş Paneli Aksesuarları
@@ -1422,10 +1418,6 @@ app_category = "Su Sebili"
 # slug = "elektrikli-bisiklet"
 # app_category = "Elektrikli Bisiklet"
 
-# [L2] Spor ve Outdoor > Araç Buzdolabı
-[[categories.include]]
-slug = "arac-buzdolabi"
-app_category = "Araç Buzdolabı"
 
 # # [L2] Spor ve Outdoor > Deniz & Su Sporları Ekipmanları
 # [[categories.include]]
@@ -1443,6 +1435,7 @@ app_category = "Araç Buzdolabı"
 # app_category = "Biberon Isıtıcısı"
 
 [cache]
+categories_file = "data/categories.json"
 explicit_file = "data/explicit_products.json"
 specs_file = "data/specs_cache.json"
 
@@ -1450,7 +1443,7 @@ specs_file = "data/specs_cache.json"
 enabled = true
 
 [warranties]
-enabled = true                   # prices/all icinde; ayri komut yok
+enabled = true # prices/all icinde; ayri komut yok
 
 [products]
 include_file = "data/product_urls.txt"
@@ -1469,3 +1462,11 @@ max_auto_fetch = 50
 # name = "1001 KMX"
 # app_category = "Kurutma Makinesi"
 # force = true                 # kara listeye ragmen dahil et
+
+
+# KURAL: blog/... fiyat kaynagi degil; kod ve ADR-0009 ile her zaman dislanir.
+# Asagidaki blog kategorisi bilincli olarak commented; config'e almayin.
+# # [L2] Su Sebili & Su Arıtma > Su Arıtma Blog
+# [[categories.include]]
+# slug = "blog/su-aritma"
+# app_category = "Su Arıtma Blog"

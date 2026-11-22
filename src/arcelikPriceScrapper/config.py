@@ -104,6 +104,7 @@ class ProductsCfg(BaseModel):
 
 
 class CacheCfg(BaseModel):
+    categories_file: str = "data/categories.json"
     explicit_file: str = "data/explicit_products.json"
     specs_file: str = "data/specs_cache.json"
 

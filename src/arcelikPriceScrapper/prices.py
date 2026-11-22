@@ -945,7 +945,8 @@ async def scrape_prices(
         targets = []
     else:
         tree = await fetch_category_tree(
-            http, cache_path=cache_path or Path(".cache/categories.json")
+            http,
+            cache_path=cache_path or Path(run_cfg.cache.categories_file),
         )
         report.set("category_tree_nodes", len(tree.nodes))
         if category_tokens or not only_tokens:

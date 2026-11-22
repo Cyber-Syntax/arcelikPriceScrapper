@@ -8,13 +8,17 @@ Amaç: Bu doküman, scraper çıktısındaki ID + JSON değişikliklerini Bayios
 Bayios'a scraper entegrasyonu iki fazda yapılacak:
 
 1. Önce Excel/CSV import: ana products 11 sütun olacak; ilk sütun Ürün ID, son sütun Ürün Özellikleri (JSON). Eski 9/10 sütunlu dosyalar da okunmaya devam edecek.
-2. Sonra catalog.json import: scraper her koşuda out/catalog.json üretecek; tüm ürünler, features ve specifications bu dosyada olacak.
+2. Sonra catalog.json import: scraper her koşuda out/catalog_<stamp>.json + out/catalog.json üretecek; tüm ürünler, features ve specifications bu dosyada olacak.
+3. Kampanyalar için out/kampanyalar/kampanyalar_<stamp>.json + campaigns.json üretilecek; JSON içinde koşullar ve ürünler olacak.
 
 Ortak ürün modeli ID anahtarlıdır; ayrı product_code yoktur. JSON içinde features[] ve specifications[] bulunur. Medya/gif/resim/video yoktur, sadece metin vardır. Excel/CSV, JSON bozulursa kullanılacak yedektir.
 
 ## 1. Scraper'dan çıkan dosyalar
 
-- out/catalog.json — her ürün koşusunda üretilir; JSON birincil kaynaktır.
+- out/catalog_<YYYYMMDD-HHMMSS>.json — her ürün koşusunda üretilir; tarihli JSON.
+- out/catalog.json — aynı içeriğin latest kopyası; mevcut entegrasyon için.
+- out/kampanyalar/kampanyalar_<YYYYMMDD-HHMMSS>.json — kampanya JSON'u.
+- out/kampanyalar/campaigns.json — kampanya JSON'unun latest kopyası.
 - out/urunler_<YYYYMMDD-HHMMSS>.xlsx — format excel veya both ise.
 - out/urunler_<YYYYMMDD-HHMMSS>_products.csv — format csv veya both ise.
 - out/urunler_<YYYYMMDD-HHMMSS>_products_full.csv — --full verilirse referans.
@@ -23,10 +27,10 @@ Ortak ürün modeli ID anahtarlıdır; ayrı product_code yoktur. JSON içinde f
 
 Format davranışı:
 
-- Varsayılan format json'dur; sadece catalog.json yazılır.
-- format excel: catalog.json + Excel.
-- format csv: catalog.json + CSV.
-- format both: catalog.json + Excel + CSV.
+- Varsayılan format json'dur; catalog tarihli + latest yazılır.
+- format excel: catalog_<stamp>.json + catalog.json + Excel.
+- format csv: catalog_<stamp>.json + catalog.json + CSV.
+- format both: catalog_<stamp>.json + catalog.json + Excel + CSV.
 - JSON hiçbir zaman kapatılmaz.
 
 Ana products 11 sütundur. --with-scraped-at verilirse 12. sütun scraped_at eklenir.
@@ -120,7 +124,8 @@ Eski dosya uyumu:
 
 ### 4.1 Dosya
 
-out/catalog.json
+out/catalog_<YYYYMMDD-HHMMSS>.json (tarihli)
+out/catalog.json (latest kopya)
 
 ### 4.2 Şema
 
@@ -157,7 +162,46 @@ out/catalog.json
 - Import tek transaction veya batch; hatalı ürün diğerlerini düşürmemeli.
 - Dry-run/preview ve hata raporu olmalı.
 
-## 5. Veritabanı / API önerisi
+## 5. Kampanya JSON
+
+### 5.1 Dosya
+
+out/kampanyalar/kampanyalar_<YYYYMMDD-HHMMSS>.json
+out/kampanyalar/campaigns.json (latest)
+
+### 5.2 Şema
+
+    {
+      "schema_version": "1.0",
+      "scraped_at": "2026-11-22T...Z",
+      "campaigns": [
+        {
+          "id": "dugun-com",
+          "name": "Düğün.com Kampanyası",
+          "category": "kampanyalar",
+          "url": "https://www.arcelik.com.tr/kampanyalar/...",
+          "date_text": "17-20 Kasım 2026",
+          "start_date": "2026-11-17",
+          "end_date": "2026-11-20",
+          "conditions": ["Kampanya ...", "Seçili ..."],
+          "product_count": 2,
+          "products": [
+            {"name": "07325 A", "product_id": "...", "relationship": "İlgili ürün", "required_quantity": null}
+          ],
+          "scraped_at": "2026-11-22T...Z"
+        }
+      ]
+    }
+
+### 5.3 Import kuralları
+
+- Kampanya id ile upsert edilir; id yoksa url/name fallback.
+- conditions liste olarak saklanır; Excel'deki newline metinle aynı içerik.
+- products 3 alanlıdır: name, relationship, required_quantity; product_id opsiyonel.
+- Kampanya silinmez; eksik kampanya delist edilmez.
+- JSON her zaman; Excel/CSV kampanya düzeni M3'te bekliyor.
+
+## 6. Veritabanı / API önerisi
 
 - products tablosunda id string unique.
 - features/specifications için JSONB veya ayrı tablolar; JSONB önerilir; okurken parse etme, yazarken string'e çevirme.
@@ -168,19 +212,19 @@ out/catalog.json
 - Import ekranında dosya tipi otomatik algılanmalı; JSON/Excel/CSV aynı preview modeline dönüşmeli.
 - Hata raporu: satır no, ID, alan, mesaj.
 
-## 6. Test / kabul
+## 7. Test / kabul
 
 - 9, 10, 11 ve 12 sütunlu Excel/CSV dosyaları okunur.
 - 11. sütundaki JSON doğru parse edilir; bozuk JSON satır hatası verir.
 - features/specifications DB'ye doğru yazılır.
 - Aynı ID güncellenir, yeni ID eklenir; aynı ad farklı ID ayrı kalır.
 - ID'siz garanti satırı adla eşleşir; yeni ID uydurulmaz.
-- catalog.json importu Excel/CSV ile aynı sonucu verir.
+- catalog_<stamp>.json / catalog.json importu Excel/CSV ile aynı sonucu verir.
 - Fiyat Decimal/iki ondalık; boş fiyat 0 olmaz.
 - Import sonrası ürün detayları JSON'dan okunabilir.
 - Eski 9/10 sütunlu dosya detayları silmez.
 
-## 7. Uygulama sırası
+## 8. Uygulama sırası
 
 1. DB/API modeline JSON detay alanı ekle.
 2. Excel/CSV parser'ı 11 sütuna ve başlık eşlemesine güncelle.
@@ -190,7 +234,7 @@ out/catalog.json
 6. Preview/validasyon/hata raporu ekle.
 7. Excel/CSV ve JSON aynı veriyi veriyor mu test et.
 
-## 8. Yapılmaması gerekenler
+## 9. Yapılmaması gerekenler
 
 - Ayrı product_code eklemeye çalışma; ID yeterli.
 - Medya/gif/resim/video indirmeye çalışma; JSON'da yok.
@@ -200,7 +244,7 @@ out/catalog.json
 - Eksik ürünleri import sırasında silme.
 - Excel/CSV'yi JSON'a göre ikinci sınıf yapma; yedek olarak koru.
 
-## 9. Açık kararlar
+## 10. Açık kararlar
 
 - Detaylar JSONB mi, normalize tablo mu? Öneri: JSONB + gerekirse okuma için view.
 - Aynı ID birden fazla kez gelirse ilk mi son mu? Öneri: ilk + çakışma raporu.
@@ -208,10 +252,12 @@ out/catalog.json
 - Boş listeler detayları temizlemeli mi? Öneri: evet; açıkça clear.
 - Garanti satırlarında ID boşsa ada göre eşleşme kabul mü? Öneri: evet, legacy.
 
-## 10. Scraper komutları
+## 11. Scraper komutları
 
-- Varsayılan: arcelikPriceScrapper prices — sadece catalog.json.
+- Varsayılan: arcelikPriceScrapper prices — catalog_<stamp>.json + catalog.json.
 - Excel/CSV dahil: arcelikPriceScrapper prices --format both.
 - Tek kategori: arcelikPriceScrapper prices --only buzdolabi --format both.
 - Specs yenile: arcelikPriceScrapper specs --refresh-specs --format json.
+- Kampanyalar: arcelikPriceScrapper campaigns --format json (kampanya JSON'u).
+- Hepsi: arcelikPriceScrapper all --format both.
 - Actions: format seçenekleri json/excel/csv/both; varsayılan json.

@@ -8,8 +8,8 @@ Durum: v0.6 · Tarih: 2026-11-22 · M1 kod uygulaması tamam (canlı doğrulama 
 | Milestone | Durum | Ana kapsam |
 | --- | --- | --- |
 | M1 (alpha) | Kod uygulandı; canlı doğrulama bekliyor | Kategori ağacı, ürün fiyatları, ürün ID, blog istisnası, ek garanti entegrasyonu, açık ürün cache/kara liste, 10 sütunlu Excel/CSV (M2'de 11), progress, Actions iskeleti |
-| M2 | Kod uygulandı; canlı doğrulama bekliyor | Teknik specs + ftc-text; catalog.json + 11. sütun JSON; Excel/CSV yedek; cache |
-| M3 | Ertelendi | Kampanya koşulları, kampanya başına dosya, Bayios 3 sütunlu tablo |
+| M2 | Kod uygulandı; canlı doğrulama bekliyor | Teknik specs + ftc-text; tarihli catalog + 11. sütun JSON; Excel/CSV yedek; cache persist |
+| M3 | Kısmen uygulandı | Kampanya JSON + koşullar; kampanya başına dosya/Excel-CSV düzeni bekliyor |
 | 1.0.0 | Planlandı | Sözleşme testleri, 10 ardışık Actions koşusu, hata yolu |
 | v2 | Ayrı PRD | Tüm katalog specs/medya, alt kategoriler, SKU eşleştirme, değişiklik tespiti |
 
@@ -77,17 +77,18 @@ Durum: Kod uygulandı; canlı doğrulama bekliyor. Ayrıntı: docs/m2-specs-plan
 
 ### 2.4 Export: catalog.json + 11. sütun JSON
 
-- [x] catalog.json: out/catalog.json; schema_version + scraped_at + products[]; her zaman yazılır.
+- [x] catalog.json: out/catalog_<stamp>.json + out/catalog.json (latest); schema_version + scraped_at + products[]; her zaman yazılır.
 - [x] Ana products 11 sütun: son sütun Ürün Özellikleri (JSON); features+specifications aynı hücrede.
 - [x] --with-scraped-at 12. sütun.
 - [x] Excel/CSV, seçilen formatta aynı 11 sütunla yedek.
 - [x] output.format: json | excel | csv | both; varsayılan json; JSON her durumda.
 - [x] CSV UTF-8 BOM + doğru escaping.
 
-### 2.5 Cache, istek bütçesi ve testler
+### 2.5 Cache, istek bütçesi ve testler (öncelikli)
 
 - [x] Specs cache: ürün ID/URL anahtarı; bir ürün için bir PDP isteği.
 - [x] İkinci specs koşusunda 0 PDP isteği; --refresh-specs cache'i zorlar.
+- [x] GitHub Actions cache persist: data/categories.json + data/explicit_products.json + data/specs_cache.json otomatik commit/checkout.
 - [x] Başarısız fetch eski cache'i silmez; uyarı.
 - [x] Fixture: index.html 4 feature/6 grup/43 spec; 10122.html 12 kart (1 boş)/11 feature/6 grup/42 spec.
 - [x] JSON round-trip; Excel/CSV details_json aynı veriyi verir.
@@ -104,17 +105,23 @@ Durum: Kod uygulandı; canlı doğrulama bekliyor. Ayrıntı: docs/m2-specs-plan
 
 ## 3. M3 — Kampanyalar
 
-Durum: M2'den taşındı; şimdilik ertelendi. Bayios kampanya detayı hazır olunca uygulanacak.
+Durum: Kısmen uygulandı. Kampanya JSON desteği eklendi; kampanya başına dosya/Excel-CSV düzeni ve Bayios 3 sütunlu dosya paketi bekliyor.
 
 ### 3.1 Katılım koşulları
 
-- [ ] .promo-acc "Katılım Koşulları" akordeonundan .acc-body ul > li maddelerini sırayla ayrıştırma
-- [ ] HTML temizleme, boşluk normalizasyonu, boş/tekrar madde eleme
+- [x] .promo-acc "Katılım Koşulları" akordeonundan .acc-body ul > li maddelerini sırayla ayrıştırma
+- [x] HTML temizleme, boşluk normalizasyonu, boş/tekrar madde eleme
 - [ ] 5-10 maddeyi kırpmadan tek Excel hücresinde newline ile yazma
 - [ ] Koşullar boşsa uyarı; kampanya yine de dosya/index içinde
 - [ ] Fixture testi: örnek HTML'deki 6 madde sırayla ve eksiksiz
 
-### 3.2 Kampanya dosya düzeni
+### 3.2 Kampanya JSON
+
+- [x] out/kampanyalar/kampanyalar_<stamp>.json + out/kampanyalar/campaigns.json (latest).
+- [x] JSON: id, name, category, url, dates, conditions[], products[] (name, product_id, relationship, required_quantity), scraped_at.
+- [x] campaigns --format json artık kampanya JSON'u yazar.
+
+### 3.3 Kampanya dosya düzeni
 
 - [ ] out/kampanyalar/ altında kampanya başına dosya
 - [ ] Ad: kampanya-<YYYYMMDD-HHMMSS>-<kampanya-slug>.xlsx
@@ -124,19 +131,20 @@ Durum: M2'den taşındı; şimdilik ertelendi. Bayios kampanya detayı hazır ol
 - [ ] CSV: kampanya-<stamp>-<slug>-urunler.csv ve ...-kampanya.csv
 - [ ] Ürünü olmayan kampanya da koşullarıyla dosya alır
 
-### 3.3 M3 kabul kriterleri
+### 3.4 M3 kabul kriterleri
 
-- [ ] Kampanya ürün tablosu 3 sütun; İlişki Türü "İlgili ürün"; Gerekli Adet boş.
-- [ ] Katılım Koşulları 5-10 madde sırayla tek hücrede; HTML etiketi yok.
-- [ ] Her kampanya için out/kampanyalar/ altında dosya; index eşlemesi doğru.
-- [ ] products'ta kampanya kolonu boş; kampanya verisi ayrı dosyada.
+- [x] Kampanya JSON'u koşullar ve ürünlerle yazılır.
+- [x] Kampanya ürün tablosu 3 sütun; İlişki Türü "İlgili ürün"; Gerekli Adet boş.
+- [x] Katılım Koşulları 5-10 madde sırayla; HTML etiketi yok.
+- [ ] Her kampanya için out/kampanyalar/ altında ayrı Excel/CSV dosyası; index eşlemesi doğru.
+- [x] products'ta kampanya kolonu boş; kampanya verisi ayrı dosyada.
 
 ## 4. 1.0.0
 
 - [ ] Üst üste 10 başarılı Actions koşusu
 - [ ] Abort/403/429 yolu testli; partial Release'e yüklenmiyor
 - [ ] Nav, kart, PDP, specs/features, koşullar, garanti, kampanya dosyası için fixture testleri
-- [ ] Excel, JSON specs, Bayios preview_product_import ve kampanya import sözleşme testleri
+- [ ] Excel, JSON specs, campaign JSON, Bayios preview_product_import ve kampanya import sözleşme testleri
 - [ ] Tek kategori < 5 dk; tam seçili set < 30 dk
 
 ## 5. v2 (ayrı PRD)
@@ -157,7 +165,9 @@ Durum: M2'den taşındı; şimdilik ertelendi. Bayios kampanya detayı hazır ol
 6. Ürün ID'si ana products ilk sütunu; 10 sütunlu çıktı (ADR-0009).
 7. blog/ URL'leri ve blog kategori düğümleri config'den bağımsız dışlanır (ADR-0009).
 8. M2 ürün özellikleri: catalog.json her zaman; ana products 11. sütun JSON; Excel/CSV yedek; ftc-text metinleri v1'de alınır.
-9. Kampanyalar M3'e taşındı; şimdilik ertelendi.
+9. Kampanyalar M3'te; JSON desteği eklendi, per-file/Excel-CSV düzeni bekliyor.
+10. Cache persist: Actions çıkışında data cache'leri otomatik commit edilir.
+11. catalog.json tarihli: catalog_<stamp>.json + latest catalog.json.
 
 ## 7. Bağımlılıklar ve riskler
 

@@ -24,7 +24,7 @@ Aynı veri modelinden üç format üret:
 
 **JSON** (her zaman üretilir)
 
-- Tek bir `catalog.json` dosyası.
+- Tek bir tarihli `catalog_<stamp>.json` + `catalog.json` latest kopyası.
 - Tüm ürünleri ve tüm özellikleri içersin.
 - `schema_version` ve `scraped_at` metadata alanları bulunsun.
 - İç içe JSON yapısı korunsun.

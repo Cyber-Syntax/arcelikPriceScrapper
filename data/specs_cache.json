@@ -7246,5 +7246,3824 @@
       }
     ],
     "scraped_at": "2026-11-22T13:28:39Z"
+  },
+  "7188220260": {
+    "features": [
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Pratik Filtre",
+        "text": "Kapaktan kolayca ulaşılabilen ve iç içe geçmiş iki katmandan oluşan bir filtre kolayca temizlenebilmektedir. Bu özel filtre sayesinde makineyi 6 ayda bir temizlemek yeterli olacaktır.",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kırışık Önleme Fonksiyonu",
+        "text": "Kurutma işlemi bittikten sonra, çamaşırların makineden boşaltılamaması durumunda, belirli aralıklarla tambur dönmeye devam eder. Kırışıklıklar azalır.",
+        "note": ""
+      },
+      {
+        "title": "Hibrit Teknoloji",
+        "text": "Standart ısıtıcılarla Isı pompası teknolojisini birleştiren bir teknolojidir.Hızlı fonksiyonu ile ihtiyaca göre kurutma suresini kısaltma ya da enerji harcamasını azaltma arasında tercih yapılabilir.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "E"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kurutma Kapasitesi",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15 Programlı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Tambur Hacmi (L)",
+        "value": "110"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Antrasit"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Kurutma Teknolojisi",
+        "value": "Hybrid 2.0"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Akıllı Nem Sensörü",
+        "value": "Akıllı Nem Sensörü"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel tambur deseni ile çamaşırlarınız için en doğru kurutma ortamı sağlanır."
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dokunmatik Tuş",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "ProScent Teknolojisi",
+        "value": "Tazeleme"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tank Pozisyonu",
+        "value": "Üst"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kırışık Önleme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Erteleme Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tambur Aydınlatma",
+        "value": "DC LED"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Direkt Su Tahliyesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Tankı Dolu Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kondenser Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Fıltre Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Sonu Sesli Uyarı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Pratik Filtre",
+        "value": "Var"
+      },
+      {
+        "group": "Performans",
+        "name": "Yıllık Enerji Tüketimi (kWh)",
+        "value": "281.9 kWh"
+      },
+      {
+        "group": "Performans",
+        "name": "Ses Gücü Seviyesi (dBA)",
+        "value": "64 dBA"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Pamuklu Ekonomik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Havlu"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Hassas"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Yorgan/ Nevresim"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Zaman Programları"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Hijyenik Havalandırma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Hijyenik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Açık Hava/Spor (Goretex)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Kot"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Günlük"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "5 kg @ 1 saat"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "42.5 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.6 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60.7 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7188870190": {
+    "features": [
+      {
+        "title": "Isı Pompalı Kurutma Teknolojisi",
+        "text": "Isı pompalı kurutma teknolojisi, geleneksel kondenserli kurutma makinelerine göre kıyafetlerinizi daha verimli ve renklerini koruyarak kurutur.",
+        "note": ""
+      },
+      {
+        "title": "Akıllı Nem Sensörü",
+        "text": "Kuruluk seviyesini algılayarak, kurutma süresini istenilen kuruluk derecesine göre otomatik olarak ayarlar. Böylece az kapasite çamaşır kuruturken daha az enerji harcar. Eşyaların yıpranmasını önler.",
+        "note": ""
+      },
+      {
+        "title": "Pratik Filtre",
+        "text": "Kapaktan kolayca ulaşılabilen ve iç içe geçmiş iki katmandan oluşan bir filtre kolayca temizlenebilmektedir. Bu özel filtre sayesinde makineyi 6 ayda bir temizlemek yeterli olacaktır.",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kırışık Önleme Fonksiyonu",
+        "text": "Kurutma işlemi bittikten sonra, çamaşırların makineden boşaltılamaması durumunda, belirli aralıklarla tambur dönmeye devam eder. Kırışıklıklar azalır.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "E"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kurutma Kapasitesi",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15 Programlı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Tambur Hacmi (L)",
+        "value": "110"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Kurutma Teknolojisi",
+        "value": "Isı Pompalı"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Akıllı Nem Sensörü",
+        "value": "Eco Sense"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel tambur deseni ile çamaşırlarınız için en doğru kurutma ortamı sağlanır."
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dokunmatik Tuş",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tank Pozisyonu",
+        "value": "Üst"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kırışık Önleme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Erteleme Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tambur Aydınlatma",
+        "value": "DC LED"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Direkt Su Tahliyesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Tankı Dolu Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kondenser Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Fıltre Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Sonu Sesli Uyarı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Pratik Filtre",
+        "value": "Var"
+      },
+      {
+        "group": "Performans",
+        "name": "Yıllık Enerji Tüketimi (kWh)",
+        "value": "281.9 kWh"
+      },
+      {
+        "group": "Performans",
+        "name": "Ses Gücü Seviyesi (dBA)",
+        "value": "64 dBA"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Pamuklu Ekonomik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Havlu"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Hassas"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Günlük"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Zaman Programları"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Kot"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Açık Hava/Spor (Goretex)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Yorgan/ Nevresim"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Hızlı 30'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Hijyenik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Hijyenik Havalandırma"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "41 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.6 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60.8 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7188220180": {
+    "features": [
+      {
+        "title": "Isı Pompalı Kurutma Teknolojisi",
+        "text": "Isı pompalı kurutma teknolojisi, geleneksel kondenserli kurutma makinelerine göre kıyafetlerinizi daha verimli ve renklerini koruyarak kurutur.",
+        "note": ""
+      },
+      {
+        "title": "Akıllı Nem Sensörü",
+        "text": "Kuruluk seviyesini algılayarak, kurutma süresini istenilen kuruluk derecesine göre otomatik olarak ayarlar. Böylece az kapasite çamaşır kuruturken daha az enerji harcar. Eşyaların yıpranmasını önler.",
+        "note": ""
+      },
+      {
+        "title": "Pratik Filtre",
+        "text": "Kapaktan kolayca ulaşılabilen ve iç içe geçmiş iki katmandan oluşan bir filtre kolayca temizlenebilmektedir. Bu özel filtre sayesinde makineyi 6 ayda bir temizlemek yeterli olacaktır.",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kırışık Önleme Fonksiyonu",
+        "text": "Kurutma işlemi bittikten sonra, çamaşırların makineden boşaltılamaması durumunda, belirli aralıklarla tambur dönmeye devam eder. Kırışıklıklar azalır.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "E"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kurutma Kapasitesi",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15 Programlı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Tambur Hacmi (L)",
+        "value": "110"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Gümüş"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Kurutma Teknolojisi",
+        "value": "Isı Pompalı"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Akıllı Nem Sensörü",
+        "value": "Eco Sense"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel tambur deseni ile çamaşırlarınız için en doğru kurutma ortamı sağlanır."
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dokunmatik Tuş",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tank Pozisyonu",
+        "value": "Üst"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kırışık Önleme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Erteleme Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tambur Aydınlatma",
+        "value": "DC LED"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Direkt Su Tahliyesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Tankı Dolu Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kondenser Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Fıltre Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Sonu Sesli Uyarı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Pratik Filtre",
+        "value": "Var"
+      },
+      {
+        "group": "Performans",
+        "name": "Yıllık Enerji Tüketimi (kWh)",
+        "value": "281.9 kWh"
+      },
+      {
+        "group": "Performans",
+        "name": "Ses Gücü Seviyesi (dBA)",
+        "value": "64 dBA"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Pamuklu Ekonomik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Havlu"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Hassas"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Günlük"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Zaman Programları"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Kot"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Açık Hava/Spor (Goretex)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Yorgan/ Nevresim"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Hızlı 30'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Hijyenik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Hijyenik Havalandırma"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "41 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.6 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60.8 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7184270130": {
+    "features": [
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Pratik Filtre",
+        "text": "Kapaktan kolayca ulaşılabilen ve iç içe geçmiş iki katmandan oluşan bir filtre kolayca temizlenebilmektedir. Bu özel filtre sayesinde makineyi 6 ayda bir temizlemek yeterli olacaktır.",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kırışık Önleme Fonksiyonu",
+        "text": "Kurutma işlemi bittikten sonra, çamaşırların makineden boşaltılamaması durumunda, belirli aralıklarla tambur dönmeye devam eder. Kırışıklıklar azalır.",
+        "note": ""
+      },
+      {
+        "title": "Hibrit Teknoloji",
+        "text": "Standart ısıtıcılarla Isı pompası teknolojisini birleştiren bir teknolojidir.Hızlı fonksiyonu ile ihtiyaca göre kurutma suresini kısaltma ya da enerji harcamasını azaltma arasında tercih yapılabilir.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "D"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kurutma Kapasitesi",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15 Programlı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Tambur Hacmi (L)",
+        "value": "110"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Antrasit"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Kurutma Teknolojisi",
+        "value": "Hybrid 2.0"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Akıllı Nem Sensörü",
+        "value": "Akıllı Nem Sensörü"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel tambur deseni ile çamaşırlarınız için en doğru kurutma ortamı sağlanır."
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dokunmatik Tuş",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "ProScent Teknolojisi",
+        "value": "Tazeleme"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tank Pozisyonu",
+        "value": "Üst"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kırışık Önleme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Erteleme Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tambur Aydınlatma",
+        "value": "DC LED"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Direkt Su Tahliyesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Tankı Dolu Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kondenser Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Fıltre Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Sonu Sesli Uyarı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Pratik Filtre",
+        "value": "Var"
+      },
+      {
+        "group": "Performans",
+        "name": "Yıllık Enerji Tüketimi (kWh)",
+        "value": "258.6 kWh"
+      },
+      {
+        "group": "Performans",
+        "name": "Ses Gücü Seviyesi (dBA)",
+        "value": "64 dBA"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Pamuklu Ekonomik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Havlu"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Hassas"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Yorgan/ Nevresim"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Zaman Programları"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Hijyenik Havalandırma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Hijyenik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Açık Hava/Spor (Goretex)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Kot"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "5 kg @ 1 saat"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "42.5 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.6 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60.7 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7184270110": {
+    "features": [
+      {
+        "title": "Isı Pompalı Kurutma Teknolojisi",
+        "text": "Isı pompalı kurutma teknolojisi, geleneksel kondenserli kurutma makinelerine göre kıyafetlerinizi daha verimli ve renklerini koruyarak kurutur.",
+        "note": ""
+      },
+      {
+        "title": "Akıllı Nem Sensörü",
+        "text": "Kuruluk seviyesini algılayarak, kurutma süresini istenilen kuruluk derecesine göre otomatik olarak ayarlar. Böylece az kapasite çamaşır kuruturken daha az enerji harcar. Eşyaların yıpranmasını önler.",
+        "note": ""
+      },
+      {
+        "title": "Pratik Filtre",
+        "text": "Kapaktan kolayca ulaşılabilen ve iç içe geçmiş iki katmandan oluşan bir filtre kolayca temizlenebilmektedir. Bu özel filtre sayesinde makineyi 6 ayda bir temizlemek yeterli olacaktır.",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kırışık Önleme Fonksiyonu",
+        "text": "Kurutma işlemi bittikten sonra, çamaşırların makineden boşaltılamaması durumunda, belirli aralıklarla tambur dönmeye devam eder. Kırışıklıklar azalır.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "E"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kurutma Kapasitesi",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15 Programlı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Tambur Hacmi (L)",
+        "value": "110"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Kurutma Teknolojisi",
+        "value": "Isı Pompalı"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Akıllı Nem Sensörü",
+        "value": "Eco Sense"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel tambur deseni ile çamaşırlarınız için en doğru kurutma ortamı sağlanır."
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dokunmatik Tuş",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tank Pozisyonu",
+        "value": "Üst"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kırışık Önleme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Erteleme Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tambur Aydınlatma",
+        "value": "DC LED"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Direkt Su Tahliyesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Tankı Dolu Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kondenser Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Fıltre Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Sonu Sesli Uyarı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Pratik Filtre",
+        "value": "Var"
+      },
+      {
+        "group": "Performans",
+        "name": "Yıllık Enerji Tüketimi (kWh)",
+        "value": "306.6 kWh"
+      },
+      {
+        "group": "Performans",
+        "name": "Ses Gücü Seviyesi (dBA)",
+        "value": "64 dBA"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Pamuklu Ekonomik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Havlu"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Açık Hava/Spor (Goretex)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Tazeleme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Zaman Programları"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Hassas"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Yorgan"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Yorgan/ Nevresim"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Kot"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Hijyenik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Hızlı 30'"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "41 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.6 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60.8 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7188270170": {
+    "features": [
+      {
+        "title": "Isı Pompalı Kurutma Teknolojisi",
+        "text": "Isı pompalı kurutma teknolojisi, geleneksel kondenserli kurutma makinelerine göre kıyafetlerinizi daha verimli ve renklerini koruyarak kurutur.",
+        "note": ""
+      },
+      {
+        "title": "Akıllı Nem Sensörü",
+        "text": "Kuruluk seviyesini algılayarak, kurutma süresini istenilen kuruluk derecesine göre otomatik olarak ayarlar. Böylece az kapasite çamaşır kuruturken daha az enerji harcar. Eşyaların yıpranmasını önler.",
+        "note": ""
+      },
+      {
+        "title": "Pratik Filtre",
+        "text": "Kapaktan kolayca ulaşılabilen ve iç içe geçmiş iki katmandan oluşan bir filtre kolayca temizlenebilmektedir. Bu özel filtre sayesinde makineyi 6 ayda bir temizlemek yeterli olacaktır.",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kırışık Önleme Fonksiyonu",
+        "text": "Kurutma işlemi bittikten sonra, çamaşırların makineden boşaltılamaması durumunda, belirli aralıklarla tambur dönmeye devam eder. Kırışıklıklar azalır.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "D"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kurutma Kapasitesi",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15 Programlı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Tambur Hacmi (L)",
+        "value": "110"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Gümüş"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Kurutma Teknolojisi",
+        "value": "Isı Pompalı"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Akıllı Nem Sensörü",
+        "value": "Akıllı Nem Sensörü"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel tambur deseni ile çamaşırlarınız için en doğru kurutma ortamı sağlanır."
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dokunmatik Tuş",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tank Pozisyonu",
+        "value": "Üst"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kırışık Önleme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Erteleme Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tambur Aydınlatma",
+        "value": "DC LED"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Direkt Su Tahliyesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Tankı Dolu Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kondenser Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Fıltre Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Sonu Sesli Uyarı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Pratik Filtre",
+        "value": "Var"
+      },
+      {
+        "group": "Performans",
+        "name": "Yıllık Enerji Tüketimi (kWh)",
+        "value": "255.4 kWh"
+      },
+      {
+        "group": "Performans",
+        "name": "Ses Gücü Seviyesi (dBA)",
+        "value": "64 dBA"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Pamuklu Ekonomik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Havlu"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Açık Hava/Spor (Goretex)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Tazeleme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Zaman Programları"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Hassas"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Yorgan"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Yorgan/ Nevresim"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Kot"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Hijyenik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Hızlı 30'"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "41 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.6 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60.8 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7188260190": {
+    "features": [
+      {
+        "title": "Isı Pompalı Kurutma Teknolojisi",
+        "text": "Isı pompalı kurutma teknolojisi, geleneksel kondenserli kurutma makinelerine göre kıyafetlerinizi daha verimli ve renklerini koruyarak kurutur.",
+        "note": ""
+      },
+      {
+        "title": "IronTouch Teknolojisi",
+        "text": "Özel püskürtme teknolojisi sayesinde çamaşırları ütüye ihtiyaç kalmadan giyime hazır hale getirir. Kurutma esnasında yoğuşturulan su, kırışıklığı çözmek için en uygun anda ve miktarda çamaşırların üzerine püskürtülür. Yüksek sıcaklıkta buhar etkisi ile kırışıklıkların giderilmesine yardımcı olur.",
+        "note": ""
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Pratik Filtre",
+        "text": "Kapaktan kolayca ulaşılabilen ve iç içe geçmiş iki katmandan oluşan bir filtre kolayca temizlenebilmektedir. Bu özel filtre sayesinde makineyi 6 ayda bir temizlemek yeterli olacaktır.",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kırışık Önleme Fonksiyonu",
+        "text": "Kurutma işlemi bittikten sonra, çamaşırların makineden boşaltılamaması durumunda, belirli aralıklarla tambur dönmeye devam eder. Kırışıklıklar azalır.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "E"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kurutma Kapasitesi",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "14 Programlı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Tambur Hacmi (L)",
+        "value": "110"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Manhattan Grey"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Kurutma Teknolojisi",
+        "value": "Isı Pompalı"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Akıllı Nem Sensörü",
+        "value": "Akıllı Nem Sensörü"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel tambur deseni ile çamaşırlarınız için en doğru kurutma ortamı sağlanır."
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dokunmatik Tuş",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "ProScent Teknolojisi",
+        "value": "Tazeleme"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tank Pozisyonu",
+        "value": "Üst"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kırışık Önleme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Erteleme Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tambur Aydınlatma",
+        "value": "DC LED"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Direkt Su Tahliyesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Tankı Dolu Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kondenser Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Fıltre Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Sonu Sesli Uyarı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Pratik Filtre",
+        "value": "Var"
+      },
+      {
+        "group": "Performans",
+        "name": "Yıllık Enerji Tüketimi (kWh)",
+        "value": "281.9 kWh"
+      },
+      {
+        "group": "Performans",
+        "name": "Ses Gücü Seviyesi (dBA)",
+        "value": "64 dBA"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Pamuklu Ekonomik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Hijyenik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Hijyenik Havalandırma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Yorgan/ Nevresim"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Zaman Programları"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Açık Hava/Spor (Goretex)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Hızlı 30'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Kot"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Günlük"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Buharlı Tazeleme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Giyime Hazır (Gömlek)"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "42 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.6 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60.7 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7188270140": {
+    "features": [
+      {
+        "title": "Isı Pompalı Kurutma Teknolojisi",
+        "text": "Isı pompalı kurutma teknolojisi, geleneksel kondenserli kurutma makinelerine göre kıyafetlerinizi daha verimli ve renklerini koruyarak kurutur.",
+        "note": ""
+      },
+      {
+        "title": "Pratik Filtre",
+        "text": "Kapaktan kolayca ulaşılabilen ve iç içe geçmiş iki katmandan oluşan bir filtre kolayca temizlenebilmektedir. Bu özel filtre sayesinde makineyi 6 ayda bir temizlemek yeterli olacaktır.",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kırışık Önleme Fonksiyonu",
+        "text": "Kurutma işlemi bittikten sonra, çamaşırların makineden boşaltılamaması durumunda, belirli aralıklarla tambur dönmeye devam eder. Kırışıklıklar azalır.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "E"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kurutma Kapasitesi",
+        "value": "11 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15 Programlı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Tambur Hacmi (L)",
+        "value": "127"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Kurutma Teknolojisi",
+        "value": "Isı Pompalı"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Akıllı Nem Sensörü",
+        "value": "Akıllı Nem Sensörü"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel tambur deseni ile çamaşırlarınız için en doğru kurutma ortamı sağlanır."
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dokunmatik Tuş",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tank Pozisyonu",
+        "value": "Üst"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kırışık Önleme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Erteleme Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tambur Aydınlatma",
+        "value": "DC LED"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Direkt Su Tahliyesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Tankı Dolu Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kondenser Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Fıltre Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Sonu Sesli Uyarı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Pratik Filtre",
+        "value": "Var"
+      },
+      {
+        "group": "Performans",
+        "name": "Yıllık Enerji Tüketimi (kWh)",
+        "value": "303.1 kWh"
+      },
+      {
+        "group": "Performans",
+        "name": "Ses Gücü Seviyesi (dBA)",
+        "value": "65 dBA"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Pamuklu Ekonomik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Günlük"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Yünlü Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Sessiz"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Hassas"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Zaman Programları"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Kot"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Açık Hava/Spor (Goretex)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Yorgan/ Nevresim"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Hızlı 30'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Hijyenik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Hijyenik Havalandırma"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "43.5 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.6 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "67.3 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7188870120": {
+    "features": [
+      {
+        "title": "Isı Pompalı Kurutma Teknolojisi",
+        "text": "Isı pompalı kurutma teknolojisi, geleneksel kondenserli kurutma makinelerine göre kıyafetlerinizi daha verimli ve renklerini koruyarak kurutur.",
+        "note": ""
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Pratik Filtre",
+        "text": "Kapaktan kolayca ulaşılabilen ve iç içe geçmiş iki katmandan oluşan bir filtre kolayca temizlenebilmektedir. Bu özel filtre sayesinde makineyi 6 ayda bir temizlemek yeterli olacaktır.",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kırışık Önleme Fonksiyonu",
+        "text": "Kurutma işlemi bittikten sonra, çamaşırların makineden boşaltılamaması durumunda, belirli aralıklarla tambur dönmeye devam eder. Kırışıklıklar azalır.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "E"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kurutma Kapasitesi",
+        "value": "12 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "14 Programlı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Tambur Hacmi (L)",
+        "value": "127"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Kurutma Teknolojisi",
+        "value": "Isı Pompalı"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Akıllı Nem Sensörü",
+        "value": "Akıllı Nem Sensörü"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel tambur deseni ile çamaşırlarınız için en doğru kurutma ortamı sağlanır."
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dokunmatik Tuş",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "ProScent Teknolojisi",
+        "value": "Tazeleme"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tank Pozisyonu",
+        "value": "Üst"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kırışık Önleme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Erteleme Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Tambur Aydınlatma",
+        "value": "DC LED"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Direkt Su Tahliyesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Tankı Dolu Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kondenser Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Fıltre Temizleme Uyarısı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Program Sonu Sesli Uyarı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Pratik Filtre",
+        "value": "Var"
+      },
+      {
+        "group": "Performans",
+        "name": "Yıllık Enerji Tüketimi (kWh)",
+        "value": "325.5 kWh"
+      },
+      {
+        "group": "Performans",
+        "name": "Ses Gücü Seviyesi (dBA)",
+        "value": "64 dBA"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Pamuklu Ekonomik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Günlük"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Sessiz"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Yünlü Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Zaman Programları"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Yorgan/ Nevresim"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Kot"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Hassas"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Hızlı 30'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Hijyenik Kurutma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Hijyenik Havalandırma"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "47.5 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.6 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "67.4 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7223320111": {
+    "features": [],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Dondurucu Yeri",
+        "value": "Dikey Dondurucu"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Tipi",
+        "value": "Tek Kapılı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Elektronik Gösterge",
+        "value": "3 Light & Pot"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kontrol Sistemi",
+        "value": "Mekanik Sensörlü"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "iklim Sınıfı",
+        "value": "SN-T"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "İklim Sınıfı",
+        "value": "SN-T"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ses Seviyesi Sınıfı",
+        "value": "C"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Soğutma cihazının uygun olduğu azami ortam sıcaklığı (°C) (EU_2021_EP)",
+        "value": "43"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapı Yönü Değiştirme",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "MaxiFit",
+        "value": "Hayır"
+      },
+      {
+        "group": "Dondurucu Bölme Özellikleri",
+        "name": "Bölme Sayısı",
+        "value": "4"
+      },
+      {
+        "group": "Dondurucu Bölme Özellikleri",
+        "name": "Dondurucu Çekmece Sayısı",
+        "value": "3"
+      },
+      {
+        "group": "Dondurucu Bölme Özellikleri",
+        "name": "Buzluk Tipi",
+        "value": "Standart buzluk"
+      },
+      {
+        "group": "Dondurucu Bölme Özellikleri",
+        "name": "Hızlı Dondurma Bölmesi",
+        "value": "Var"
+      },
+      {
+        "group": "Dondurucu Bölme Özellikleri",
+        "name": "Günlük Dondurma Kapasitesi (kg/Gün)",
+        "value": "5.4 kg"
+      },
+      {
+        "group": "Dondurucu Bölme Özellikleri",
+        "name": "Dondurucu Bölme Hacmi (L)",
+        "value": "117 L"
+      },
+      {
+        "group": "Soğutucu Bölme Özellikleri",
+        "name": "Soğutma Sistemi",
+        "value": "Statik"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Enerji Sınıfı",
+        "value": "E"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Yıllık Enerji Tüketimi (kWh)",
+        "value": "174"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Günlük Enerji Tüketimi (kwh/Gün)",
+        "value": "0.429"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Günlük enerji tüketimi 16°C (kWh/24h) (EU_2021_EP)",
+        "value": "0.284"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "36 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "102 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "63.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "54 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7638710177": {
+    "features": [
+      {
+        "title": "Yapay Zekalı Program",
+        "text": "“Yapay zekalı program, bulaşıklarınızın ölçülen yük ve kirlilik seviyelerine göre, yapay zekâ desteğiyle sizin için en doğru yıkama koşullarını belirler.” Enerji ve su tüketiminde %50’ye varan tasarruf sağlarken, temizlik süresini de %50’ye kadar* kısaltır. *Yoğun 70°C programı referans kabul edilmiştir.",
+        "note": ""
+      },
+      {
+        "title": "Spray360 Teknolojisi",
+        "text": "Yeni temizleme teknolojimizle 2 kat daha fazla kapsama alanına ve 5 kata kadar daha iyi (hızlı 49' programı dahil) temizleme sonuçlarına ulaşıyoruz. Özel püskürtme kolları ile her bölge Yoğun Bölge haline geliyor;derin tencere , sürahi,yağdanlık gibi bulaşıklar alt sepetimizin her yerinde etkin temizlenir. \"Bağımsız 3. parti laboratuvar tarafından Yoğun ve Hızlı 49' programlarında, köşe yıkamalı pervane ile karşılaştırmalı yapılan testlerde Spray360 teknolojisi ile 5 kata kadar daha iyi yıkama performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.«",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kapı Açma Özelliği",
+        "text": "Otomatik Kapı Açma Özelliği Program sonunda kapıyı otomatik açarak ortamdaki doğal hava akışını kullanır ve ekstra enerji harcamadan kurutma performansını üst seviyeye çıkarır. Doğal hava akışı ile bulaşıklar 5 kata kadar daha iyi kurur.\"",
+        "note": "\"Bağımsız 3. parti laboratuvar tarafından Mini 30 programında, kapı açık ve kapalı senaryoları ile yapılan testlerde, otomatik kapı açma teknolojisi ile 5 kata kadar daha yüksek kurutma performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.\""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Tipi",
+        "value": "Solo"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Tipi",
+        "value": "LED"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Paslanmaz Çelik İç Gövde",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "41 dBA"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "15"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çıkarılabilir 3. Çekmece",
+        "value": "Esnek 3. Sepet"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Yüksekliği Ayarlanabilir Fincan Rafları",
+        "value": "Var"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Fincan Raf Sayısı",
+        "value": "2"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Alt Sepet Katlanır Tel Sayısı",
+        "value": "12"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Üst Sepet Katlanır Tel Sayısı",
+        "value": "6 & Soft Spike"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çatal Kaşık Sepeti",
+        "value": "Hareketli"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Otomatik Kapı Açma Özelliği",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 1",
+        "value": "HomeWhiz"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 2",
+        "value": "HijyenMax (App)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 3",
+        "value": "Extra kurutma (app)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 4",
+        "value": "Yarım Yük"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Motor Tipi",
+        "value": "ProSmart® Inverter Motor Teknolojisi"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Yarım Yük Yıkama",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Üst Sepet Ayar Tipi",
+        "value": "3 Kademeli Ayar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Kir Sensörü",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Zaman Erteleme Fonksiyonu",
+        "value": "30 dk ile 24 saate kadar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "İç Aydınlatma",
+        "value": "LED"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Ekonomi 50 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Hızlı 49'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Yapay Zekalı Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "İndirilen Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program Sıcaklıkları (°C)",
+        "value": "35-40-50-65-70"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Mini 30"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Optimum 65 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Ön Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Makine Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Hassas 40"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Yoğun 70'"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Sessiz Yıkama"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "41 dBA"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ekonomi Programı Süresi (dk)",
+        "value": "275 dk"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Güç (W)",
+        "value": "1800 - 2100 W"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Akım (A)",
+        "value": "10"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Enerji Tüketimi",
+        "value": "0.551 kWh"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Su Tüketimi",
+        "value": "8.9 L"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "47 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "85 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60 cm"
+      },
+      {
+        "group": "Diğer",
+        "name": "Parlatıcı Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Tuz Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Su Güvenlik Sistemi",
+        "value": "Taşma Emniyeti"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7640310177": {
+    "features": [
+      {
+        "title": "Isı Pompası Teknolojisi",
+        "text": "Yenilikçi ısı pompası teknolojisini kullanarak tüm yıkama döngüsü boyunca suyu verimli bir şekilde ısıtarak etkin bir yıkama sağlar.",
+        "note": ""
+      },
+      {
+        "title": "Yapay Zekalı Program",
+        "text": "“Yapay zekalı program, bulaşıklarınızın ölçülen yük ve kirlilik seviyelerine göre, yapay zekâ desteğiyle sizin için en doğru yıkama koşullarını belirler.” Enerji ve su tüketiminde %50’ye varan tasarruf sağlarken, temizlik süresini de %50’ye kadar* kısaltır. *Yoğun 70°C programı referans kabul edilmiştir.",
+        "note": ""
+      },
+      {
+        "title": "Spray360 Teknolojisi",
+        "text": "Yeni temizleme teknolojimizle 2 kat daha fazla kapsama alanına ve 5 kata kadar daha iyi (hızlı 49' programı dahil) temizleme sonuçlarına ulaşıyoruz. Özel püskürtme kolları ile her bölge Yoğun Bölge haline geliyor;derin tencere , sürahi,yağdanlık gibi bulaşıklar alt sepetimizin her yerinde etkin temizlenir. \"Bağımsız 3. parti laboratuvar tarafından Yoğun ve Hızlı 49' programlarında, köşe yıkamalı pervane ile karşılaştırmalı yapılan testlerde Spray360 teknolojisi ile 5 kata kadar daha iyi yıkama performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.«",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kapı Açma Özelliği",
+        "text": "Otomatik Kapı Açma Özelliği Program sonunda kapıyı otomatik açarak ortamdaki doğal hava akışını kullanır ve ekstra enerji harcamadan kurutma performansını üst seviyeye çıkarır. Doğal hava akışı ile bulaşıklar 5 kata kadar daha iyi kurur.\"",
+        "note": "\"Bağımsız 3. parti laboratuvar tarafından Mini 30 programında, kapı açık ve kapalı senaryoları ile yapılan testlerde, otomatik kapı açma teknolojisi ile 5 kata kadar daha yüksek kurutma performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.\""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "İnoks"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Tipi",
+        "value": "Solo"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Tipi",
+        "value": "IKON"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Paslanmaz Çelik İç Gövde",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "43 dBA"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "15"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çıkarılabilir 3. Çekmece",
+        "value": "Esnek 3. Sepet"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Yüksekliği Ayarlanabilir Fincan Rafları",
+        "value": "Var"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Fincan Raf Sayısı",
+        "value": "4"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Alt Sepet Katlanır Tel Sayısı",
+        "value": "12"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Üst Sepet Katlanır Tel Sayısı",
+        "value": "6 & Soft Spike"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çatal Kaşık Sepeti",
+        "value": "Hareketli"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Otomatik Kapı Açma Özelliği",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 1",
+        "value": "Zaman Erteleme"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 3",
+        "value": "HomeWhiz"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 4",
+        "value": "HijyenMax"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Motor Tipi",
+        "value": "ProSmart® Inverter Motor Teknolojisi"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Ekstra Kurutma Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Yarım Yük Yıkama",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Üst Sepet Ayar Tipi",
+        "value": "3 Kademeli Ayar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Kir Sensörü",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Zaman Erteleme Fonksiyonu",
+        "value": "30 dk ile 24 saate kadar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Kapıda Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "İç Aydınlatma",
+        "value": "LED"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Ekonomi 50 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Hızlı 49'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Yapay Zekalı Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program Sıcaklıkları (°C)",
+        "value": "35-40-50-65-70"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Mini 30"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Optimum 65 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Ön Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Makine Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Hassas 40"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Yoğun 70'"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Sessiz Yıkama"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "43 dBA"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ekonomi Programı Süresi (dk)",
+        "value": "330"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Güç (W)",
+        "value": "1800 - 2100 W"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Akım (A)",
+        "value": "10"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Enerji Tüketimi",
+        "value": "0.276 kWh"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Su Tüketimi",
+        "value": "9.5 L"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "53.3 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "85 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60 cm"
+      },
+      {
+        "group": "Diğer",
+        "name": "Parlatıcı Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Tuz Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Yüksek Bazaya Montaj",
+        "value": "Var (Maksimum 50 cm)"
+      },
+      {
+        "group": "Diğer",
+        "name": "Su Güvenlik Sistemi",
+        "value": "Taşma Emniyeti+"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7638410177": {
+    "features": [
+      {
+        "title": "Yapay Zekalı Program",
+        "text": "“Yapay zekalı program, bulaşıklarınızın ölçülen yük ve kirlilik seviyelerine göre, yapay zekâ desteğiyle sizin için en doğru yıkama koşullarını belirler.” Enerji ve su tüketiminde %50’ye varan tasarruf sağlarken, temizlik süresini de %50’ye kadar* kısaltır. *Yoğun 70°C programı referans kabul edilmiştir.",
+        "note": ""
+      },
+      {
+        "title": "Spray360 Teknolojisi",
+        "text": "Yeni temizleme teknolojimizle 2 kat daha fazla kapsama alanına ve 5 kata kadar daha iyi (hızlı 49' programı dahil) temizleme sonuçlarına ulaşıyoruz. Özel püskürtme kolları ile her bölge Yoğun Bölge haline geliyor;derin tencere , sürahi,yağdanlık gibi bulaşıklar alt sepetimizin her yerinde etkin temizlenir. \"Bağımsız 3. parti laboratuvar tarafından Yoğun ve Hızlı 49' programlarında, köşe yıkamalı pervane ile karşılaştırmalı yapılan testlerde Spray360 teknolojisi ile 5 kata kadar daha iyi yıkama performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.«",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kapı Açma Özelliği",
+        "text": "Otomatik Kapı Açma Özelliği Program sonunda kapıyı otomatik açarak ortamdaki doğal hava akışını kullanır ve ekstra enerji harcamadan kurutma performansını üst seviyeye çıkarır. Doğal hava akışı ile bulaşıklar 5 kata kadar daha iyi kurur.\"",
+        "note": "\"Bağımsız 3. parti laboratuvar tarafından Mini 30 programında, kapı açık ve kapalı senaryoları ile yapılan testlerde, otomatik kapı açma teknolojisi ile 5 kata kadar daha yüksek kurutma performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.\""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "İnoks"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Tipi",
+        "value": "Solo"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Tipi",
+        "value": "LED"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Paslanmaz Çelik İç Gövde",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "41 dBA"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "15"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çıkarılabilir 3. Çekmece",
+        "value": "Esnek 3. Sepet"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Yüksekliği Ayarlanabilir Fincan Rafları",
+        "value": "Var"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Fincan Raf Sayısı",
+        "value": "2"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Alt Sepet Katlanır Tel Sayısı",
+        "value": "12"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Üst Sepet Katlanır Tel Sayısı",
+        "value": "6 & Soft Spike"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çatal Kaşık Sepeti",
+        "value": "Hareketli"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Otomatik Kapı Açma Özelliği",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 1",
+        "value": "HomeWhiz"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 2",
+        "value": "HijyenMax (App)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 3",
+        "value": "Extra kurutma (app)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 4",
+        "value": "Yarım Yük"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Motor Tipi",
+        "value": "ProSmart® Inverter Motor Teknolojisi"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Yarım Yük Yıkama",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Üst Sepet Ayar Tipi",
+        "value": "3 Kademeli Ayar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Kir Sensörü",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Zaman Erteleme Fonksiyonu",
+        "value": "30 dk ile 24 saate kadar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "İç Aydınlatma",
+        "value": "LED"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Ekonomi 50 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Hızlı 49'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Yapay Zekalı Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "İndirilen Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program Sıcaklıkları (°C)",
+        "value": "35-40-50-65-70"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Mini 30"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Optimum 65 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Ön Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Makine Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Hassas 40"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Yoğun 70'"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Sessiz Yıkama"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "41 dBA"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ekonomi Programı Süresi (dk)",
+        "value": "275 dk"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Güç (W)",
+        "value": "1800 - 2100 W"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Akım (A)",
+        "value": "10"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Enerji Tüketimi",
+        "value": "0.551 kWh"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Su Tüketimi",
+        "value": "8.9 L"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "47.4 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "85 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60 cm"
+      },
+      {
+        "group": "Diğer",
+        "name": "Parlatıcı Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Tuz Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Su Güvenlik Sistemi",
+        "value": "Taşma Emniyeti"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7640710177": {
+    "features": [
+      {
+        "title": "Yapay Zekalı Program",
+        "text": "“Yapay zekalı program, bulaşıklarınızın ölçülen yük ve kirlilik seviyelerine göre, yapay zekâ desteğiyle sizin için en doğru yıkama koşullarını belirler.” Enerji ve su tüketiminde %50’ye varan tasarruf sağlarken, temizlik süresini de %50’ye kadar* kısaltır. *Yoğun 70°C programı referans kabul edilmiştir.",
+        "note": ""
+      },
+      {
+        "title": "Spray360 Teknolojisi",
+        "text": "Yeni temizleme teknolojimizle 2 kat daha fazla kapsama alanına ve 5 kata kadar daha iyi (hızlı 49' programı dahil) temizleme sonuçlarına ulaşıyoruz. Özel püskürtme kolları ile her bölge Yoğun Bölge haline geliyor;derin tencere , sürahi,yağdanlık gibi bulaşıklar alt sepetimizin her yerinde etkin temizlenir. \"Bağımsız 3. parti laboratuvar tarafından Yoğun ve Hızlı 49' programlarında, köşe yıkamalı pervane ile karşılaştırmalı yapılan testlerde Spray360 teknolojisi ile 5 kata kadar daha iyi yıkama performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.«",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kapı Açma Özelliği",
+        "text": "Otomatik Kapı Açma Özelliği Program sonunda kapıyı otomatik açarak ortamdaki doğal hava akışını kullanır ve ekstra enerji harcamadan kurutma performansını üst seviyeye çıkarır. Doğal hava akışı ile bulaşıklar 5 kata kadar daha iyi kurur.\"",
+        "note": "\"Bağımsız 3. parti laboratuvar tarafından Mini 30 programında, kapı açık ve kapalı senaryoları ile yapılan testlerde, otomatik kapı açma teknolojisi ile 5 kata kadar daha yüksek kurutma performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.\""
+      },
+      {
+        "title": "AutoDose Teknolojisi",
+        "text": "Kullandığınız programa göre sıvı deterjanını kendi ölçümler ve optimum deterjan kullanımı sağlar. Özel deterjan haznesi sayesinde 1 aya kadar kendi deterjanını kendi kullanır, her yıkamada deterjan yüklemenize gerek kalmaz",
+        "note": ""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "İnoks"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Tipi",
+        "value": "Solo"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Tipi",
+        "value": "IKON"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Paslanmaz Çelik İç Gövde",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "41 dBA"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "15"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çıkarılabilir 3. Çekmece",
+        "value": "Esnek 3. Sepet"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Yüksekliği Ayarlanabilir Fincan Rafları",
+        "value": "Var"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Fincan Raf Sayısı",
+        "value": "2"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Alt Sepet Katlanır Tel Sayısı",
+        "value": "12"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Üst Sepet Katlanır Tel Sayısı",
+        "value": "6 & Soft Spike"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çatal Kaşık Sepeti",
+        "value": "Hareketli"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Otomatik Kapı Açma Özelliği",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 1",
+        "value": "Zaman Erteleme"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 2",
+        "value": "OtoDoz"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 3",
+        "value": "HomeWhiz"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 4",
+        "value": "HijyenMax"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Motor Tipi",
+        "value": "ProSmart® Inverter Motor Teknolojisi"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Ekstra Kurutma Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Yarım Yük Yıkama",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Üst Sepet Ayar Tipi",
+        "value": "3 Kademeli Ayar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Kir Sensörü",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Zaman Erteleme Fonksiyonu",
+        "value": "30 dk ile 24 saate kadar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Kapıda Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "İç Aydınlatma",
+        "value": "LED"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Ekonomi 50 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Hızlı 49'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Yapay Zekalı Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program Sıcaklıkları (°C)",
+        "value": "35-40-50-65-70"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Mini 30"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Optimum 65 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Ön Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Makine Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Hassas 40"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Yoğun 70'"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Sessiz Yıkama"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "41 dBA"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ekonomi Programı Süresi (dk)",
+        "value": "285"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Güç (W)",
+        "value": "1800 - 2100 W"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Akım (A)",
+        "value": "10"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Enerji Tüketimi",
+        "value": "0.551 kWh"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Su Tüketimi",
+        "value": "8.9 L"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "48 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "85 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60 cm"
+      },
+      {
+        "group": "Diğer",
+        "name": "Parlatıcı Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Tuz Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Su Güvenlik Sistemi",
+        "value": "Taşma Emniyeti+"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7640410177": {
+    "features": [
+      {
+        "title": "SuperDry",
+        "text": "SuperDry teknolojisi ile bulaşık makineniz mükemmel kurutma performansı ile buluşuyor! İnovatif teknolojisi sayesinde içine yerleştirilen ekstra ısıtıcı parlatıcı kullanmasanız dahi en etkin kurutmayı sağlar.",
+        "note": ""
+      },
+      {
+        "title": "Yapay Zekalı Program",
+        "text": "“Yapay zekalı program, bulaşıklarınızın ölçülen yük ve kirlilik seviyelerine göre, yapay zekâ desteğiyle sizin için en doğru yıkama koşullarını belirler.” Enerji ve su tüketiminde %50’ye varan tasarruf sağlarken, temizlik süresini de %50’ye kadar* kısaltır. *Yoğun 70°C programı referans kabul edilmiştir.",
+        "note": ""
+      },
+      {
+        "title": "Spray360 Teknolojisi",
+        "text": "Yeni temizleme teknolojimizle 2 kat daha fazla kapsama alanına ve 5 kata kadar daha iyi (hızlı 49' programı dahil) temizleme sonuçlarına ulaşıyoruz. Özel püskürtme kolları ile her bölge Yoğun Bölge haline geliyor;derin tencere , sürahi,yağdanlık gibi bulaşıklar alt sepetimizin her yerinde etkin temizlenir. \"Bağımsız 3. parti laboratuvar tarafından Yoğun ve Hızlı 49' programlarında, köşe yıkamalı pervane ile karşılaştırmalı yapılan testlerde Spray360 teknolojisi ile 5 kata kadar daha iyi yıkama performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.«",
+        "note": ""
+      },
+      {
+        "title": "Otomatik Kapı Açma Özelliği",
+        "text": "Otomatik Kapı Açma Özelliği Program sonunda kapıyı otomatik açarak ortamdaki doğal hava akışını kullanır ve ekstra enerji harcamadan kurutma performansını üst seviyeye çıkarır. Doğal hava akışı ile bulaşıklar 5 kata kadar daha iyi kurur.\"",
+        "note": "\"Bağımsız 3. parti laboratuvar tarafından Mini 30 programında, kapı açık ve kapalı senaryoları ile yapılan testlerde, otomatik kapı açma teknolojisi ile 5 kata kadar daha yüksek kurutma performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.\""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "İnoks"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Tipi",
+        "value": "Solo"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Tipi",
+        "value": "IKON"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Paslanmaz Çelik İç Gövde",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "41 dBA"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "15"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çıkarılabilir 3. Çekmece",
+        "value": "Esnek 3. Sepet"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Yüksekliği Ayarlanabilir Fincan Rafları",
+        "value": "Var"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Fincan Raf Sayısı",
+        "value": "2"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Alt Sepet Katlanır Tel Sayısı",
+        "value": "12"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Üst Sepet Katlanır Tel Sayısı",
+        "value": "6 & Soft Spike"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çatal Kaşık Sepeti",
+        "value": "Hareketli"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Otomatik Kapı Açma Özelliği",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 1",
+        "value": "Zaman Erteleme"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 2",
+        "value": "SuperDry"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 3",
+        "value": "HomeWhiz"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 4",
+        "value": "HijyenMax"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Motor Tipi",
+        "value": "ProSmart® Inverter Motor Teknolojisi"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Yarım Yük Yıkama",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Üst Sepet Ayar Tipi",
+        "value": "3 Kademeli Ayar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Kir Sensörü",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Zaman Erteleme Fonksiyonu",
+        "value": "30 dk ile 24 saate kadar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Kapıda Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "İç Aydınlatma",
+        "value": "LED"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Ekonomi 50 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Hızlı 45'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Yapay Zekalı Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program Sıcaklıkları (°C)",
+        "value": "35-40-50-65-70"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Mini 30"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Optimum 65 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Ön Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Makine Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Hassas 40"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Yoğun 70'"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Sessiz Yıkama"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "41 dBA"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ekonomi Programı Süresi (dk)",
+        "value": "275 dk"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Güç (W)",
+        "value": "2000-2400"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Akım (A)",
+        "value": "10"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Enerji Tüketimi",
+        "value": "0.551 kWh"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Su Tüketimi",
+        "value": "8.9 L"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "47.7 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "85 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60 cm"
+      },
+      {
+        "group": "Diğer",
+        "name": "Parlatıcı Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Tuz Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Su Güvenlik Sistemi",
+        "value": "Taşma Emniyeti+"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7638610177": {
+    "features": [],
+    "specifications": [],
+    "scraped_at": "2026-11-22T14:26:27Z"
   }
 }

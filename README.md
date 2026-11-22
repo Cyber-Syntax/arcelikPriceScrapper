@@ -7,7 +7,7 @@ Kısa kullanım rehberi. Ayrıntılı gereksinimler ve kararlar için docs/prd.m
 - Seçili kategori sayfalarından ürün adı, kategori, perakende fiyat ve Oliz indirimli fiyatı çeker.
 - data/product_urls.txt içindeki açık ürün URL'lerini bir kez çekip data/explicit_products.json cache'ine yazar.
 - Bayios'un 11 sütunlu Excel şablonunu (Ürün ID ilk, Ürün Özellikleri JSON son) ve aynı verinin CSV'sini üretir.
-- Her koşuda out/catalog.json üretir; JSON varsayılan formattır.
+- Her koşuda out/catalog_<stamp>.json + out/catalog.json (latest) üretir; JSON varsayılan formattır.
 - Ürün anahtarı ID'dir; aynı ID birleşir, aynı ad farklı ID ise ayrı satır kalır ve raporlanır.
 - Ek garanti ürün koşusunda ürünlerle birlikte gelir (ayrı komut/dosya yok); kampanyalar out/kampanyalar/ altında kampanya başına dosya üretir.
 
@@ -37,7 +37,8 @@ Tek ürünü test et:
 
 Beklenen çıktı out-test/ altında:
 
-- catalog.json (her zaman)
+- catalog_<YYYYMMDD-HHMMSS>.json (her zaman)
+- catalog.json (latest kopya)
 - urunler_YYYYMMDD-HHMMSS.xlsx (--format excel/both)
 - urunler_YYYYMMDD-HHMMSS_products.csv (--format csv/both)
 - urunler_YYYYMMDD-HHMMSS_products_full.csv (--full ile)
@@ -52,41 +53,38 @@ Test için out-test kullan; gerçek out/ klasörünü ezme.
    Kategori slug'larını out/categories.toml içinden kopyalayabilirsin.
 2. data/product_urls.txt içine özel/eski ürün URL'lerini her satıra bir URL olarak koy.
    # ile başlayan satırlar yorumdur.
-3. Tek seferlik cache'i doldur (kategori kategori, güvenli yöntem):
+3. İlk cache doldurmayı Actions'ta yap (tek sefer):
 
-    uv run arcelikPriceScrapper prices --only buzdolabi --refresh-explicit --format csv --out-dir out/test
-    uv run arcelikPriceScrapper prices --only kurutma-makinesi --refresh-explicit --format csv --out-dir out/test
-    uv run arcelikPriceScrapper prices --only camasir-makinesi --refresh-explicit --format csv --out-dir out/test
-    uv run arcelikPriceScrapper prices --only bulasik-makinesi --refresh-explicit --format csv --out-dir out/test
-    uv run arcelikPriceScrapper prices --only ankastre-firin --refresh-explicit --format csv --out-dir out/test
+    gh workflow run scrape.yml -f command=prices -f format=json -f refresh_explicit=true
 
-   --only kategori verdiğinde yalnızca o kategoriye ait açık ürünler seçilir; diğerleri atlanır.
-   Böylece 2296 URL'lik dosya tek seferde istenmez.
+   Bu koşu 2296 explicit URL'yi ve tüm seçili ürünlerin specs'ini çeker.
+   Workflow sonunda data/categories.json, data/explicit_products.json ve data/specs_cache.json otomatik commit edilir.
+   İlk koşu uzun sürebilir; timeout 360 dakikadır.
 
-4. Tam koşu:
+4. Normal koşu:
 
-    uv run arcelikPriceScrapper prices --format both --full
+    uv run arcelikPriceScrapper prices --format json
 
-   Bu koşu kategori sayfalarını çeker ve cache'teki açık ürünleri kullanır.
-   Cache'te olmayan açık ürünler için max_auto_fetch sınırı vardır (config.toml, varsayılan 50).
-   Sınır aşılırsa uyarı verir; eksikler atlanır.
+   Cache'teki explicit ve specs kullanılır; --refresh-explicit yoksa tüm explicit yeniden çekilmez.
+   max_auto_fetch yalnızca cache'te olmayan explicit ürünler için sınır koyar (varsayılan 50).
+   Excel/CSV yedeği için --format both kullan.
 
-5. out/urunler_<stamp>.xlsx içindeki Ürünler sayfasını Bayios'un içe aktarma ekranına yükle.
+5. Bayios'a catalog.json veya --format both ise out/urunler_<stamp>.xlsx içindeki Ürünler sayfasını yükle.
    Ana sayfa 11 sütundur: Ürün ID, Ürün Adı, Kategori, 2 fiyat, 5 boş Bayios kolonu ve Ürün Özellikleri (JSON).
    Ürün ID kart/PDP'den gelir; garanti satırlarında boştur. Fiziksel Stok/Alış/Kredi/Nakit/Aktif Kampanya boş bırakılır.
-   Özellikler tüm seçili ürünler için PDP'den çekilir; catalog.json ayrıca tüm kataloğu taşır.
+   Özellikler tüm seçili ürünler için PDP'den çekilir; catalog_<stamp>.json ayrıca tüm kataloğu taşır.
    Zaman damgası dosya adında, Meta sayfasında ve products_full çıktısındadır.
    Ek garanti ayrı komut değildir; prices/all koşusunda ürünlerle birlikte gelir.
 
-Önemli: Büyük URL listesinde tüm dosya için tek komutla --refresh-explicit çalıştırma.
-Bu, listedeki tüm seçili ürünler için PDP isteği atar. Kategori kategori ilerle.
+Not: --refresh-explicit yalnızca ilk cache doldurma içindir; normal schedule'da kullanılmaz. İlk dolum Actions'ta 360 dakika timeout ile yapılır.
 
 ## 3. GitHub Actions
 
 Mevcut workflow:
 
-- Haftalık: her pazartesi 03:00 UTC, command=prices.
+- Schedule: her ayın 1'i ve 15'i, 03:00 Europe/Istanbul.
 - Manuel: Actions ekranından workflow_dispatch veya gh ile.
+- Workflow sonunda explicit/specs cache'leri otomatik commit edilir.
 
 Tüm kategorileri manuel çalıştırma:
 
@@ -96,42 +94,38 @@ Tek kategori:
 
     gh workflow run scrape.yml -f command=prices -f only=buzdolabi -f format=both
 
-Fiyat + ek garanti + kampanya:
+Fiyat + ek garanti + specs + kampanya:
 
     gh workflow run scrape.yml -f command=all -f format=both
 
 Progress bar Actions/CI ortamında otomatik kapalıdır; loglar temiz kalır. Gerekirse --progress ile zorlanır.
 
-Önemli sınır: Workflow şu an --refresh-explicit parametresini geçmiyor.
-Bu yüzden 2296 açık ürünü Actions içinde tek koşuda doldurmak yok.
-Yapılacak doğru akış:
+Cache akışı:
 
-1. Cache'i yerelde kategori kategori doldur (yukarıdaki --refresh-explicit komutları).
-2. data/explicit_products.json ve data/product_urls.txt dosyalarını commit et.
-3. Actions haftalık prices koşusu cache'i kullanır; kategori sayfalarını tazeler.
-4. Cache'te olmayan az sayıda açık ürün varsa max_auto_fetch sınırına kadar otomatik çekilir.
+1. İlk doldurma: refresh_explicit=true ile manuel Actions koşusu.
+2. Workflow çıkışında data/categories.json, data/explicit_products.json ve data/specs_cache.json otomatik commit edilir.
+3. Sonraki schedule koşuları refresh_explicit=false ile cache'i kullanır.
+4. 2300 explicit ilk dolumda çekilir; sonra tekrar çekilmez.
 
-Actions içinde de tam refresh istiyorsan workflow'a refresh_explicit girdisi eklenmeli.
-Bu bir sonraki iyileştirme; şu an tek seferlik doldurma yerelde yapılmalı.
+İlk koşu 360 dakika timeout'a sahiptir; 90 dakika 2300 ürün + specs için yetmez.
 
 ## 3.1 Kampanya çıktısı
 
-campaigns veya all komutu out/kampanyalar/ altında kampanya başına dosya üretir:
+campaigns veya all komutu artık kampanya JSON'u üretir:
 
-- Dosya: kampanya-<YYYYMMDD-HHMMSS>-<kampanya-slug>.xlsx
-- Urunler sayfası: Ürün Adı | İlişki Türü | Gerekli Adet
-- İlişki Türü: İlgili ürün; Gerekli Adet boş; URL/fiyat yok.
-- Kampanya sayfası: ad, URL, tarih, Katılım Koşulları (tek hücrede sırayla), ürün sayısı.
-- Index: out/kampanyalar/kampanyalar_<stamp>.xlsx (ad, dosya, URL, ürün sayısı).
-- Kampanya adı Bayios'ta ayrıca girilir; dosya adı/index eşlemesi yol gösterir.
-- Aynı ürün adı kampanya içinde tekilleştirilir.
+- out/kampanyalar/kampanyalar_<stamp>.json
+- out/kampanyalar/campaigns.json (latest)
+- JSON: id, name, category, url, date_text, start_date, end_date, conditions[], products[] (name, product_id, relationship, required_quantity), product_count, scraped_at.
+- Katılım Koşulları JSON'da liste; Excel'de tek hücre.
+- Ürünler: İlişki Türü = İlgili ürün; Gerekli Adet boş; URL/fiyat yok.
+- Kampanya adı Bayios'ta ayrıca girilir.
 
-Not: Bu kampanya dosya düzeni ve Katılım Koşulları M3 hedefine taşındı. M2 ürün özellikleri planı (teknik specs + ftc-text, JSON/Excel/CSV) docs/m2-specs-plan.md içinde; M1 ürün tarafı tamamlandı.
+Kampanya başına Excel/CSV dosya düzeni Hâlâ M3'te bekliyor; JSON desteği hazır. Ayrıntı: docs/bayios-entegrasyon.md.
 
 ## 3.2 Ürün özellikleri (M2)
 
 - Tüm seçili ürünler için PDP'den teknik özellikler + ftc-text teknoloji metinleri çekilir.
-- Her koşuda out/catalog.json yazılır; ana products 11. sütununda Ürün Özellikleri (JSON) bulunur.
+- Her koşuda out/catalog_<stamp>.json + out/catalog.json (latest) yazılır; ana products 11. sütununda Ürün Özellikleri (JSON) bulunur.
 - Varsayılan format json'dur; Excel/CSV için --format excel|csv|both kullan.
 - Specs cache: data/specs_cache.json; yenilemek için --refresh-specs.
 - Medya/gif/resim/video indirilmez; sadece metin.
@@ -203,6 +197,7 @@ Tüm dosyayı config.toml'a yapıştırma; sadece istediğin blokları kopyala.
     max_auto_fetch = 50
 
     [cache]
+    categories_file = "data/categories.json"
     explicit_file = "data/explicit_products.json"
     specs_file = "data/specs_cache.json"
 

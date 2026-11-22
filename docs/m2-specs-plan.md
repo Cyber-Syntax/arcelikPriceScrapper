@@ -51,7 +51,7 @@ specifications öğesi:
 
 ## 4. JSON (birincil ve her zaman)
 
-Dosya: out/catalog.json
+Dosya: out/catalog_<YYYYMMDD-HHMMSS>.json + out/catalog.json (latest)
 
     {
       "schema_version": "1.0",
@@ -72,7 +72,7 @@ Dosya: out/catalog.json
       ]
     }
 
-- catalog.json her ürün koşusunda yazılır; format json olsa da.
+- catalog_<stamp>.json + catalog.json (latest) her ürün koşusunda yazılır; format json olsa da.
 - schema_version ve scraped_at zorunlu.
 - Eksik features/specifications boş liste; import bozulmaz.
 - Fiyat JSON'da sayı; iki ondalık.
@@ -113,10 +113,10 @@ Ana products 11 sütundur:
 ## 7. Format / config
 
 - output.format: json | excel | csv | both; varsayılan json.
-- json: yalnızca catalog.json (Excel/CSV yok).
-- excel: catalog.json + Excel (11 sütun).
-- csv: catalog.json + CSV (11 sütun).
-- both: catalog.json + Excel + CSV.
+- json: yalnızca catalog_<stamp>.json + catalog.json (Excel/CSV yok).
+- excel: catalog_<stamp>.json + catalog.json + Excel (11 sütun).
+- csv: catalog_<stamp>.json + catalog.json + CSV (11 sütun).
+- both: catalog_<stamp>.json + catalog.json + Excel + CSV.
 - JSON her durumda yazılır.
 - --with-scraped-at ana products 12. sütun; varsayılan kapalı.
 

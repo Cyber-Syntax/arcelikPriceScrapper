@@ -19,7 +19,7 @@ M2 ürün özellikleri kapsamı netleşti:
 
 1. Kapsam: seçili tüm ürünler (kategoriler + explicit/açık ürünler). Her ürün için bir PDP isteği; cache zorunlu.
 2. Ana products 11 sütun: Ürün ID, Ürün Adı, Kategori, Perakende, Oliz İndirimli, Fiziksel Stok, Alış, Kredi, Nakit, Aktif Kampanya, Ürün Özellikleri (JSON). --with-scraped-at 12. sütun.
-3. catalog.json: out/catalog.json; schema_version, scraped_at, products[]. Her ürün id, product_name, category, price, discounted_price, currency, source_url, features[], specifications[], kind, scraped_at.
+3. catalog.json: out/catalog_<stamp>.json + out/catalog.json (latest); schema_version, scraped_at, products[]. Her ürün id, product_name, category, price, discounted_price, currency, source_url, features[], specifications[], kind, scraped_at.
 4. Ayrı product_code yoktur; products.id kullanılır.
 5. features: .pdp-technologies .ftc-item; title .ftc-title, text .ftc-text. br newline; small/div içeriği parse edilir; small note alanına alınır. Medya/gif/resim/video indirilmez.
 6. specifications: #pdp-features-container .feature-item; group .title; dt/dd; (group,name,value) tekilleştirilir.

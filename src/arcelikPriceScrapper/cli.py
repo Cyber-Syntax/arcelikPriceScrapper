@@ -20,6 +20,7 @@ from .export import (
     categories_table,
     meta_table,
     products_tables,
+    write_campaigns_json,
     write_catalog,
     write_tables,
 )
@@ -112,7 +113,9 @@ async def list_categories(
     with_counts: bool,
     progress: Progress | None = None,
 ) -> list[Path]:
-    tree = await fetch_category_tree(http, cache_path=Path(".cache/categories.json"))
+    tree = await fetch_category_tree(
+        http, cache_path=Path(cfg.cache.categories_file)
+    )
     include_slugs = {e.slug for e in cfg.categories.include}
     excluded = cfg.categories.exclude
     rows: list[list[object]] = []
@@ -195,6 +198,7 @@ async def amain(args: argparse.Namespace, cfg: Config, report: Report) -> int:
 
     products: list[ProductRow] = []
     campaign_tables: list[Table] = []
+    campaigns_payload: list[dict[str, object]] = []
     code = 0
     try:
         async with Http(cfg.http, report) as http:
@@ -251,9 +255,11 @@ async def amain(args: argparse.Namespace, cfg: Config, report: Report) -> int:
                             progress=progress,
                         )
                 if cmd in ("campaigns", "all") and cfg.campaigns.enabled:
-                    campaign_tables = await scrape_campaigns(
+                    campaign_result = await scrape_campaigns(
                         http, report, scraped_at, progress=progress
                     )
+                    campaign_tables = campaign_result.tables
+                    campaigns_payload = campaign_result.campaigns
                 elif cmd == "campaigns":
                     report.warn("kampanyalar config'te kapali")
                 if products:
@@ -267,18 +273,23 @@ async def amain(args: argparse.Namespace, cfg: Config, report: Report) -> int:
             code = 2 if partial else 0
             report.mark_finished(code)
             if cmd in ("prices", "all", "specs"):
-                catalog = write_catalog(out_dir, products, scraped_at)
+                catalog = write_catalog(
+                    out_dir, products, scraped_at, stamp
+                )
                 print(f"yazildi: {catalog}")
+            if cmd in ("campaigns", "all") and cfg.campaigns.enabled:
+                campaign_json = write_campaigns_json(
+                    out_dir,
+                    campaigns_payload,
+                    scraped_at,
+                    stamp,
+                )
+                print(f"yazildi: {campaign_json}")
             tables: list[Table] = []
             if products:
                 tables += products_tables(products, args.full, with_scraped_at)
             tables += campaign_tables
-            if fmt == "json":
-                if campaign_tables:
-                    log.warning(
-                        "kampanya ciktilari M3'te; JSON formati yalnizca catalog.json yazar"
-                    )
-            else:
+            if fmt != "json":
                 tables.append(meta_table(report))
                 if not products and not campaign_tables:
                     log.warning(

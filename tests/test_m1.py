@@ -22,6 +22,7 @@ from arcelikPriceScrapper.export import (
     details_json,
     meta_table,
     products_tables,
+    write_campaigns_json,
     write_catalog,
     write_tables,
 )
@@ -863,6 +864,31 @@ def test_export_eleven_columns_with_json_and_both(tmp_path: Path) -> None:
     assert json.loads(catalog_path.read_text(encoding="utf-8"))["products"][0][
         "id"
     ] == "9205971100"
+    dated_catalog = write_catalog(
+        tmp_path, rows, "2026-11-20T00:00:00Z", "20260101-000000"
+    )
+    assert dated_catalog.name == "catalog_20260101-000000.json"
+    assert (tmp_path / "catalog.json").exists()
+
+    campaign_path = write_campaigns_json(
+        tmp_path,
+        [
+            {
+                "id": "c1",
+                "name": "Kampanya",
+                "conditions": ["Bir", "İki"],
+                "products": [{"name": "Ürün", "relationship": "İlgili ürün"}],
+            }
+        ],
+        "2026-11-20T00:00:00Z",
+        "20260101-000000",
+    )
+    assert campaign_path.name == "kampanyalar_20260101-000000.json"
+    campaign_payload = json.loads(
+        campaign_path.read_text(encoding="utf-8")
+    )
+    assert campaign_payload["schema_version"] == "1.0"
+    assert campaign_payload["campaigns"][0]["conditions"] == ["Bir", "İki"]
     paths = write_tables(
         [tables[0], tables[1], meta_table(report)],
         tmp_path,

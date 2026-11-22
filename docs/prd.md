@@ -112,7 +112,7 @@ Bu bölüm, PRD kararlarının dayandığı ölçülen gerçeklerdir. Kod ve tes
 | D6  | Kategori izin/kara listesi config.toml'da; CLI --only/--exclude ile override.                                                                                                                                               |
 | D7  | Kategori kaynağı nav ağacıdır. app_category varsayılan 2. seviye adıdır; alias ve açık override desteklenir.                                                                                                                |
 | D8  | Ek garanti ayrı komut/dosya değildir; prices/all ürün koşusunda statik tablodan gelir ve products çıktısına kind=warranty olarak girer; kategori sabit "Ek Garanti". |
-| D9  | Kampanya metadata'sı referanstır; her kampanya için out/kampanyalar/kampanya-<stamp>-<slug>.xlsx ve 3 sütunlu Bayios tablosu üretilir; katılım koşulları ayrı Kampanya sayfasında tek hücrede sırayla; Aktif Kampanya kolonu boş. |
+| D9  | Kampanya JSON'u out/kampanyalar/kampanyalar_<stamp>.json + campaigns.json (latest); kampanya başına Excel/CSV düzeni M3'te bekliyor; katılım koşulları JSON'da liste, Excel'de tek hücre; Aktif Kampanya kolonu boş. |
 | D10 | Teslim GitHub Release + artifact'tır; manuel indirme veya Bayios API gönderimi yok.                                                                                                                                         |
 | D11 | Delist ürünler için işlem yapılmaz.                                                                                                                                                                                         |
 | D12 | SQLite yok; açık ürün özellikleri JSON cache'te tutulur.                                                                                                                                                                    |
@@ -139,7 +139,7 @@ Bu bölüm, PRD kararlarının dayandığı ölçülen gerçeklerdir. Kod ve tes
 | D33 | warranties komutu ve ayrı garanti çıktısı yoktur; garanti prices/all içinde ürünlerle birlikte çekilir. |
 | D34 | Ürün ID kaynağı: data-product-id, data-product-code, JSON-LD sku/productID, gömülü products[].id; ana products 11 sütun, ID ilk; garanti satırlarında boş. |
 | D35 | blog/ ilk segmentli URL'ler ve blog kategori düğümleri config'den bağımsız olarak asla taranmaz/listelenmez; force ve --only URL bu kuralı aşamaz. |
-| D36 | Specs çıktısı: catalog.json her zaman; ana products 11. sütun JSON; Excel/CSV 11 sütun yedek; ayrı _specs dosyası yok. |
+| D36 | Specs çıktısı: catalog_<stamp>.json + catalog.json (latest) her zaman; ana products 11. sütun JSON; Excel/CSV 11 sütun yedek; ayrı _specs dosyası yok. |
 | D37 | Teknoloji metinleri .pdp-technologies .ftc-item içindeki .ftc-title + .ftc-text; br newline, small/div metni note veya text içinde parse edilir; medya/gif/resim/video indirilmez. |
 
 ## 5. Kategori modeli
@@ -258,7 +258,7 @@ Kapsam açık soru: öneri v1'de açık/explicit ürünler; seçili kategori vey
 - br -> newline; small dipnot ayrı note; HTML etiketi temizlenir; boş kart atlanır.
 - Teknik özelliklerde (grup, özellik, değer) üçlüsü, feature'larda (title, text) ikilisi tekilleştirilir.
 - Değerler ham tutulur; birim dönüşümü yapılmaz.
-- catalog.json her zaman: out/catalog.json; ana products 11. sütun JSON; Excel/CSV aynı 11 sütunla yedek.
+- catalog.json her zaman: out/catalog_<stamp>.json + out/catalog.json (latest); ana products 11. sütun JSON; Excel/CSV aynı 11 sütunla yedek.
 - Özellik yoksa uyarı; eski cache korunur; medya/gif/resim/video isteği yok.
 
 ### 6.5 Kampanya koşulları
@@ -344,7 +344,7 @@ Kapsam açık soru: öneri v1'de açık/explicit ürünler; seçili kategori vey
 
 ### 9.3 catalog.json ve 11. sütun JSON
 
-catalog.json: out/catalog.json; her zaman yazılır. Üst düzey schema_version, scraped_at, products[]. Her ürün: id, product_name, category, price, discounted_price, currency, source_url, features[], specifications[], kind, scraped_at. Ayrı product_code yok; products.id kullanılır.
+catalog.json: out/catalog_<stamp>.json + out/catalog.json (latest); her zaman yazılır. Üst düzey schema_version, scraped_at, products[]. Her ürün: id, product_name, category, price, discounted_price, currency, source_url, features[], specifications[], kind, scraped_at. Ayrı product_code yok; products.id kullanılır.
 
 features[]: title, text, note (ftc-text; small/div parse edilir). specifications[]: group, name, value.
 
@@ -366,6 +366,7 @@ Kampanya çıktısı iki katmanlıdır:
 - Her kampanya için dosya: out/kampanyalar/kampanya-<stamp>-<slug>.xlsx. Urunler sayfası 3 sütun; Kampanya sayfası ad, URL, tarih, Katılım Koşulları (tek hücre), ürün sayısı.
 - Index: out/kampanyalar/kampanyalar_<stamp>.xlsx (Kampanya Adı, Dosya, URL, Ürün Sayısı). CSV: kampanya-<stamp>-<slug>-urunler.csv, ...-kampanya.csv, kampanyalar_<stamp>.csv.
 - Kampanya adı Bayios'ta elle girilir; dosya adı/index eşlemesi yol gösterir. Ayrıntı: ADR-0007 + ADR-0008.
+- JSON: out/kampanyalar/kampanyalar_<stamp>.json + out/kampanyalar/campaigns.json (latest). Her kampanya: id, name, category, url, date_text, start_date, end_date, conditions[], products[] (name, product_id, relationship, required_quantity), product_count, scraped_at.
 
 ### 9.6 meta
 
@@ -377,7 +378,8 @@ Dosya adları ASCII-güvenlidir; Türkçe karakterler slug'lanır. stamp = YYYYM
 
 Ürün Excel: out/urunler_<stamp>.xlsx. Sayfalar: products, products_full, meta, categories.
 Ürün CSV: out/urunler_<stamp>_products.csv, _products_full.csv, _meta.csv, _categories.csv.
-JSON: out/catalog.json (her zaman; schema_version, scraped_at, products[]).
+JSON: out/catalog_<stamp>.json + out/catalog.json (latest; schema_version, scraped_at, products[]).
+Kampanya JSON: out/kampanyalar/kampanyalar_<stamp>.json + out/kampanyalar/campaigns.json (latest).
 Kampanya Excel: out/kampanyalar/kampanyalar_<stamp>.xlsx (index) ve out/kampanyalar/kampanya-<stamp>-<kampanya-slug>.xlsx (Urunler + Kampanya).
 Kampanya CSV: out/kampanyalar/kampanya-<stamp>-<kampanya-slug>-urunler.csv ve ...-kampanya.csv; index CSV.
 Kategori: out/categories.txt, out/categories.toml.
@@ -467,6 +469,7 @@ M1 notu: specs ayrıştırma ve specs komutu M2'dedir. M1'de cache'te olmayan a�
     # include_children = true
 
     [cache]
+    categories_file = "data/categories.json"
     explicit_file = "data/explicit_products.json"
     specs_file = "data/specs_cache.json"
 
@@ -521,14 +524,14 @@ Notlar:
 ## 13. GitHub Actions ve teslim
 
 - Tetikleyiciler:
-  - schedule: haftalık, Pazartesi 03:00 UTC.
-  - workflow_dispatch: command (prices|all|specs|campaigns|list-categories), only, format.
+  - schedule: her ayın 1'i ve 15'i, 03:00 Europe/Istanbul (timezone destekli).
+  - workflow_dispatch: command (prices|all|specs|campaigns|list-categories), only, format, refresh_explicit.
   - issues: labeled scrape:<slug> opsiyonel; yalnızca yazma yetkisi olanlar; issue gövdesi parse edilmez.
 - concurrency: tek koşu; cancel-in-progress false.
 - permissions: contents: write (Release için), actions: read.
-- timeout-minutes: 90; hedef süre < 30 dk.
-- Adımlar: checkout → setup-python 3.12 → pip install . → komut → upload-artifact (14 gün) → Release (yalnızca başarılıysa).
-- Release: tag data-latest; out/catalog.json, out/urunler_<stamp>* ve out/kampanyalar/** dosyaları, run_report.json, missing/duplicates (varsa); overwrite.
+- timeout-minutes: 360 (ilk tam koşu); hedef süre cache sonrası < 30 dk.
+- Adımlar: checkout → setup-python 3.12 → pip install . → komut → data cache commit (categories/explicit/specs) → upload-artifact (14 gün) → Release (yalnızca başarılıysa).
+- Release: tag data-latest; out/catalog_<stamp>.json + out/catalog.json, out/urunler_<stamp>*, out/kampanyalar/** dosyaları, run_report.json, missing/duplicates (varsa); overwrite.
 - Manuel: gh workflow run scrape.yml -f command=prices -f only=kurutma-makinesi -f format=both
 - Public repo notları:
   - Release ve artifact herkese görünür; fiyatlar zaten sitede public. Yine de iş verisi sayılıyorsa private repo/self-hosted düşünülmeli.
@@ -613,8 +616,9 @@ M2 (ürün özellikleri):
 
 M3 (kampanyalar):
 
-- Kampanyalar out/kampanyalar/ altında kampanya başına dosya; Bayios ürün tablosu 3 sütun; products'ta kampanya kolonu boş.
-- Katılım Koşulları: 5-10 madde sırayla tek Excel hücresinde; HTML etiketleri temiz; kırpılmaz.
+- Kampanya JSON'u out/kampanyalar/kampanyalar_<stamp>.json + campaigns.json (latest) olarak yazılır; koşullar liste, ürünler 3 alanlı (name, relationship, required_quantity).
+- Kampanya başına Excel/CSV dosya düzeni M3'te bekliyor; products'ta kampanya kolonu boş.
+- Katılım Koşulları: 5-10 madde sırayla; JSON'da liste, Excel'de tek hücre; HTML etiketleri temiz; kırpılmaz.
 
   1.0.0:
 

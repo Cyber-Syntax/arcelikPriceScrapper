@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import logging
 import re
+from dataclasses import dataclass
 from datetime import date
 from urllib.parse import unquote, urlparse
 
@@ -228,16 +229,22 @@ def parse_cards_fallback(tree: HTMLParser) -> dict[str, Card]:
     return rows
 
 
+@dataclass
+class CampaignResult:
+    tables: list[Table]
+    campaigns: list[dict[str, object]]
+
+
 async def scrape_campaigns(
     http: Http,
     report: Report,
     scraped_at: str,
     progress: Progress | None = None,
-) -> list[Table]:
+) -> CampaignResult:
     idx_html = await http.get(f"{BASE}/kampanyalar")
     if not idx_html:
         report.warn("/kampanyalar alinamadi")
-        return []
+        return CampaignResult([], [])
     discovered = discover_campaigns(idx_html)
     log.info("%d kampanya bulundu", len(discovered))
     report.set("campaigns", len(discovered))
@@ -247,6 +254,7 @@ async def scrape_campaigns(
     camp_rows: list[list] = []
     cp_rows: list[list] = []
     bayios_tables: list[Table] = []
+    campaigns_payload: list[dict[str, object]] = []
     empty = 0
     for url, idx_date in discovered.items():
         if progress is not None:
@@ -305,6 +313,39 @@ async def scrape_campaigns(
         table = bayios_table(index, name, cards)
         if table is not None:
             bayios_tables.append(table)
+        product_rows: list[dict[str, object]] = []
+        seen_products: set[str] = set()
+        for c in cards.values():
+            if not c.name or c.name in seen_products:
+                continue
+            seen_products.add(c.name)
+            product_rows.append(
+                {
+                    "name": c.name,
+                    "product_id": c.product_id or c.code,
+                    "relationship": BAYIOS_RELATION,
+                    "required_quantity": None,
+                }
+            )
+        campaigns_payload.append(
+            {
+                "id": cid,
+                "name": name,
+                "category": parts[1],
+                "url": url,
+                "date_text": date_text,
+                "start_date": rng[0] if rng else None,
+                "end_date": rng[1] if rng else None,
+                "conditions": [
+                    line.strip()
+                    for line in conditions.splitlines()
+                    if line.strip()
+                ],
+                "product_count": len(cards),
+                "products": product_rows,
+                "scraped_at": scraped_at,
+            }
+        )
         for c in cards.values():
             cp_rows.append(
                 [
@@ -323,14 +364,17 @@ async def scrape_campaigns(
     report.set("campaigns_without_products", empty)
     report.set("campaign_product_rows", len(cp_rows))
     report.set("campaign_bayios_sheets", len(bayios_tables))
-    return [
-        Table("campaigns", "Kampanyalar", CAMPAIGN_HEADERS, camp_rows),
-        Table(
-            "campaign_products",
-            "Kampanya Ürünleri",
-            CP_HEADERS,
-            cp_rows,
-            money_cols=(3, 4),
-        ),
-        *bayios_tables,
-    ]
+    return CampaignResult(
+        [
+            Table("campaigns", "Kampanyalar", CAMPAIGN_HEADERS, camp_rows),
+            Table(
+                "campaign_products",
+                "Kampanya Ürünleri",
+                CP_HEADERS,
+                cp_rows,
+                money_cols=(3, 4),
+            ),
+            *bayios_tables,
+        ],
+        campaigns_payload,
+    )

@@ -103,19 +103,47 @@ def catalog_payload(rows: list[ProductRow], scraped_at: str) -> dict[str, Any]:
     }
 
 
+def write_campaigns_json(
+    out_dir: Path,
+    campaigns: list[dict[str, Any]],
+    scraped_at: str,
+    stamp: str,
+) -> Path:
+    target = out_dir / "kampanyalar"
+    target.mkdir(parents=True, exist_ok=True)
+    payload = json.dumps(
+        {
+            "schema_version": "1.0",
+            "scraped_at": scraped_at,
+            "campaigns": campaigns,
+        },
+        ensure_ascii=False,
+        indent=2,
+    )
+    (target / "campaigns.json").write_text(payload, encoding="utf-8")
+    path = target / f"kampanyalar_{stamp}.json"
+    path.write_text(payload, encoding="utf-8")
+    return path
+
+
 def write_catalog(
-    out_dir: Path, rows: list[ProductRow], scraped_at: str
+    out_dir: Path,
+    rows: list[ProductRow],
+    scraped_at: str,
+    stamp: str | None = None,
 ) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
-    path = out_dir / "catalog.json"
-    path.write_text(
-        json.dumps(
-            catalog_payload(rows, scraped_at),
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding="utf-8",
+    payload = json.dumps(
+        catalog_payload(rows, scraped_at),
+        ensure_ascii=False,
+        indent=2,
     )
+    latest = out_dir / "catalog.json"
+    latest.write_text(payload, encoding="utf-8")
+    if not stamp:
+        return latest
+    path = out_dir / f"catalog_{stamp}.json"
+    path.write_text(payload, encoding="utf-8")
     return path
 
 
