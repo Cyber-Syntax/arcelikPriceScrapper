@@ -790,6 +790,18 @@ async def test_enrich_specs_and_cache(tmp_path: Path) -> None:
 
     cfg = make_config(tmp_path)
     cfg.cache.specs_file = str(tmp_path / "specs.json")
+    (tmp_path / "specs.json").write_text(
+        json.dumps(
+            {
+                "457100070000": {
+                    "features": [],
+                    "specifications": [],
+                    "scraped_at": "2026-01-01T00:00:00Z",
+                }
+            }
+        ),
+        encoding="utf-8",
+    )
     row = ProductRow(
         name="10122",
         product_id="457100070000",
@@ -821,6 +833,28 @@ async def test_enrich_specs_and_cache(tmp_path: Path) -> None:
         "2026-11-22T00:00:00Z",
     )
     assert second_http.calls == []
+
+
+def test_a600_ftc_fragment_parses() -> None:
+    html = """
+    <div class="pdp-technologies">
+      <h2 class="title">Özellikler</h2>
+      <div class="ftc-item ftc-right">
+        <div class="ftc-info">
+          <h3 class="ftc-title">Otomatik Kapı Açma Özelliği</h3>
+          <div class="ftc-text">
+            Program sonunda kapıyı otomatik açar.<br><br>
+            <small>Bağımsız laboratuvar testi.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    """
+    details = parse_spec_details(html)
+    assert len(details.features) == 1
+    assert details.features[0]["title"] == "Otomatik Kapı Açma Özelliği"
+    assert "otomatik açar" in details.features[0]["text"]
+    assert details.features[0]["note"] == "Bağımsız laboratuvar testi."
 
 
 def test_export_eleven_columns_with_json_and_both(tmp_path: Path) -> None:

@@ -16,6 +16,9 @@ from .report import Report
 
 log = logging.getLogger("scrapper.specs")
 
+# Parser/cache semasi degisince eski bos kayitlarin tekrar cekilmesini saglar.
+SPECS_CACHE_VERSION = 2
+
 
 def clean(text: str | None) -> str:
     if not text:
@@ -164,7 +167,11 @@ async def enrich_specs(
     to_fetch: list[ProductRow] = []
     for row in candidates:
         entry = cache.get(_key(row))
-        if entry is not None and not refresh:
+        if (
+            entry is not None
+            and not refresh
+            and entry.get("cache_version") == SPECS_CACHE_VERSION
+        ):
             _apply(row, entry)
         else:
             to_fetch.append(row)
@@ -196,6 +203,7 @@ async def enrich_specs(
                 continue
             cache[_key(row)] = {
                 **details.to_dict(),
+                "cache_version": SPECS_CACHE_VERSION,
                 "scraped_at": scraped_at,
             }
             _apply(row, cache[_key(row)])

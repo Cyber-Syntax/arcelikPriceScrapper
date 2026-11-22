@@ -3561,5 +3561,21 @@
     "discounted_price": "61999.00",
     "scraped_at": "2026-11-22T12:22:29Z",
     "content_hash": "d7d3c8ad605bcfcf5b0dc02ab4a7c6c8440d6ce5"
+  },
+  "https://www.arcelik.com.tr/star-serisi-solo-bulasik-makinesi/a-600-b-bulasik-makinesi": {
+    "name": "A 600 b",
+    "product_id": "7638610177",
+    "title": "A 600 b Star Serisi Solo Bulaşık Makinesi",
+    "url": "https://www.arcelik.com.tr/star-serisi-solo-bulasik-makinesi/a-600-b-bulasik-makinesi",
+    "category_path": "Beyaz Eşya > Bulaşık Makinesi > Star Serisi Solo Bulaşık Makinesi",
+    "category_lv1": "Beyaz Eşya",
+    "category_lv2": "Bulaşık Makinesi",
+    "category_lv3": "Star Serisi Solo Bulaşık Makinesi",
+    "app_category": "Bulaşık Makinesi",
+    "code": "7638610177",
+    "price": "29499.00",
+    "discounted_price": "28499.00",
+    "scraped_at": "2026-11-22T14:50:49Z",
+    "content_hash": "607f806259dcd5a294c94876b743990e3f893140"
   }
 }

@@ -122,7 +122,8 @@ Ana products 11 sütundur:
 
 ## 8. Cache ve istek bütçesi
 
-- Cache: data/specs_cache.json; anahtar ürün ID, yoksa normalize URL.
+- Cache: data/specs_cache.json; anahtar ürün ID, yoksa normalize URL; cache_version=2.
+- Parser değişince eski cache_version'suz kayıtlar otomatik yeniden çekilir.
 - Bir ürün için bir PDP isteği; başarılı kayıt cache'e yazılır.
 - İkinci koşu cache'ten; --refresh-specs zorlar.
 - Başarısız fetch eski cache'i silmez; uyarı.

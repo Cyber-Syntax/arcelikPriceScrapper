@@ -89,6 +89,7 @@ Durum: Kod uygulandı; canlı doğrulama bekliyor. Ayrıntı: docs/m2-specs-plan
 - [x] Specs cache: ürün ID/URL anahtarı; bir ürün için bir PDP isteği.
 - [x] İkinci specs koşusunda 0 PDP isteği; --refresh-specs cache'i zorlar.
 - [x] GitHub Actions cache persist: data/categories.json + data/explicit_products.json + data/specs_cache.json otomatik commit/checkout.
+- [x] Specs cache version: cache_version=2; eski/boş kayıtlar otomatik yenilenir.
 - [x] Başarısız fetch eski cache'i silmez; uyarı.
 - [x] Fixture: index.html 4 feature/6 grup/43 spec; 10122.html 12 kart (1 boş)/11 feature/6 grup/42 spec.
 - [x] JSON round-trip; Excel/CSV details_json aynı veriyi verir.
