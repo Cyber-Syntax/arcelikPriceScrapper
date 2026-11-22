@@ -1,2 +1,2 @@
 [console_scripts]
-arcelikPriceScrapper = arcelikPriceScrapper.main:main
+arcelikPriceScrapper = arcelikPriceScrapper.cli:main

@@ -1,0 +1,92 @@
+User-agent: *
+Disallow: /login*
+Disallow: /fatura-kabul-kriterleri*
+Disallow: /login-processing*
+Disallow: /cart*
+Disallow: /sepetim*
+Disallow: /activation
+Disallow: /redirectUrl
+Disallow: /social-processing*
+Disallow: /ws/v2*
+Disallow: /guest*
+Disallow: /sifremi-unuttum*
+Disallow: /restore-password*
+Disallow: /users*
+Disallow: /hesabim*
+Disallow: /my-account*
+Disallow: /registration*
+Disallow: /security*
+Disallow: /promotions*
+Disallow: /my-addresses*
+Disallow: /adreslerim*
+Disallow: /logout*
+Disallow: /urunlerim*
+Disallow: /siparislerim*
+Disallow: /bilgilerim*
+Disallow: /favorilerim*
+Disallow: /etc/clientlibs/foundation/testandtarget*
+Disallow: /404*
+Disallow: /urun-liste.aspx*
+Disallow: /content/bekoglobal/*
+Disallow: /arama/hizliErisim.aspx*
+Disallow: /search?text
+Disallow: /*variant
+Disallow: /arama?activetab*
+Disallow: /urun-karsilastirma/
+Disallow: /*productList
+Disallow: /*?q=*
+Disallow: /*?*&q=*
+Disallow: /*?q$
+Disallow: /*?*&q$
+Disallow: /*?query=*
+Disallow: /*?*&query=*
+Disallow: /*?itext=*
+Disallow: /*?*&itext=*
+Disallow: /*?tip=*
+Disallow: /*?*&tip=*
+Disallow: /*?ps=*
+Disallow: /*?*&ps=*
+Disallow: /*?f1*
+Disallow: /*?*&f1*
+Disallow: /*?opf=*
+Disallow: /*?*&opf=*
+Disallow: /*?opr=*
+Disallow: /*?*&opr=*
+Disallow: /*?oid2=*
+Disallow: /*?*&oid2=*
+Disallow: /*?v=1.0.*
+Disallow: /*?*&v=1.0.*
+Disallow: /*?=*
+Disallow: /*?*&=*
+Disallow: /blog/arama?keyword=*
+Disallow: /blog/arsiv/
+Disallow: /*?sort=*
+Disallow: /*?*&sort=*
+Disallow: /*?srt=*
+Disallow: /*?*&srt=*
+Disallow: /*::allTechnologies
+Disallow: /missing-category/
+Disallow: /*?*keyword=*
+Disallow: /*::*
+Disallow: /*:relevance:*
+
+User-agent: Googlebot-Image
+Disallow:
+
+User-agent: AdsBot-Google-Mobile
+Disallow:
+
+User-agent: AdsBot-Google
+Disallow:
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+Sitemap: https://www.arcelik.com.tr/sitemap.xml
+Sitemap: https://www.arcelik.com.tr/yetkili-servis-sitemap.xml

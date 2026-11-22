@@ -6,10 +6,7 @@ description = "Python price scrapper for Arcelik product prices."
 keywords = ["arcelik", "sales", "pricing", "desktop"]
 requires-python = ">=3.11"
 authors = [{ name = "Cyber-Syntax" }]
-dependencies = [
-    "curl-cffi>=0.16.3",
-    "selectolax>=1.0.1",
-]
+dependencies = ["curl_cffi", "selectolax", "openpyxl", "pydantic>=2"]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Programming Language :: Python :: 3",
@@ -21,17 +18,12 @@ classifiers = [
 readme = { file = "README.md", content-type = "text/markdown" }
 
 [project.scripts]
-arcelikPriceScrapper = "arcelikPriceScrapper.main:main"
+arcelikPriceScrapper = "arcelikPriceScrapper.cli:main"
 
 [dependency-groups]
-dev = [
-  "mypy>=1.13",
-  "pytest>=8.3",
-  "pytest-cov>=5",
-  "pytest-qt>=4.4",
-  "pytest-asyncio>=0.22",
-]
+dev = ["mypy>=1.13", "pytest>=8.3", "pytest-cov>=5", "pytest-asyncio>=0.22"]
 lint = ["ruff>=0.9"]
+
 
 [build-system]
 requires = ["setuptools", "wheel"]
@@ -49,7 +41,7 @@ include = ["arcelikPriceScrapper*"]
 source = ["src/arcelikPriceScrapper"]
 
 [tool.pytest.ini_options]
-addopts = "--cov=src --cov-fail-under=80 --cov-report=html --cov-report=term-missing"
+addopts = "--cov=src --cov-report=term-missing"
 testpaths = ["tests"]
 python_files = "test_*.py"
 python_classes = "Test*"

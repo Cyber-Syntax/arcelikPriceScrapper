@@ -13,5 +13,11 @@ Classifier: Programming Language :: Python :: 3.13
 Classifier: Operating System :: POSIX
 Requires-Python: >=3.11
 Description-Content-Type: text/markdown
-Requires-Dist: curl-cffi>=0.16.3
-Requires-Dist: selectolax>=1.0.1
+License-File: LICENSE
+Requires-Dist: curl_cffi
+Requires-Dist: selectolax
+Requires-Dist: openpyxl
+Requires-Dist: pydantic>=2
+Dynamic: license-file
+
+# arcelikPriceScrapper
