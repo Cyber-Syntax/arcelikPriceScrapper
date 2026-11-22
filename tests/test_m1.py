@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import io
+import json
 from collections import Counter
 from decimal import Decimal
 from pathlib import Path
@@ -17,8 +18,11 @@ from arcelikPriceScrapper.categories import (
 from arcelikPriceScrapper.config import Config, load_config
 from arcelikPriceScrapper.export import (
     PRODUCT_HEADERS,
+    catalog_payload,
+    details_json,
     meta_table,
     products_tables,
+    write_catalog,
     write_tables,
 )
 from arcelikPriceScrapper.http import AbortRun
@@ -32,6 +36,7 @@ from arcelikPriceScrapper.prices import (
 )
 from arcelikPriceScrapper.progress import Progress, default_enabled
 from arcelikPriceScrapper.report import Report
+from arcelikPriceScrapper.specs import enrich_specs, parse_spec_details
 
 NAV_HTML = """
 <nav id="nav-menu-category"><ul class="ul-clear menu-category">
@@ -750,7 +755,74 @@ def test_progress_disabled_in_ci(monkeypatch) -> None:
     assert default_enabled() is False
 
 
-def test_export_ten_columns_with_id_and_both(tmp_path: Path) -> None:
+def test_specs_parser_on_saved_pdps() -> None:
+    base = Path(__file__).resolve().parent.parent / "docs"
+    index = parse_spec_details((base / "index.html").read_text(encoding="utf-8"))
+    assert len(index.features) == 4
+    assert len(index.specifications) == 43
+    assert index.features[0]["title"] == "Isı Pompalı Kurutma Teknolojisi"
+    assert index.features[0]["text"]
+    assert index.specifications[0]["group"] == "Genel Özellikler"
+
+    wash = parse_spec_details((base / "10122.html").read_text(encoding="utf-8"))
+    assert len(wash.features) == 11  # 12 karttan 1'i metinsiz
+    assert len(wash.specifications) == 42
+    assert wash.features[0]["title"] == "SuperWash Teknolojisi"
+    assert wash.features[0]["note"]
+    assert any(
+        item["group"] == "Genel Özellikler" for item in wash.specifications
+    )
+
+
+async def test_enrich_specs_and_cache(tmp_path: Path) -> None:
+    base = Path(__file__).resolve().parent.parent / "docs"
+    html = (base / "10122.html").read_text(encoding="utf-8")
+
+    class SpecsHttp:
+        def __init__(self) -> None:
+            self.calls: list[str] = []
+            self.aborted: str | None = None
+
+        async def get(self, url: str, check_robots: bool = True) -> str | None:
+            self.calls.append(url)
+            return html
+
+    cfg = make_config(tmp_path)
+    cfg.cache.specs_file = str(tmp_path / "specs.json")
+    row = ProductRow(
+        name="10122",
+        product_id="457100070000",
+        category="Çamaşır Makinesi",
+        url="https://www.arcelik.com.tr/a/10122",
+        price=Decimal("42999"),
+        scraped_at="2026-11-22T00:00:00Z",
+    )
+    report = Report("prices")
+    http = SpecsHttp()
+    await enrich_specs(
+        http,
+        [row],
+        cfg,
+        report,
+        "2026-11-22T00:00:00Z",
+    )
+    assert len(http.calls) == 1
+    assert len(row.features) == 11
+    assert len(row.specifications) == 42
+    assert report.data["specs_products"] == 1
+
+    second_http = SpecsHttp()
+    await enrich_specs(
+        second_http,
+        [row],
+        cfg,
+        report,
+        "2026-11-22T00:00:00Z",
+    )
+    assert second_http.calls == []
+
+
+def test_export_eleven_columns_with_json_and_both(tmp_path: Path) -> None:
     report = Report("prices")
     rows = [
         ProductRow(
@@ -759,6 +831,10 @@ def test_export_ten_columns_with_id_and_both(tmp_path: Path) -> None:
             category="Buzdolabı",
             price=Decimal("100.00"),
             discounted_price=None,
+            features=[{"title": "Tech", "text": "Text", "note": ""}],
+            specifications=[
+                {"group": "Genel", "name": "Kapasite", "value": "10 kg"}
+            ],
             scraped_at="2026-11-20T00:00:00Z",
         )
     ]
@@ -766,13 +842,27 @@ def test_export_ten_columns_with_id_and_both(tmp_path: Path) -> None:
     assert tables[0].headers == PRODUCT_HEADERS
     assert tables[0].headers[0] == "Ürün ID"
     assert tables[0].headers[1] == "Ürün Adı"
-    assert len(tables[0].headers) == 10
-    assert len(tables[0].rows[0]) == 10
+    assert tables[0].headers[-1] == "Ürün Özellikleri (JSON)"
+    assert len(tables[0].headers) == 11
+    assert len(tables[0].rows[0]) == 11
     assert tables[0].rows[0][0] == "9205971100"
+    details = json.loads(tables[0].rows[0][-1])
+    assert details["features"][0]["title"] == "Tech"
+    assert details["specifications"][0]["name"] == "Kapasite"
+    assert json.loads(details_json(rows[0])) == details
     assert tables[1].headers[0] == "Ürün ID"
     assert tables[1].headers[1] == "Ürün Adı"
     assert tables[1].headers[-1] == "scraped_at"
     assert tables[1].rows[0][0] == "9205971100"
+    payload = catalog_payload(rows, "2026-11-20T00:00:00Z")
+    assert payload["schema_version"] == "1.0"
+    assert payload["products"][0]["id"] == "9205971100"
+    assert payload["products"][0]["features"][0]["title"] == "Tech"
+    catalog_path = write_catalog(tmp_path, rows, "2026-11-20T00:00:00Z")
+    assert catalog_path.name == "catalog.json"
+    assert json.loads(catalog_path.read_text(encoding="utf-8"))["products"][0][
+        "id"
+    ] == "9205971100"
     paths = write_tables(
         [tables[0], tables[1], meta_table(report)],
         tmp_path,
@@ -787,5 +877,5 @@ def test_export_ten_columns_with_id_and_both(tmp_path: Path) -> None:
     assert any(p.name.endswith("_products.csv") for p in paths)
     assert any(p.name.endswith("_meta.csv") for p in paths)
     with_scraped = products_tables(rows, full=False, with_scraped_at=True)
-    assert len(with_scraped[0].headers) == 11
+    assert len(with_scraped[0].headers) == 12
     assert with_scraped[0].rows[0][-1] == "2026-11-20T00:00:00Z"

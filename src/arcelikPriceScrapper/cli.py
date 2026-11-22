@@ -20,6 +20,7 @@ from .export import (
     categories_table,
     meta_table,
     products_tables,
+    write_catalog,
     write_tables,
 )
 from .http import AbortRun, Http
@@ -27,6 +28,7 @@ from .models import ProductRow
 from .prices import listing_total, merge_product_rows, scrape_prices
 from .progress import Progress, default_enabled
 from .report import Report
+from .specs import enrich_specs
 from .warranties import scrape_warranties
 
 log = logging.getLogger("scrapper")
@@ -36,13 +38,15 @@ def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="arcelikPriceScrapper", description="Arcelik scraper")
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument("--config", default="config.toml")
-    common.add_argument("--format", choices=["excel", "csv", "both"])
+    common.add_argument(
+        "--format", choices=["json", "excel", "csv", "both"]
+    )
     common.add_argument("--out-dir")
     common.add_argument("--full", action="store_true", help="products_full tablosu da yaz")
     common.add_argument(
         "--with-scraped-at",
         action="store_true",
-        help="ana products sayfasina 11. sutun olarak scraped_at ekle",
+        help="ana products sayfasina 12. sutun olarak scraped_at ekle",
     )
     common.add_argument(
         "--progress",
@@ -74,6 +78,19 @@ def build_parser() -> argparse.ArgumentParser:
             action="store_true",
             help="acik urun PDP'lerini yenile ve cache'i guncelle",
         )
+        sp.add_argument(
+            "--refresh-specs",
+            action="store_true",
+            help="specs cache'ini yenile",
+        )
+    specs = sub.add_parser("specs", parents=[common])
+    specs.add_argument("--only", help="virgullu kategori slug/ad veya urun URL listesi")
+    specs.add_argument("--exclude", help="virgullu kategori slug/ad/glob listesi")
+    specs.add_argument(
+        "--refresh-specs",
+        action="store_true",
+        help="specs cache'ini yenile",
+    )
     sub.add_parser("campaigns", parents=[common])
     lc = sub.add_parser("list-categories", parents=[common])
     lc.add_argument("--all", action="store_true", help="CATEGORY sitemap farkini da listele")
@@ -148,7 +165,7 @@ async def list_categories(
         rows,
         stamp,
     )
-    if fmt:
+    if fmt and fmt != "json":
         written += write_tables(
             [categories_table(rows)],
             out_dir,
@@ -196,7 +213,7 @@ async def amain(args: argparse.Namespace, cfg: Config, report: Report) -> int:
                     ):
                         print(f"yazildi: {path}")
                     return 0
-                if cmd in ("prices", "all"):
+                if cmd in ("prices", "all", "specs"):
                     products += await scrape_prices(
                         http,
                         cfg,
@@ -213,7 +230,7 @@ async def amain(args: argparse.Namespace, cfg: Config, report: Report) -> int:
                         ),
                         progress=progress,
                     )
-                    if cfg.warranties.enabled:
+                    if cmd in ("prices", "all") and cfg.warranties.enabled:
                         warranty_rows = await scrape_warranties(
                             http,
                             cfg.output.warranty_category,
@@ -221,6 +238,18 @@ async def amain(args: argparse.Namespace, cfg: Config, report: Report) -> int:
                             report,
                         )
                         products = merge_product_rows(products + warranty_rows)
+                    if products:
+                        products = await enrich_specs(
+                            http,
+                            products,
+                            cfg,
+                            report,
+                            scraped_at,
+                            refresh=bool(
+                                getattr(args, "refresh_specs", False)
+                            ),
+                            progress=progress,
+                        )
                 if cmd in ("campaigns", "all") and cfg.campaigns.enabled:
                     campaign_tables = await scrape_campaigns(
                         http, report, scraped_at, progress=progress
@@ -237,15 +266,26 @@ async def amain(args: argparse.Namespace, cfg: Config, report: Report) -> int:
             report.set("http_status", dict(http.status))
             code = 2 if partial else 0
             report.mark_finished(code)
+            if cmd in ("prices", "all", "specs"):
+                catalog = write_catalog(out_dir, products, scraped_at)
+                print(f"yazildi: {catalog}")
             tables: list[Table] = []
             if products:
                 tables += products_tables(products, args.full, with_scraped_at)
             tables += campaign_tables
-            tables.append(meta_table(report))
-            if not products and not campaign_tables:
-                log.warning("yazilacak urun/kampanya verisi yok; yalnizca meta yazilacak")
-            for path in write_tables(tables, out_dir, fmt, stamp, partial):
-                print(f"yazildi: {path}")
+            if fmt == "json":
+                if campaign_tables:
+                    log.warning(
+                        "kampanya ciktilari M3'te; JSON formati yalnizca catalog.json yazar"
+                    )
+            else:
+                tables.append(meta_table(report))
+                if not products and not campaign_tables:
+                    log.warning(
+                        "yazilacak urun/kampanya verisi yok; yalnizca meta yazilacak"
+                    )
+                for path in write_tables(tables, out_dir, fmt, stamp, partial):
+                    print(f"yazildi: {path}")
         return code
     except ValueError as e:
         log.error("HATA: %s", e)

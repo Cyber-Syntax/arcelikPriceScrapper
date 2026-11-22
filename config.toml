@@ -7,10 +7,10 @@ retries = 4
 max_pages = 200
 
 [output]
-format = "both"                  # excel | csv | both
+format = "json"                  # json | excel | csv | both (json her zaman)
 dir = "out"
 warranty_category = "Ek Garanti"
-with_scraped_at = false          # ana products sayfasi 10 sutun kalsin (ID dahil)
+with_scraped_at = false          # ana products 11 sutun kalsin; opt-in 12. sutun
 
 [categories]
 include_children = true # secili dugumun alt kategorileri de taransin mi
@@ -1444,6 +1444,7 @@ app_category = "Araç Buzdolabı"
 
 [cache]
 explicit_file = "data/explicit_products.json"
+specs_file = "data/specs_cache.json"
 
 [campaigns]
 enabled = true

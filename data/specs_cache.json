@@ -1,0 +1,5513 @@
+{
+  "7170520100": {
+    "features": [
+      {
+        "title": "Optimix Fonksiyonu",
+        "text": "Program seçme karışıklığına son! Hassas, hızlı ve yoğun programlardan birini seçmeniz ve sonrasını yapay zeka destekli Optimix fonksiyonuna bırakmanız yeterli. Optimix fonksiyonu, özel sensörler sayesinde çamaşır makinesine konulan çamaşırın tekstil tipini, yük miktarını ve kir seviyesini otomatik olarak belirleyip su tüketimini, program süresini ve deterjan miktarını optimize eder.",
+        "note": ""
+      },
+      {
+        "title": "Sürdürülebilir Ürün İnovasyon Ödülü",
+        "text": "Arçelik Neo Otonom Çamaşır Makinesi ile Sürdürülebilir Ürün İnovasyonu ödülünü aldık. Arçelik olarak sürdürülebilir yaşam anlayışımızı ve inovasyon yaklaşımımızı sürekli olarak geliştirmeye odaklanıyor, sürdürülebilirliği iş modelimiz olarak görmeye devam ediyoruz.",
+        "note": ""
+      },
+      {
+        "title": "Otodoz Teknolojisi",
+        "text": "Sıvı Deterjan ve Yumuşatıcı İçin Tek Dolumla 21 Yıkamaya Kadar Otomatik Dozaj, Maksimum Konfor Sağlar* Üstelik %25'e Varan Su Tasarrufu Sağlar",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1200 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "5"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Antrasit"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A -10%"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Sıvı Deterjan Dozajlama Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™ Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "I7S"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "İç Aydınlatma",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Eco 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Gentle"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Express"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Intense"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "47 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "46 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "76 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.5 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "59 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "457100071600": {
+    "features": [
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "CycleTech Teknolojisi",
+        "text": "Performanstan Ödün Vermeden Üstün Yıkama Gücünü Enerji Tasarrufuyla Birleştirir\n%35'e Varan Enerji Tasarrufu Sağlar*.*Arçelik çamaşır makinelerinin CylceTech teknolojisi olan ve CycleTech teknolojisi olmayan versiyonu arasındaki kıyaslamadır.*Paneldeki işaretli programlarda CycleTech Teknolojisi geçerlidir.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Havalandırma"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Perde"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "ColdWash+ES"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash+ES"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Duvet/DownWear+ES"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Mix+ES"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1200 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™ Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Cottons+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Eco 40-60+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Synthetics+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Mini/Mini14'+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Duvet/DownWear+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Mix+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Havalandırma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Perde"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Drum Clean+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "ColdWash+ES"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "51 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "51 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "68 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.9 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "58 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "457100071900": {
+    "features": [
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "CycleTech Teknolojisi",
+        "text": "Performanstan Ödün Vermeden Üstün Yıkama Gücünü Enerji Tasarrufuyla Birleştirir\n%35'e Varan Enerji Tasarrufu Sağlar*.*Arçelik çamaşır makinelerinin CylceTech teknolojisi olan ve CycleTech teknolojisi olmayan versiyonu arasındaki kıyaslamadır.*Paneldeki işaretli programlarda CycleTech Teknolojisi geçerlidir.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Havalandırma"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Perde"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "ColdWash+ES"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash+ES"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Duvet/DownWear+ES"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Mix+ES"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1200 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Gri"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™ Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Cottons+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Eco 40-60+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Synthetics+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Mini/Mini14'+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Duvet/DownWear+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Mix+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Havalandırma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Perde"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Drum Clean+ES"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "ColdWash+ES"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "51 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "51 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "68 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.9 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "58 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "457100070000": {
+    "features": [
+      {
+        "title": "SuperWash Teknolojisi",
+        "text": "Patentli SuperWash teknolojisi, özel kanatları ve geliştirilmiş algoritması sayesinde deterjanı daha hızlı çözer ve suyu tambur içinde daha eşit dağıtır.Bu sayede: Sadece 40 dakika, 40 derece ve makine tam doluyken kanıtlanmış temizlik sunar.",
+        "note": "* SuperWash teknolojisi kullanılan Arçelik Super 40°C 40 dk programı ile bu teknolojiye sahip olmayan Arçelik'in hızlandırılmış 40°C pamuklu programıyla karşılaştırıldığı bağımsız test laboratuvarı raporuna dayanmaktadır."
+      },
+      {
+        "title": "Super 40°C 40 dk Programı",
+        "text": "Patentli SuperWash Teknolojisi Sayesinde Super 40°C 40 dk Programı, Kanıtlanmış Temizleme Performansını Makine Tam Doluyken Bile 40 Derecede Sadece 40 Dakikada Sunar.*",
+        "note": "* *SuperWash teknolojisi kullanılan Super 40°C 40 dk programı ile bu teknolojiye sahip olmayan, Arçelik'in hızlandırılmış 40°C pamuklu programıyla karşılaştırıldığı bağımsız test laboratuvarı raporuna dayanmaktadır."
+      },
+      {
+        "title": "Zaman ve Enerji Tasarrufu",
+        "text": "Patentli SuperWash Teknolojisi Sayesinde Seçili Programlarda %35'e Varan Zaman ve Enerji Tasarrufu Sağlanır.*",
+        "note": "*Pamuklu, Sentetik, Karma, Hassas, Yünlü, Elde Yıkama, Yorgan, Spor, Koyu Renk Bakımı, Kazan Temizleme ve 20°C programlarında, yıkama performansından ödün vermeden Arçelik 10120 MA çamaşır makinesine kıyasla %35'e varan enerji tasarrufunun yanı sıra %35'e varan zaman tasarrufu da sağlar.* ."
+      },
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "X-Mode Teknolojisi",
+        "text": "HomeWhiz uygulamasındaki yeni X-Mode Teknolojisi, çalıştırılan programlar sonrası yapılan performans değerlendirmelerini analiz ederek yapay zeka desteğiyle programları sizin beklentilerinize göre optimize eder. Böylece her yıkamada size özel ve kişiselleştirilmiş bir deneyim sunar.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Perde"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Drum Clean"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1200 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "İkincil Fonksiyon",
+        "value": "Kırışık Önleme Fonksiyonu"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A -30%"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™ Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Drum Clean"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Perde"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Yorgan"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "52 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "36 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "70 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.9 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "58 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "7178526000": {
+    "features": [
+      {
+        "title": "Otodoz Teknolojisi",
+        "text": "Sıvı Deterjan ve Yumuşatıcı İçin Tek Dolumla 21 Yıkamaya Kadar Otomatik Dozaj, Maksimum Konfor Sağlar* Üstelik %25'e Varan Su Tasarrufu Sağlar",
+        "note": ""
+      },
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "X-Mode Teknolojisi",
+        "text": "HomeWhiz uygulamasındaki yeni X-Mode Teknolojisi, çalıştırılan programlar sonrası yapılan performans değerlendirmelerini analiz ederek yapay zeka desteğiyle programları sizin beklentilerinize göre optimize eder. Böylece her yıkamada size özel ve kişiselleştirilmiş bir deneyim sunar.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Kazan Temizleme",
+        "text": "Makine içerisindeki yıkama ortamında hijyen sağlayarak kazanı temizler ve kötü koku oluşumunu engeller",
+        "note": ""
+      },
+      {
+        "title": "CycleTech Teknolojisi",
+        "text": "Performanstan Ödün Vermeden Üstün Yıkama Gücünü Enerji Tasarrufuyla Birleştirir\n%35'e Varan Enerji Tasarrufu Sağlar*.*Arçelik çamaşır makinelerinin CylceTech teknolojisi olan ve CycleTech teknolojisi olmayan versiyonu arasındaki kıyaslamadır.*Paneldeki işaretli programlarda CycleTech Teknolojisi geçerlidir.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "Buhar"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1400 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "İkincil Fonksiyon",
+        "value": "Kırışık Önleme Fonksiyonu"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A -10%"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Sıvı Deterjan Dozajlama Sistemi",
+        "value": "Competitive Autodose"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™ Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Eko 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Hızlı 14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Buhar"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Otomatik Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "52 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "46 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "73 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.5 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "58 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "7175751100": {
+    "features": [
+      {
+        "title": "Otodoz Teknolojisi",
+        "text": "Sıvı Deterjan ve Yumuşatıcı İçin Tek Dolumla 21 Yıkamaya Kadar Otomatik Dozaj, Maksimum Konfor Sağlar* Üstelik %25'e Varan Su Tasarrufu Sağlar",
+        "note": ""
+      },
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "X-Mode Teknolojisi",
+        "text": "HomeWhiz uygulamasındaki yeni X-Mode Teknolojisi, çalıştırılan programlar sonrası yapılan performans değerlendirmelerini analiz ederek yapay zeka desteğiyle programları sizin beklentilerinize göre optimize eder. Böylece her yıkamada size özel ve kişiselleştirilmiş bir deneyim sunar.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Kazan Temizleme",
+        "text": "Makine içerisindeki yıkama ortamında hijyen sağlayarak kazanı temizler ve kötü koku oluşumunu engeller",
+        "note": ""
+      },
+      {
+        "title": "CycleTech Teknolojisi",
+        "text": "Performanstan Ödün Vermeden Üstün Yıkama Gücünü Enerji Tasarrufuyla Birleştirir\n%35'e Varan Enerji Tasarrufu Sağlar*.*Arçelik çamaşır makinelerinin CylceTech teknolojisi olan ve CycleTech teknolojisi olmayan versiyonu arasındaki kıyaslamadır.*Paneldeki işaretli programlarda CycleTech Teknolojisi geçerlidir.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "Buhar"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1400 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Manhattan Gray"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "İkincil Fonksiyon",
+        "value": "Kırışık Önleme Fonksiyonu"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A -10%"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Sıvı Deterjan Dozajlama Sistemi",
+        "value": "Competitive Autodose"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™ Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Eko 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Hızlı 14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Buhar"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Otomatik Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "52 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "46 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "73 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.5 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "58 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "7178520900": {
+    "features": [
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "FiberCatcher®",
+        "text": "Sentetik programlarda aktifleşen FiberCatcher® teknolojisi, yıkama esnasında sentetik kıyafetlerden salınan küçük plastikler olan mikrofiberleri su kaynaklarına karışmadan önce %90'a kadar filtreler, daha temiz su kaynakları için geleceğe katkıda bulunur.",
+        "note": ""
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz teknolojisine sahip akıllı beyaz eşyalarınızı Wi-Fi aracılığı ile mobil cihazlarınızdan çalıştırabilir, güncel durumlarını kontrol edebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Evcil Hayvan Tüy Temizleme",
+        "text": "Kedi, köpek gibi evcil hayvanlarınızın kıyafetlerinizdeki tüyleri için, evcil hayvan tüy temizleme fonksiyonu, ön yıkama ve durulama yaparak çamaşırlarınızı tüylerden kolayca arındırır.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "FiberCatcher",
+        "text": "Sentetik programlarda aktifleşen FiberCatcher® teknolojisi, yıkama esnasında sentetik kıyafetlerden salınan küçük plastikler olan mikrofiberleri su kaynaklarına karışmadan önce %90'a kadar filtreler, daha temiz su kaynakları için geleceğe katkıda bulunur.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Leke Programı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Gömlekler + Mikrofiber Filtre"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Yorgan"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Yünlü / Elde yıkama"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "10 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1400 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "14"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A -10%"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™ Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "İç Aydınlatma",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Eko 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetikler + Mikrofiber Filtre"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Hızlı 14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Yünlü / Elde yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Leke Programı"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Gömlekler + Mikrofiber Filtre"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Yorgan"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Havalandırma (Buhar)"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "39 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "46 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "76 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.5 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "58 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "457100000014": {
+    "features": [
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "CycleTech Teknolojisi",
+        "text": "Performanstan Ödün Vermeden Üstün Yıkama Gücünü Enerji Tasarrufuyla Birleştirir\n%35'e Varan Enerji Tasarrufu Sağlar*.*Arçelik çamaşır makinelerinin CylceTech teknolojisi olan ve CycleTech teknolojisi olmayan versiyonu arasındaki kıyaslamadır.*Paneldeki işaretli programlarda CycleTech Teknolojisi geçerlidir.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Kazan Temizleme",
+        "text": "Makine içerisindeki yıkama ortamında hijyen sağlayarak kazanı temizler ve kötü koku oluşumunu engeller",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Leke Programı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Karma"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "11 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1400 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Eko 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Hızlı 14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Leke Programı"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Havalandırma (Buhar)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "54 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "53 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "77 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.5 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "63 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "457100000013": {
+    "features": [
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "CycleTech Teknolojisi",
+        "text": "Performanstan Ödün Vermeden Üstün Yıkama Gücünü Enerji Tasarrufuyla Birleştirir\n%35'e Varan Enerji Tasarrufu Sağlar*.*Arçelik çamaşır makinelerinin CylceTech teknolojisi olan ve CycleTech teknolojisi olmayan versiyonu arasındaki kıyaslamadır.*Paneldeki işaretli programlarda CycleTech Teknolojisi geçerlidir.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Kazan Temizleme",
+        "text": "Makine içerisindeki yıkama ortamında hijyen sağlayarak kazanı temizler ve kötü koku oluşumunu engeller",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Leke Programı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Karma"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "11 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1400 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Antrasit"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Eko 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Hızlı 14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Leke Programı"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Havalandırma (Buhar)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "54 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "53 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "78 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.5 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "63 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "457100071200": {
+    "features": [
+      {
+        "title": "SuperWash Teknolojisi",
+        "text": "Patentli SuperWash teknolojisi, özel kanatları ve geliştirilmiş algoritması sayesinde deterjanı daha hızlı çözer ve suyu tambur içinde daha eşit dağıtır.Bu sayede: Sadece 40 dakika, 40 derece ve makine tam doluyken kanıtlanmış temizlik sunar.",
+        "note": "* SuperWash teknolojisi kullanılan Arçelik Super 40°C 40 dk programı ile bu teknolojiye sahip olmayan Arçelik'in hızlandırılmış 40°C pamuklu programıyla karşılaştırıldığı bağımsız test laboratuvarı raporuna dayanmaktadır."
+      },
+      {
+        "title": "Super 40°C 40 dk Programı",
+        "text": "Patentli SuperWash Teknolojisi Sayesinde Super 40°C 40 dk Programı, Kanıtlanmış Temizleme Performansını Makine Tam Doluyken Bile 40 Derecede Sadece 40 Dakikada Sunar.*",
+        "note": "* *SuperWash teknolojisi kullanılan Super 40°C 40 dk programı ile bu teknolojiye sahip olmayan, Arçelik'in hızlandırılmış 40°C pamuklu programıyla karşılaştırıldığı bağımsız test laboratuvarı raporuna dayanmaktadır."
+      },
+      {
+        "title": "Zaman ve Enerji Tasarrufu",
+        "text": "Patentli SuperWash Teknolojisi Sayesinde Seçili Programlarda %35'e Varan Zaman ve Enerji Tasarrufu Sağlanır.*",
+        "note": "*Pamuklu, Sentetik, Karma, Hassas, Yünlü, Elde Yıkama, Yorgan, Spor, Koyu Renk Bakımı, Kazan Temizleme ve 20°C programlarında, yıkama performansından ödün vermeden Arçelik 10120 MA çamaşır makinesine kıyasla %35'e varan enerji tasarrufunun yanı sıra %35'e varan zaman tasarrufu da sağlar.* ."
+      },
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "X-Mode Teknolojisi",
+        "text": "HomeWhiz uygulamasındaki yeni X-Mode Teknolojisi, çalıştırılan programlar sonrası yapılan performans değerlendirmelerini analiz ederek yapay zeka desteğiyle programları sizin beklentilerinize göre optimize eder. Böylece her yıkamada size özel ve kişiselleştirilmiş bir deneyim sunar.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Perde"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Eco 40-60"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "ColdWash"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "Super 40°C 40'"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Drum Clean"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Download Cycle"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Mini/Mini14'"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "11 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1400 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "İkincil Fonksiyon",
+        "value": "Kırışık Önleme Fonksiyonu"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A -10%"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Drum Clean"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Download Cycle"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Mini/Mini14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Perde"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Eco 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "ColdWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Yorgan"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Super 40°C 40'"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "54 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "47 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "70 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.9 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "58 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "457100071700": {
+    "features": [
+      {
+        "title": "SuperWash Teknolojisi",
+        "text": "Patentli SuperWash teknolojisi, özel kanatları ve geliştirilmiş algoritması sayesinde deterjanı daha hızlı çözer ve suyu tambur içinde daha eşit dağıtır.Bu sayede: Sadece 40 dakika, 40 derece ve makine tam doluyken kanıtlanmış temizlik sunar.",
+        "note": "* SuperWash teknolojisi kullanılan Arçelik Super 40°C 40 dk programı ile bu teknolojiye sahip olmayan Arçelik'in hızlandırılmış 40°C pamuklu programıyla karşılaştırıldığı bağımsız test laboratuvarı raporuna dayanmaktadır."
+      },
+      {
+        "title": "Super 40°C 40 dk Programı",
+        "text": "Patentli SuperWash Teknolojisi Sayesinde Super 40°C 40 dk Programı, Kanıtlanmış Temizleme Performansını Makine Tam Doluyken Bile 40 Derecede Sadece 40 Dakikada Sunar.*",
+        "note": "* *SuperWash teknolojisi kullanılan Super 40°C 40 dk programı ile bu teknolojiye sahip olmayan, Arçelik'in hızlandırılmış 40°C pamuklu programıyla karşılaştırıldığı bağımsız test laboratuvarı raporuna dayanmaktadır."
+      },
+      {
+        "title": "Zaman ve Enerji Tasarrufu",
+        "text": "Patentli SuperWash Teknolojisi Sayesinde Seçili Programlarda %35'e Varan Zaman ve Enerji Tasarrufu Sağlanır.*",
+        "note": "*Pamuklu, Sentetik, Karma, Hassas, Yünlü, Elde Yıkama, Yorgan, Spor, Koyu Renk Bakımı, Kazan Temizleme ve 20°C programlarında, yıkama performansından ödün vermeden Arçelik 10120 MA çamaşır makinesine kıyasla %35'e varan enerji tasarrufunun yanı sıra %35'e varan zaman tasarrufu da sağlar.* ."
+      },
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "X-Mode Teknolojisi",
+        "text": "HomeWhiz uygulamasındaki yeni X-Mode Teknolojisi, çalıştırılan programlar sonrası yapılan performans değerlendirmelerini analiz ederek yapay zeka desteğiyle programları sizin beklentilerinize göre optimize eder. Böylece her yıkamada size özel ve kişiselleştirilmiş bir deneyim sunar.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Perde"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Eco 40-60"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "ColdWash"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "Super 40°C 40'"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Drum Clean"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Download Cycle"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Mini/Mini14'"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "11 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1400 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Antrasit"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "İkincil Fonksiyon",
+        "value": "Kırışık Önleme Fonksiyonu"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A -10%"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Drum Clean"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Download Cycle"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Mini/Mini14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Perde"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Eco 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "ColdWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Yorgan"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Super 40°C 40'"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "54 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "47 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "70 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.9 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "58 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "457100000023": {
+    "features": [
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "CycleTech Teknolojisi",
+        "text": "Performanstan Ödün Vermeden Üstün Yıkama Gücünü Enerji Tasarrufuyla Birleştirir\n%35'e Varan Enerji Tasarrufu Sağlar*.*Arçelik çamaşır makinelerinin CylceTech teknolojisi olan ve CycleTech teknolojisi olmayan versiyonu arasındaki kıyaslamadır.*Paneldeki işaretli programlarda CycleTech Teknolojisi geçerlidir.",
+        "note": ""
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Suda Bastırma",
+        "text": "Suda bastırma fonksiyonu, suda bekletme işlemini yüksek performansla gerçekleştirir.Bekletme işleminin ardından otomatik olarak yıkama programına geçer, lekeleri kolayca çıkarır.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Kazan Temizleme",
+        "text": "Makine içerisindeki yıkama ortamında hijyen sağlayarak kazanı temizler ve kötü koku oluşumunu engeller",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Açık Hava/ Spor"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "12 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1400 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "İkincil Fonksiyon",
+        "value": "Kırışık Önleme Fonksiyonu"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dinamik Rezistans",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Eko 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Hızlı 14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Açık Hava/ Spor"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Havalandırma (Buhar)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "56 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "54 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "79 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.5 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "63 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "457100000024": {
+    "features": [
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "CycleTech Teknolojisi",
+        "text": "Performanstan Ödün Vermeden Üstün Yıkama Gücünü Enerji Tasarrufuyla Birleştirir\n%35'e Varan Enerji Tasarrufu Sağlar*.*Arçelik çamaşır makinelerinin CylceTech teknolojisi olan ve CycleTech teknolojisi olmayan versiyonu arasındaki kıyaslamadır.*Paneldeki işaretli programlarda CycleTech Teknolojisi geçerlidir.",
+        "note": ""
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Suda Bastırma",
+        "text": "Suda bastırma fonksiyonu, suda bekletme işlemini yüksek performansla gerçekleştirir.Bekletme işleminin ardından otomatik olarak yıkama programına geçer, lekeleri kolayca çıkarır.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Kazan Temizleme",
+        "text": "Makine içerisindeki yıkama ortamında hijyen sağlayarak kazanı temizler ve kötü koku oluşumunu engeller",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Açık Hava/ Spor"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "12 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1400 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Antrasit"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "İkincil Fonksiyon",
+        "value": "Kırışık Önleme Fonksiyonu"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Eko 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Hızlı 14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Açık Hava/ Spor"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Havalandırma (Buhar)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "56 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "54 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "78 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.9 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "63 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "457100071400": {
+    "features": [
+      {
+        "title": "SuperWash Teknolojisi",
+        "text": "Patentli SuperWash teknolojisi, özel kanatları ve geliştirilmiş algoritması sayesinde deterjanı daha hızlı çözer ve suyu tambur içinde daha eşit dağıtır.Bu sayede: Sadece 40 dakika, 40 derece ve makine tam doluyken kanıtlanmış temizlik sunar.",
+        "note": "* SuperWash teknolojisi kullanılan Arçelik Super 40°C 40 dk programı ile bu teknolojiye sahip olmayan Arçelik'in hızlandırılmış 40°C pamuklu programıyla karşılaştırıldığı bağımsız test laboratuvarı raporuna dayanmaktadır."
+      },
+      {
+        "title": "Super 40°C 40 dk Programı",
+        "text": "Patentli SuperWash Teknolojisi Sayesinde Super 40°C 40 dk Programı, Kanıtlanmış Temizleme Performansını Makine Tam Doluyken Bile 40 Derecede Sadece 40 Dakikada Sunar.*",
+        "note": "* *SuperWash teknolojisi kullanılan Super 40°C 40 dk programı ile bu teknolojiye sahip olmayan, Arçelik'in hızlandırılmış 40°C pamuklu programıyla karşılaştırıldığı bağımsız test laboratuvarı raporuna dayanmaktadır."
+      },
+      {
+        "title": "Zaman ve Enerji Tasarrufu",
+        "text": "Patentli SuperWash Teknolojisi Sayesinde Seçili Programlarda %35'e Varan Zaman ve Enerji Tasarrufu Sağlanır.*",
+        "note": "*Pamuklu, Sentetik, Karma, Hassas, Yünlü, Elde Yıkama, Yorgan, Spor, Koyu Renk Bakımı, Kazan Temizleme ve 20°C programlarında, yıkama performansından ödün vermeden Arçelik 10120 MA çamaşır makinesine kıyasla %35'e varan enerji tasarrufunun yanı sıra %35'e varan zaman tasarrufu da sağlar.* ."
+      },
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "X-Mode Teknolojisi",
+        "text": "HomeWhiz uygulamasındaki yeni X-Mode Teknolojisi, çalıştırılan programlar sonrası yapılan performans değerlendirmelerini analiz ederek yapay zeka desteğiyle programları sizin beklentilerinize göre optimize eder. Böylece her yıkamada size özel ve kişiselleştirilmiş bir deneyim sunar.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Perde"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Eco 40-60"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "ColdWash"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "Super 40°C 40'"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Drum Clean"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Download Cycle"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Mini/Mini14'"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "12 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1400 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Antrasit"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "İkincil Fonksiyon",
+        "value": "Kırışık Önleme Fonksiyonu"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A -30%"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Drum Clean"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Download Cycle"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Mini/Mini14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Perde"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Eco 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "ColdWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Yorgan"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Super 40°C 40'"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "56 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "38 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "79 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.9 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "63 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "457100072000": {
+    "features": [
+      {
+        "title": "SuperWash Teknolojisi",
+        "text": "Patentli SuperWash teknolojisi, özel kanatları ve geliştirilmiş algoritması sayesinde deterjanı daha hızlı çözer ve suyu tambur içinde daha eşit dağıtır.Bu sayede: Sadece 40 dakika, 40 derece ve makine tam doluyken kanıtlanmış temizlik sunar.",
+        "note": "* SuperWash teknolojisi kullanılan Arçelik Super 40°C 40 dk programı ile bu teknolojiye sahip olmayan Arçelik'in hızlandırılmış 40°C pamuklu programıyla karşılaştırıldığı bağımsız test laboratuvarı raporuna dayanmaktadır."
+      },
+      {
+        "title": "Super 40°C 40 dk Programı",
+        "text": "Patentli SuperWash Teknolojisi Sayesinde Super 40°C 40 dk Programı, Kanıtlanmış Temizleme Performansını Makine Tam Doluyken Bile 40 Derecede Sadece 40 Dakikada Sunar.*",
+        "note": "* *SuperWash teknolojisi kullanılan Super 40°C 40 dk programı ile bu teknolojiye sahip olmayan, Arçelik'in hızlandırılmış 40°C pamuklu programıyla karşılaştırıldığı bağımsız test laboratuvarı raporuna dayanmaktadır."
+      },
+      {
+        "title": "Zaman ve Enerji Tasarrufu",
+        "text": "Patentli SuperWash Teknolojisi Sayesinde Seçili Programlarda %35'e Varan Zaman ve Enerji Tasarrufu Sağlanır.*",
+        "note": "*Pamuklu, Sentetik, Karma, Hassas, Yünlü, Elde Yıkama, Yorgan, Spor, Koyu Renk Bakımı, Kazan Temizleme ve 20°C programlarında, yıkama performansından ödün vermeden Arçelik 10120 MA çamaşır makinesine kıyasla %35'e varan enerji tasarrufunun yanı sıra %35'e varan zaman tasarrufu da sağlar.* ."
+      },
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "X-Mode Teknolojisi",
+        "text": "HomeWhiz uygulamasındaki yeni X-Mode Teknolojisi, çalıştırılan programlar sonrası yapılan performans değerlendirmelerini analiz ederek yapay zeka desteğiyle programları sizin beklentilerinize göre optimize eder. Böylece her yıkamada size özel ve kişiselleştirilmiş bir deneyim sunar.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Perde"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Eco 40-60"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "ColdWash"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "Super 40°C 40'"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Drum Clean"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Download Cycle"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Mini/Mini14'"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "13 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1400 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "İkincil Fonksiyon",
+        "value": "Kırışık Önleme Fonksiyonu"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A -10%"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Drum Clean"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Download Cycle"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Mini/Mini14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Perde"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Eco 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "ColdWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Yorgan"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Super 40°C 40'"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "58 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "50 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "80 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.9 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "63 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "457100000020": {
+    "features": [
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "CycleTech Teknolojisi",
+        "text": "Performanstan Ödün Vermeden Üstün Yıkama Gücünü Enerji Tasarrufuyla Birleştirir\n%35'e Varan Enerji Tasarrufu Sağlar*.*Arçelik çamaşır makinelerinin CylceTech teknolojisi olan ve CycleTech teknolojisi olmayan versiyonu arasındaki kıyaslamadır.*Paneldeki işaretli programlarda CycleTech Teknolojisi geçerlidir.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Kazan Temizleme",
+        "text": "Makine içerisindeki yıkama ortamında hijyen sağlayarak kazanı temizler ve kötü koku oluşumunu engeller",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Leke Programı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Karma"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "9 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1200 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™ Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dinamik Rezistans",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Eko 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Hızlı 14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Leke Programı"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Havalandırma (Buhar)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "49 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "49 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "71 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.5 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "58 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "457100034700": {
+    "features": [
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "CycleTech Teknolojisi",
+        "text": "Performanstan Ödün Vermeden Üstün Yıkama Gücünü Enerji Tasarrufuyla Birleştirir\n%35'e Varan Enerji Tasarrufu Sağlar*.*Arçelik çamaşır makinelerinin CylceTech teknolojisi olan ve CycleTech teknolojisi olmayan versiyonu arasındaki kıyaslamadır.*Paneldeki işaretli programlarda CycleTech Teknolojisi geçerlidir.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Kazan Temizleme",
+        "text": "Makine içerisindeki yıkama ortamında hijyen sağlayarak kazanı temizler ve kötü koku oluşumunu engeller",
+        "note": ""
+      },
+      {
+        "title": "Tek Kişilik Yorgan Programı",
+        "text": "Yorgan programı ile tek kişilik yorganlarda derinlemesine temizlik",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Leke Programı"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Down Wear"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Karma"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "9 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1200 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™ Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Eko 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Hızlı 14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Down Wear"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Leke Programı"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Havalandırma (Buhar)"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "49 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "49 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "67 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.5 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "54.6 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  },
+  "7175750900": {
+    "features": [
+      {
+        "title": "Otodoz Teknolojisi",
+        "text": "Sıvı Deterjan ve Yumuşatıcı İçin Tek Dolumla 21 Yıkamaya Kadar Otomatik Dozaj, Maksimum Konfor Sağlar* Üstelik %25'e Varan Su Tasarrufu Sağlar",
+        "note": ""
+      },
+      {
+        "title": "Soğuk Yıkama Programı",
+        "text": "Yüksek Sıcaklığa Maruz Bırakılmadan Sadece 15°C’de Üstün Yıkama Performansı Sağlar* Üstelik tasarruf performansıyla fark yaratır.Enerjide %82’ye, suda %55’e, zamanda %31’e varan tasarruf sağlar.*Normal kirli, dayanıklı pamuklu veya sentetik çamaşırlar için geçerlidir.**15°C’de, Pamuklu 40°C programı gibi yıkama performansı sergiler.*Kıyaslamalar, Pamuklu 40°C programına göre yapılmıştır.",
+        "note": ""
+      },
+      {
+        "title": "Gömlek Programı",
+        "text": "Tişört ve Gömleklerde %50 Kırışıklık Azaltır*.",
+        "note": "*1,3 KG tişört ve/veya gömleklerde yıkama esnasında %50 kırışıklık azaltır. 3. parti raporu bulunmaktadır."
+      },
+      {
+        "title": "HomeWhiz",
+        "text": "HomeWhiz Teknolojisi ile evdeki akıllı beyaz eşyalarınızı Wi-Fi aracılığıyla internete erişebildiğiniz her yerden kontrol etmek çok kolay! Akıllı cep telefonu veya tabletlerinizden Kablosuz Ağ Bağlantısı olan beyaz eşyalarınızı Homewhiz uygulamanız üzerinden çalıştırmanız ve güncel durumları hakkında bilgi sahibi olmanız mümkün.",
+        "note": ""
+      },
+      {
+        "title": "Enerji Yönetimi ve Takip Paneli",
+        "text": "Homewhiz 2.0 uygulamasının Enerji Yönetim panelini kullanarak ürününüze ait tüketim bilgilerini takip edebilirsiniz. Akıllı ürününüze ait tüketim bilgilerini farklı zaman dilimlerine göre izleyebilir ve tüketiminizi azaltıcı öneriler ile tasarruf sağlayabilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "X-Mode Teknolojisi",
+        "text": "HomeWhiz uygulamasındaki yeni X-Mode Teknolojisi, çalıştırılan programlar sonrası yapılan performans değerlendirmelerini analiz ederek yapay zeka desteğiyle programları sizin beklentilerinize göre optimize eder. Böylece her yıkamada size özel ve kişiselleştirilmiş bir deneyim sunar.",
+        "note": ""
+      },
+      {
+        "title": "Prosmart Inverter Motor",
+        "text": "Özel olarak geliştirilen inverter motorumuzda standart motorlarda kullanılan fırça yapısı, mıknatıslar ile değiştirilmiştir. Bu sayede sürtünme olmadığından motorun yıpranma oranı düşer ve hem enerjiden tasarruf edilir hem de motorun ömrü uzar. Prosmart Inverter motorlu makinelerde 10 yıl motor garantisi sunulmaktadır.",
+        "note": ""
+      },
+      {
+        "title": "Çamaşır Ekleme",
+        "text": "Makine çalıştırıldıktan sonra unutulan çamaşırların ilave edilebilmesini sağlar, kapağın komple açılabilmesi büyük çamaşırların da atılabilmesine olanak verir.",
+        "note": ""
+      },
+      {
+        "title": "Çocuk Kilidi",
+        "text": "Çocuk Kilidi özelliğini aktifken çocukların makineyi kurcalaması sonucu devam eden bir programda değişiklik yapılmasının önüne geçebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Kazan Temizleme",
+        "text": "Makine içerisindeki yıkama ortamında hijyen sağlayarak kazanı temizler ve kötü koku oluşumunu engeller",
+        "note": ""
+      },
+      {
+        "title": "CycleTech Teknolojisi",
+        "text": "Performanstan Ödün Vermeden Üstün Yıkama Gücünü Enerji Tasarrufuyla Birleştirir\n%35'e Varan Enerji Tasarrufu Sağlar*.*Arçelik çamaşır makinelerinin CylceTech teknolojisi olan ve CycleTech teknolojisi olmayan versiyonu arasındaki kıyaslamadır.*Paneldeki işaretli programlarda CycleTech Teknolojisi geçerlidir.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-12",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-13",
+        "value": "Buhar"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "IronFast",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "9 kg"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Maksimum Sıkma Devri",
+        "value": "1400 rpm"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Su Girişi",
+        "value": "Tek (Soğuk)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Program Sayısı",
+        "value": "15"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Manhattan Gray"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "İkincil Fonksiyon",
+        "value": "Kırışık Önleme Fonksiyonu"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A -50%"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Deterjan Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Buhar",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Sıvı Deterjan Dozajlama Sistemi",
+        "value": "Competitive Autodose"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Motor Tipi",
+        "value": "ProSmart™ Inverter"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Tambur Deseni",
+        "value": "Özel Tasarım Tambur Teknolojisi"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Elektronik Su Kontrol Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Teknolojik Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Gösterge Tipi",
+        "value": "Dijital"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Elektronik Program Takip Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Kalan Zaman Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Zaman Programlama Özelliği",
+        "value": "0-24 Saat"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "İç Aydınlatma",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Taşma Emniyet Sistemi",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Dengesiz Yük Kontrolü",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Su Kesik İkazı",
+        "value": "Var"
+      },
+      {
+        "group": "Konfor ve Güvenlik",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-1",
+        "value": "Pamuklular"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-2",
+        "value": "Eko 40-60"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-3",
+        "value": "Sentetik"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-4",
+        "value": "Hızlı 14'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-5",
+        "value": "Delicates/Wool/HandWash"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-6",
+        "value": "Duvet/DownWear"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-7",
+        "value": "Program İndirme"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-8",
+        "value": "Sıkma Pompa"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-9",
+        "value": "Durulama"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-10",
+        "value": "Buhar Terapi"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-11",
+        "value": "Gömlek"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-12",
+        "value": "Hijyen+"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-13",
+        "value": "Buhar"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-14",
+        "value": "Otomatik Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program-15",
+        "value": "Soğuk Yıkama"
+      },
+      {
+        "group": "Performans",
+        "name": "Su Tüketimi (1 Çevrim)",
+        "value": "40 L"
+      },
+      {
+        "group": "Performans",
+        "name": "Enerji Tüketimi (100 Çevrim)",
+        "value": "24 kWh"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "73 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "84.5 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "60 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "58 cm"
+      }
+    ],
+    "scraped_at": "2026-11-22T11:48:22Z"
+  }
+}

@@ -12,6 +12,7 @@ on:
         options:
           - prices
           - all
+          - specs
           - campaigns
           - list-categories
         default: prices
@@ -25,10 +26,11 @@ on:
         description: "Cikti formati"
         type: choice
         options:
+          - json
           - excel
           - csv
           - both
-        default: both
+        default: json
 
   issues:
     types: [labeled]
@@ -87,7 +89,7 @@ jobs:
           fi
 
           case "${CMD}" in
-            prices|all)
+            prices|all|specs)
               if [ -n "${ONLY}" ]; then
                 arcelikPriceScrapper "${CMD}" \
                   --only "${ONLY}" \

@@ -6,7 +6,8 @@ Kısa kullanım rehberi. Ayrıntılı gereksinimler ve kararlar için docs/prd.m
 
 - Seçili kategori sayfalarından ürün adı, kategori, perakende fiyat ve Oliz indirimli fiyatı çeker.
 - data/product_urls.txt içindeki açık ürün URL'lerini bir kez çekip data/explicit_products.json cache'ine yazar.
-- Bayios'un 10 sütunlu Excel şablonunu (Ürün ID ilk sütun) ve aynı verinin CSV'sini üretir.
+- Bayios'un 11 sütunlu Excel şablonunu (Ürün ID ilk, Ürün Özellikleri JSON son) ve aynı verinin CSV'sini üretir.
+- Her koşuda out/catalog.json üretir; JSON varsayılan formattır.
 - Ürün anahtarı ID'dir; aynı ID birleşir, aynı ad farklı ID ise ayrı satır kalır ve raporlanır.
 - Ek garanti ürün koşusunda ürünlerle birlikte gelir (ayrı komut/dosya yok); kampanyalar out/kampanyalar/ altında kampanya başına dosya üretir.
 
@@ -36,9 +37,10 @@ Tek ürünü test et:
 
 Beklenen çıktı out-test/ altında:
 
-- urunler_YYYYMMDD-HHMMSS.xlsx
-- urunler_YYYYMMDD-HHMMSS_products.csv
-- urunler_YYYYMMDD-HHMMSS_products_full.csv (--full verirsen)
+- catalog.json (her zaman)
+- urunler_YYYYMMDD-HHMMSS.xlsx (--format excel/both)
+- urunler_YYYYMMDD-HHMMSS_products.csv (--format csv/both)
+- urunler_YYYYMMDD-HHMMSS_products_full.csv (--full ile)
 - urunler_YYYYMMDD-HHMMSS_meta.csv
 - run_report.json
 
@@ -70,8 +72,9 @@ Test için out-test kullan; gerçek out/ klasörünü ezme.
    Sınır aşılırsa uyarı verir; eksikler atlanır.
 
 5. out/urunler_<stamp>.xlsx içindeki Ürünler sayfasını Bayios'un içe aktarma ekranına yükle.
-   Ana sayfa 10 sütundur: Ürün ID, Ürün Adı, Kategori, 2 fiyat ve 5 boş Bayios kolonu.
+   Ana sayfa 11 sütundur: Ürün ID, Ürün Adı, Kategori, 2 fiyat, 5 boş Bayios kolonu ve Ürün Özellikleri (JSON).
    Ürün ID kart/PDP'den gelir; garanti satırlarında boştur. Fiziksel Stok/Alış/Kredi/Nakit/Aktif Kampanya boş bırakılır.
+   Özellikler tüm seçili ürünler için PDP'den çekilir; catalog.json ayrıca tüm kataloğu taşır.
    Zaman damgası dosya adında, Meta sayfasında ve products_full çıktısındadır.
    Ek garanti ayrı komut değildir; prices/all koşusunda ürünlerle birlikte gelir.
 
@@ -123,7 +126,15 @@ campaigns veya all komutu out/kampanyalar/ altında kampanya başına dosya üre
 - Kampanya adı Bayios'ta ayrıca girilir; dosya adı/index eşlemesi yol gösterir.
 - Aynı ürün adı kampanya içinde tekilleştirilir.
 
-Not: Bu kampanya dosya düzeni ve Katılım Koşulları M2 hedefidir; M1'de ürün tarafı (ID, blog istisnası, ek garanti entegrasyonu, urunler_ dosya adı) tamamlandı.
+Not: Bu kampanya dosya düzeni ve Katılım Koşulları M3 hedefine taşındı. M2 ürün özellikleri planı (teknik specs + ftc-text, JSON/Excel/CSV) docs/m2-specs-plan.md içinde; M1 ürün tarafı tamamlandı.
+
+## 3.2 Ürün özellikleri (M2)
+
+- Tüm seçili ürünler için PDP'den teknik özellikler + ftc-text teknoloji metinleri çekilir.
+- Her koşuda out/catalog.json yazılır; ana products 11. sütununda Ürün Özellikleri (JSON) bulunur.
+- Varsayılan format json'dur; Excel/CSV için --format excel|csv|both kullan.
+- Specs cache: data/specs_cache.json; yenilemek için --refresh-specs.
+- Medya/gif/resim/video indirilmez; sadece metin.
 
 ## 4. Kategori kopyalama ve nvim gc
 
@@ -193,6 +204,7 @@ Tüm dosyayı config.toml'a yapıştırma; sadece istediğin blokları kopyala.
 
     [cache]
     explicit_file = "data/explicit_products.json"
+    specs_file = "data/specs_cache.json"
 
     [campaigns]
     dir = "out/kampanyalar"
@@ -201,7 +213,7 @@ Tüm dosyayı config.toml'a yapıştırma; sadece istediğin blokları kopyala.
     enabled = true      # prices/all icinde; ayri komut yok
 
     [output]
-    format = "both"     # excel | csv | both
+    format = "json"     # json | excel | csv | both (json her zaman)
 
 ## 7. Sık kullanılan komutlar
 
@@ -220,10 +232,13 @@ Tüm dosyayı config.toml'a yapıştırma; sadece istediğin blokları kopyala.
     # Tüm config kategorileri + cache
     uv run arcelikPriceScrapper prices --format both --full
 
+    # Sadece specs yenile (tum secili urunler)
+    uv run arcelikPriceScrapper specs --refresh-specs --format json
+
     # Kampanyalar (out/kampanyalar/ altinda kampanya basina dosya)
     uv run arcelikPriceScrapper campaigns
 
-    # Hepsi: urunler + ek garanti + kampanyalar
+    # Hepsi: urunler + ek garanti + specs + kampanyalar
     uv run arcelikPriceScrapper all --format both
 
 ## 8. Test
@@ -234,5 +249,8 @@ Tüm dosyayı config.toml'a yapıştırma; sadece istediğin blokları kopyala.
 
 - docs/prd.md
 - docs/milestone-plan.md
+- docs/m2-specs-plan.md
+- docs/spec.md
 - docs/adr/0008-garanti-kosullar-dosya-duzeni.md
 - docs/adr/0009-urun-id-ve-blog-istisnasi.md
+- docs/adr/0010-specs-json-ve-11-sutun.md

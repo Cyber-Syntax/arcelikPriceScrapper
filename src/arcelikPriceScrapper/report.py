@@ -56,6 +56,9 @@ class Report:
                 "empty_price_count",
                 "campaigns",
                 "warranty_rows",
+                "specs_products",
+                "specs_rows",
+                "features_rows",
             ):
                 if key in self.data and self.data[key] not in (None, ""):
                     lines.append(f"- {key}: {self.data[key]}")

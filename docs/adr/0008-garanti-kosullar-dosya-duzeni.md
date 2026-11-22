@@ -34,7 +34,7 @@ ADR-0007 kampanya ürün tablosunun 3 sütununu tanımlıyordu; ancak tek workbo
 
 3. Dosya düzeni ve adlandırma:
    - Ürün Excel: out/urunler_<YYYYMMDD-HHMMSS>.xlsx
-   - Ürün CSV: out/urunler_<stamp>_products.csv, _products_full.csv, _product_specs.csv, _meta.csv, _categories.csv
+   - Ürün CSV: out/urunler_<stamp>_products.csv, _products_full.csv, _meta.csv, _categories.csv
    - Kampanya index: out/kampanyalar/kampanyalar_<stamp>.xlsx (Kampanya Adı, Dosya, URL, Ürün Sayısı)
    - Her kampanya: out/kampanyalar/kampanya-<stamp>-<kampanya-slug>.xlsx
    - Kampanya CSV: out/kampanyalar/kampanya-<stamp>-<kampanya-slug>-urunler.csv ve ...-kampanya.csv

@@ -1,6 +1,6 @@
 # ADR-0004: Çıktı şeması ve teslim
 
-- Durum: Kabul edildi; dosya adları/düzeni ADR-0008, 10 sütun/ID ADR-0009 ile güncellendi
+- Durum: Kabul edildi; dosya adları/düzeni ADR-0008, ID ADR-0009, 11 sütun/JSON ADR-0010 ile güncellendi
 - Tarih: 2026-11-20
 - İlgili: PRD v0.6 bölüm 9, 13; ADR-0002, ADR-0008, ADR-0009
 - Karar veren: Ürün sahibi + geliştirici
@@ -11,21 +11,21 @@ Bayios'un Excel içe aktarma ekranı v0.5'e kadar 9 sütun kullanıyordu:
 
 Ürün Adı, Kategori, Perakende Fiyat, Oliz İndirimli Fiyat, Fiziksel Stok, Alış Fiyatı, Kredi Kartı Taban Fiyatı, Nakit Taban Fiyatı, Aktif Kampanya.
 
-v0.6'da ürün ID'si ilk sütun olarak eklendi; ana products 10 sütun oldu. Bayios importer'ın buna göre güncellenmesi gerekir. v0.3'te scraped_at 10. sütundu; v0.6'da ID nedeniyle scraped_at opt-in 11. sütundur.
+v0.6'da ürün ID'si ilk sütun olarak eklendi; ana products 11 sütun oldu (son sütun Ürün Özellikleri JSON). Bayios importer'ın buna göre güncellenmesi gerekir. v0.3'te scraped_at 10. sütundu; v0.6'da ID + JSON nedeniyle scraped_at opt-in 12. sütundur.
 
 Ürün sahibi 8. soruda şunları istedi: manuel scrape, GitHub Actions, GitHub Release, dosya adında tarih/saat, Excel ve CSV, haftalık çalışma, Actions'tan manuel tetikleme. Repoya commit veya ayrı private repo seçmedi.
 
 ## Karar
 
-1. Ana products sayfası tam 10 sütundur: Ürün ID, Ürün Adı, Kategori, Perakende Fiyat, Oliz İndirimli Fiyat, Fiziksel Stok, Alış Fiyatı, Kredi Kartı Taban Fiyatı, Nakit Taban Fiyatı, Aktif Kampanya.
+1. Ana products sayfası tam 11 sütundur: Ürün ID, Ürün Adı, Kategori, Perakende Fiyat, Oliz İndirimli Fiyat, Fiziksel Stok, Alış Fiyatı, Kredi Kartı Taban Fiyatı, Nakit Taban Fiyatı, Aktif Kampanya, Ürün Özellikleri (JSON).
 2. scraped_at ana sayfada yoktur. Zaman damgası:
    - dosya adında (urunler_YYYYMMDD-HHMMSS, UTC)
    - meta sayfasında
-   - products_full ve product_specs çıktılarında
+   - products_full ve catalog.json çıktılarında
    - run_report.json içinde
-3. --with-scraped-at opt-in olarak 11. sütunu ekler; yalnızca importer'ın fazla sütunu yok saydığı doğrulandıktan sonra kullanılır.
-4. Çıktı formatı excel, csv veya both; varsayılan both. Excel çok sayfa, CSV tablo başına dosya.
-5. Ana ürün workbook'u: products, products_full, product_specs, meta, categories. Kampanyalar ayrı dosyalarda (ADR-0007/0008); campaign_products referans tablosu kampanya dosyasında veya ayrı referans çıktısında tutulur.
+3. --with-scraped-at opt-in olarak 12. sütunu ekler; yalnızca importer'ın fazla sütunu yok saydığı doğrulandıktan sonra kullanılır.
+4. Çıktı formatı json, excel, csv veya both; varsayılan json. catalog.json her zaman yazılır; Excel/CSV seçilirse aynı 11 sütunla yedek. Excel çok sayfa, CSV tablo başına dosya.
+5. Ana ürün workbook'u: products, products_full, meta, categories. catalog.json tüm ürün/özellik kataloğunu taşır. Kampanyalar ayrı dosyalarda (ADR-0007/0008); campaign_products referans tablosu kampanya dosyasında veya ayrı referans çıktısında tutulur.
 6. Teslim:
    - GitHub Actions artifact (14 gün, hata ayıklama)
    - GitHub Release tag data-latest; tarihli dosya adları; overwrite; yalnızca başarılı koşu
@@ -37,7 +37,7 @@ v0.6'da ürün ID'si ilk sütun olarak eklendi; ana products 10 sütun oldu. Bay
 ## Sonuçlar
 
 Olumlu:
-- Bayios import'u 10 sütuna güncellenince bozulmaz; ID ilk sütundadır.
+- Bayios import'u 11 sütuna güncellenince bozulmaz; ID ilk, JSON son sütundadır.
 - Zaman damgası dosya adı ve meta ile izlenebilir.
 - Excel ve CSV aynı veriyi taşır; Bayios Excel, diğer tüketiciler CSV kullanabilir.
 - Release ile Bayios güncel dosyayı çekebilir.
@@ -50,7 +50,7 @@ Olumsuz / dikkat:
 
 ## Alternatifler
 
-- 10 sütunlu ana sayfa: importer riski; reddedildi (opt-in yapıldı).
+- 9/10 sütunlu ana sayfa: özellik JSON'u taşımaz; 11 sütun kabul edildi.
 - CSV'yi repoya commit etmek: public veri ve commit gürültüsü; reddedildi.
 - Yalnızca artifact: kalıcı ve kolay erişim yok; reddedildi.
 - Tarihli Release tag'leri: tarihçe sağlar ama 52 release/yıl; data-latest tercih edildi. Gerekirse sonra eklenir.
@@ -58,8 +58,8 @@ Olumsuz / dikkat:
 
 ## Uygulama notları
 
-- Excel sayfa sırası: products (10 sütun, Ürün ID ilk), products_full, product_specs, meta, categories. Kampanya dosyaları out/kampanyalar/ altında ayrıdır.
-- Ürün CSV adları: urunler_<stamp>_products.csv, _products_full.csv, _product_specs.csv, _meta.csv, _categories.csv. Kampanya CSV'leri ayrı dosyalardadır.
+- Excel sayfa sırası: products (11 sütun, Ürün ID ilk, JSON son), products_full, meta, categories. catalog.json ayrıdır. Kampanya dosyaları out/kampanyalar/ altında ayrıdır.
+- Ürün CSV adları: urunler_<stamp>_products.csv, _products_full.csv, _meta.csv, _categories.csv. JSON: out/catalog.json. Kampanya CSV'leri ayrı dosyalardadır.
 - Para hücreleri Excel'de sayısal, #,##0.00; CSV'de iki ondalık.
 - Fiziksel Stok, Alış Fiyatı, Kredi Kartı Taban Fiyatı, Nakit Taban Fiyatı, Aktif Kampanya her zaman boş.
 - Abort: dosya adına _partial eklenir; run_report.json abort_reason içerir.

@@ -25,6 +25,7 @@ PRODUCT_HEADERS = [
     "Kredi Kartı Taban Fiyatı",
     "Nakit Taban Fiyatı",
     "Aktif Kampanya",
+    "Ürün Özellikleri (JSON)",
 ]
 FULL_HEADERS = [
     "Ürün ID",
@@ -62,6 +63,62 @@ class Table:
     money_cols: tuple[int, ...] = ()
 
 
+def details_json(row: ProductRow) -> str:
+    return json.dumps(
+        {
+            "features": row.features,
+            "specifications": row.specifications,
+        },
+        ensure_ascii=False,
+        separators=(",", ":"),
+    )
+
+
+def catalog_payload(rows: list[ProductRow], scraped_at: str) -> dict[str, Any]:
+    products: list[dict[str, Any]] = []
+    for row in rows:
+        products.append(
+            {
+                "id": row.product_id,
+                "product_name": row.name,
+                "category": row.category,
+                "price": float(row.price) if row.price is not None else None,
+                "discounted_price": (
+                    float(row.discounted_price)
+                    if row.discounted_price is not None
+                    else None
+                ),
+                "currency": "TRY",
+                "source_url": row.url,
+                "features": row.features,
+                "specifications": row.specifications,
+                "kind": row.kind,
+                "scraped_at": row.scraped_at or scraped_at,
+            }
+        )
+    return {
+        "schema_version": "1.0",
+        "scraped_at": scraped_at,
+        "products": products,
+    }
+
+
+def write_catalog(
+    out_dir: Path, rows: list[ProductRow], scraped_at: str
+) -> Path:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    path = out_dir / "catalog.json"
+    path.write_text(
+        json.dumps(
+            catalog_payload(rows, scraped_at),
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    return path
+
+
 def _meta_value(value: Any) -> str:
     if isinstance(value, str):
         return value
@@ -89,6 +146,7 @@ def products_tables(
             None,
             None,
             None,
+            details_json(r),
         ]
         if with_scraped_at:
             row.append(r.scraped_at)

@@ -3523,5 +3523,21 @@
     "discounted_price": null,
     "scraped_at": "2026-11-21T18:51:47Z",
     "content_hash": "e65fa9817eeff59cea18451247200848b9aae119"
+  },
+  "https://www.arcelik.com.tr/10-kg-camasir-makinesi/10122-superwash-teknolojili-camasir-makinesi": {
+    "name": "10122 SuperWash Teknolojili",
+    "product_id": "457100070000",
+    "title": "10122 SuperWash Teknolojili 10 Kg Çamaşır Makinesi",
+    "url": "https://www.arcelik.com.tr/10-kg-camasir-makinesi/10122-superwash-teknolojili-camasir-makinesi",
+    "category_path": "Beyaz Eşya > Çamaşır Makinesi > 10 Kg Çamaşır Makinesi",
+    "category_lv1": "Beyaz Eşya",
+    "category_lv2": "Çamaşır Makinesi",
+    "category_lv3": "10 Kg Çamaşır Makinesi",
+    "app_category": "Çamaşır Makinesi",
+    "code": "457100070000",
+    "price": "42999.00",
+    "discounted_price": null,
+    "scraped_at": "2026-11-22T11:53:05Z",
+    "content_hash": "a39aa8da1d6c00ea86dd1d48274ba5c5d40c4d03"
   }
 }

@@ -26,7 +26,7 @@ class HttpCfg(BaseModel):
 
 
 class OutputCfg(BaseModel):
-    format: Literal["excel", "csv", "both"] = "both"
+    format: Literal["json", "excel", "csv", "both"] = "json"
     dir: str = "out"
     warranty_category: str = "Ek Garanti"
     with_scraped_at: bool = False
@@ -105,6 +105,7 @@ class ProductsCfg(BaseModel):
 
 class CacheCfg(BaseModel):
     explicit_file: str = "data/explicit_products.json"
+    specs_file: str = "data/specs_cache.json"
 
 
 class CampaignsCfg(BaseModel):

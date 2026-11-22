@@ -2,16 +2,16 @@
 
 Durum: Onaylı v0.6 · Tarih: 2026-11-22 · Dil: Türkçe (kod ve kolonlar İngilizce, Excel başlıkları Türkçe)
 Önceki sürüm: v0.5 (2026-11-22). Bu sürüm, ürün ID'sini ve blog istisnasını ekler; M1 uygulamasını yansıtır.
-İlgili ADR'ler: ADR-0001 (kategori), ADR-0002 (ürün kimliği), ADR-0003 (tarama/listeler), ADR-0004 (çıktı/teslim), ADR-0005 (ek garanti kaynağı), ADR-0006 (özellikler/cache), ADR-0007 (kampanya formatı), ADR-0008 (garanti entegrasyonu/koşullar/dosya düzeni), ADR-0009 (ürün ID/blog istisnası).
+İlgili ADR'ler: ADR-0001 (kategori), ADR-0002 (ürün kimliği), ADR-0003 (tarama/listeler), ADR-0004 (çıktı/teslim), ADR-0005 (ek garanti kaynağı), ADR-0006 (özellikler/cache), ADR-0007 (kampanya formatı), ADR-0008 (garanti entegrasyonu/koşullar/dosya düzeni), ADR-0009 (ürün ID/blog istisnası), ADR-0010 (specs/catalog/11. sütun).
 
 ## 0. Yönetici özeti
 
-- Çıktı, Bayios'un 10 sütunlu Excel şablonuna uyar (Ürün ID dahil); CSV aynı şemayla üretilir.
+- Çıktı, Bayios'un 11 sütunlu Excel şablonuna uyar (Ürün ID ilk, Ürün Özellikleri JSON son sütun); CSV aynı şemayla üretilir.
 - Kategoriler URL'nin ilk segmentinden değil, sitenin sunucu-render kategori menüsünden (nav ağacı) alınır.
 - Ürünler seçili kategori sayfalarından ve 10-50 adetlik açık ürün URL listesinden toplanır; tam sitemap taraması varsayılan değildir.
 - Eski/fiyatsız ürünler bir kez taranır, özellikleri JSON cache'e yazılır; haftalık koşu bu ürünler için tekrar istek atmaz.
 - Ürün anahtarı ID'dir (varsa); ID yoksa kısa ad kullanılır. Site adı kısa model adıdır; Bayios'taki adla uyuşmazsa config'te name override kullanılır.
-- Ana ürün sayfası 10 sütundur (Ürün ID, Ürün Adı, Kategori, fiyatlar, boş Bayios kolonları); zaman damgası dosya adında, meta sayfasında ve full/specs çıktılarındadır.
+- Ana ürün sayfası 11 sütundur (Ürün ID, Ürün Adı, Kategori, fiyatlar, boş Bayios kolonları, Ürün Özellikleri JSON); zaman damgası dosya adında, meta sayfasında ve full/specs çıktılarındadır.
 - Ek garanti ayrı komut/dosya değildir; ürün koşusunda statik tablodan çekilip products'a eklenir. Kampanya katılım koşulları tek Excel hücresinde sırayla; kampanya dosyaları out/kampanyalar/ altında kampanya başına üretilir.
 - Ürün ID'si kart/PDP'den okunur ve ana products sayfasında ilk sütundadır; blog/ ilk segmentli URL'ler ve blog kategori düğümleri config'den bağımsız olarak asla alınmaz.
 - Çıktı adları: ürünler urunler_<YYYYMMDD-HHMMSS>, kampanyalar kampanya-<YYYYMMDD-HHMMSS>-<kampanya-adı>.
@@ -27,7 +27,7 @@ Durum: Onaylı v0.6 · Tarih: 2026-11-22 · Dil: Türkçe (kod ve kolonlar İngi
 | Tarama             | Tüm yaprak slug'lar                   | Seçili kategoriler + açık ürün URL'leri             |
 | Fiyatsız/eski ürün | Kapsam dışı                           | Açık URL + boş fiyat + cache                        |
 | Ürün özellikleri   | v2 notu                               | Açık ürünler için v1/M2                             |
-| Ana çıktı          | 10 sütun (scraped_at)                 | 9 sütun (Bayios şablonu) + meta                     |
+| Ana çıktı          | 10 sütun (scraped_at)                 | 9 sütun (Bayios; v0.6'da 11) + meta                 |
 | Teslim             | Artifact                              | Artifact + GitHub Release                           |
 | Ek garanti         | Statik tablo                          | Statik tablo korundu; kategori çelişkisi belgelendi |
 | CLI / paket yolu   | scrapper / src/scrapper               | arcelikPriceScrapper / src/arcelikPriceScrapper     |
@@ -45,9 +45,9 @@ Durum: Onaylı v0.6 · Tarih: 2026-11-22 · Dil: Türkçe (kod ve kolonlar İngi
 
 | Konu | v0.5 | v0.6 |
 | --- | --- | --- |
-| Ürün ID | Yok | data-product-code / JSON-LD / gömülü JSON products[].id; ana products 10 sütun |
+| Ürün ID | Yok | data-product-code / JSON-LD / gömülü JSON products[].id; ana products 11 sütun |
 | Blog | Kategori olarak çıkabiliyor | blog/ ilk segmenti ve blog düğümleri her zaman dışlanır; categories.toml'da yok |
-| Ana products | 9 sütun | 10 sütun (Ürün ID ilk sütun) |
+| Ana products | 9 sütun | 11 sütun (Ürün ID ilk, özellik JSON son) |
 | Ürün anahtarı | Ad | ID (varsa), ad fallback |
 | M1 | Plan | Uygulandı: ID, blog, garanti entegrasyonu, urunler_ dosya adı |
 
@@ -62,7 +62,8 @@ Veri yalnızca sahibinin kendi uygulamasında kullanılır. Scraper, Bayios veri
 | Sürüm         | İçerik                                                                                                                        |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | M1 (alpha)    | Nav kategori ağacı, seçili kategori taraması, fiyatlar, ürün ID, blog istisnası, ek garanti (aynı ürün koşusunda), açık ürün URL'leri, Excel/CSV, logging + run_report, Actions iskeleti |
-| M2            | Kampanyalar (katılım koşulları + Bayios 3 sütun + out/kampanyalar dosyaları), açık ürün özellikleri (specs) ve cache |
+| M2            | Ürün özellikleri: teknik specs + ftc-text teknoloji metinleri; JSON birincil + Excel/CSV yedek; cache |
+| M3            | Kampanyalar: katılım koşulları + Bayios 3 sütun + out/kampanyalar dosyaları |
 | 1.0.0         | Hata yönetimi oturmuş, kabul kriterleri sağlanmış (bölüm 17)                                                                  |
 | v2 (ayrı PRD) | Tüm ürünler için specs/görsel/açıklama, Bayios alt kategorileri, SKU eşleştirme, değişiklik tespiti, cache yönetimi           |
 
@@ -86,6 +87,7 @@ Bu bölüm, PRD kararlarının dayandığı ölçülen gerçeklerdir. Kod ve tes
 | Sayfalama          | ?page=N çalışıyor; 0'dan başlar; son sayfada 0 kart veya tekrar eden kart gelir. Sonuç sayısı "N ürün" metninde.                                     |
 | Kampanya koşulları | .promo-acc içindeki "Katılım Koşulları" akordeonunun .acc-body ul > li maddeleri; sıra korunur; tipik 5-10 madde. |
 | Blog               | /blog/... ve blog/su-aritma gibi kategori düğümleri fiyat kaynağı değildir; config'den bağımsız dışlanır. |
+| Teknoloji metinleri | .pdp-technologies .ftc-item; başlık .ftc-title, açıklama .ftc-text; 1001 KMX 4, 10122 12 kart (1 metinsiz). |
 
 ### 3.1 Kritik saha örnekleri
 
@@ -103,8 +105,8 @@ Bu bölüm, PRD kararlarının dayandığı ölçülen gerçeklerdir. Kod ve tes
 | #   | Karar                                                                                                                                                                                                                       |
 | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | D1  | Fiyatlar Decimal (TRY).                                                                                                                                                                                                     |
-| D2  | Zaman damgası koşu başlangıcı UTC'dir. Ana ürün sayfası 10 sütundur (Ürün ID dahil); zaman damgası dosya adında, meta sayfasında ve full/specs çıktılarındadır. --with-scraped-at ile ana sayfaya 11. sütun eklenebilir (varsayılan kapalı). |
-| D3  | Çıktı formatı excel, csv veya both; varsayılan both. Excel tek workbook çok sayfa; CSV tablo başına dosya.                                                                                                                  |
+| D2  | Zaman damgası koşu başlangıcı UTC'dir. Ana ürün sayfası 11 sütundur (Ürün ID ilk, Ürün Özellikleri JSON son); zaman damgası dosya adında, meta sayfasında ve full/specs çıktılarındadır. --with-scraped-at ile ana sayfaya 12. sütun eklenebilir (varsayılan kapalı). |
+| D3  | Çıktı formatı json, excel, csv veya both; varsayılan json. JSON (catalog.json) her zaman yazılır; Excel/CSV seçilirse aynı 11 sütunla yedek. |
 | D4  | Ürün anahtarı ID'dir (data-product-code/JSON-LD/gömülü JSON); ID yoksa kısa ad (kart aria-label suffix temizlenir veya PDP breadcrumb son öğesi). name override her zaman kazanır. |
 | D5  | Perakende fiyat = liste/üstü çizili fiyat; Oliz indirimli fiyat = satış fiyatı; indirim yoksa boş.                                                                                                                          |
 | D6  | Kategori izin/kara listesi config.toml'da; CLI --only/--exclude ile override.                                                                                                                                               |
@@ -124,8 +126,8 @@ Bu bölüm, PRD kararlarının dayandığı ölçülen gerçeklerdir. Kod ve tes
 | D20 | Aynı ID'ye sahip ürünler tek satırda birleşir (ilk kategori, ilk dolu fiyat, specs). Aynı ad farklı ID ise ayrı satır üretilir ve product_id_conflicts/duplicate_names raporlanır; ID yoksa ad anahtarı. |
 | D21 | Tam sitemap taraması varsayılan değildir. categories.include boşsa hata verilir; istenirse list-categories çıktısından include üretilir.                                                                                    |
 | D22 | Arama endpoint'i kullanılmaz (robots). İstisna ürünler yalnızca açık URL ile eklenir.                                                                                                                                       |
-| D23 | Ürün özellikleri yalnızca açık ürünler için taranır; ayrı sheet/CSV; cache'ten okunur; Bayios'a import edilmez.                                                                                                             |
-| D24 | Ana products sayfası 10 sütundur (Ürün ID, Ürün Adı, Kategori, 2 fiyat, 5 boş Bayios kolonu); full/specs/meta ayrı sayfalardadır. |
+| D23 | Ürün özellikleri seçili tüm ürünler için taranır (kategoriler + explicit); catalog.json ve ana products 11. sütun JSON; cache'ten okunur; medya indirilmez. |
+| D24 | Ana products sayfası 11 sütundur (Ürün ID, Ürün Adı, Kategori, 2 fiyat, 5 boş Bayios kolonu, Ürün Özellikleri JSON); full/meta ayrı sayfalardadır. |
 | D25 | Kategori kara listesi ağaç-duyarlıdır (düğüm + tüm alt kategoriler) ve explicit ürün URL'leri için de geçerlidir. İstisna: inline force = true; CLI --only URL manuel istisna.                                                                                                              |
 | D26 | Bayi profili yoktur (v1); tek config ve tek çıktı. |
 | D27 | Sayfalama: 0 kart -> dur; iki ardışık "yeni kart yok" -> dur. ?page=1 bazı sayfalarda 0'ı tekrarlar; tek tekrar durma sebebi değildir. |
@@ -135,8 +137,10 @@ Bu bölüm, PRD kararlarının dayandığı ölçülen gerçeklerdir. Kod ve tes
 | D31 | Ürün çıktısı out/urunler_<YYYYMMDD-HHMMSS>.xlsx; kampanya çıktıları out/kampanyalar/ altında kampanya-<YYYYMMDD-HHMMSS>-<kampanya-slug>.xlsx. |
 | D32 | Her kampanya ayrı dosya: Urunler sayfası (Ürün Adı, İlişki Türü, Gerekli Adet) + Kampanya sayfası (ad, URL, tarih, Katılım Koşulları, ürün sayısı). |
 | D33 | warranties komutu ve ayrı garanti çıktısı yoktur; garanti prices/all içinde ürünlerle birlikte çekilir. |
-| D34 | Ürün ID kaynağı: data-product-id, data-product-code, JSON-LD sku/productID, gömülü products[].id; ana products 10 sütun, ID ilk sütun; garanti satırlarında boş. |
+| D34 | Ürün ID kaynağı: data-product-id, data-product-code, JSON-LD sku/productID, gömülü products[].id; ana products 11 sütun, ID ilk; garanti satırlarında boş. |
 | D35 | blog/ ilk segmentli URL'ler ve blog kategori düğümleri config'den bağımsız olarak asla taranmaz/listelenmez; force ve --only URL bu kuralı aşamaz. |
+| D36 | Specs çıktısı: catalog.json her zaman; ana products 11. sütun JSON; Excel/CSV 11 sütun yedek; ayrı _specs dosyası yok. |
+| D37 | Teknoloji metinleri .pdp-technologies .ftc-item içindeki .ftc-title + .ftc-text; br newline, small/div metni note veya text içinde parse edilir; medya/gif/resim/video indirilmez. |
 
 ## 5. Kategori modeli
 
@@ -247,12 +251,15 @@ missing.txt, PRODUCT sitemap'inde olup bu koşuda taranmayan URL'lerin listesidi
 
 ### 6.4 Ürün özellikleri (specs)
 
-- Yalnızca açık ürünler için, specs komutuyla ve bir kez taranır.
-- Kaynak: #pdp-features-container .feature-item; grup .title; satırlar dl .item içindeki dt/dd.
-- Sayfada aynı container iki kez (masaüstü/mobil) olabilir; (grup, özellik, değer) üçlüsü ile tekilleştirilir.
-- Değerler ham tutulur; birim dönüşümü yapılmaz. "Boyut (cm) (GxYxD) = 59.8 cm" gibi tutarsız değerler olduğu gibi yazılır.
-- Özellik yoksa uyarı verilir; eski cache korunur.
-- Çıktı product_specs uzun tablosudur: Ürün Adı, code, group, spec, value, url, scraped_at.
+Kapsam açık soru: öneri v1'de açık/explicit ürünler; seçili kategori veya tüm katalog ayrı batch. Her ürün için PDP isteği gerekir; medya indirilmez (docs/m2-specs-plan.md).
+
+- Teknik özellikler: #pdp-features-container .feature-item; grup .title; satırlar dl .item içindeki dt/dd.
+- Teknoloji metinleri: .pdp-technologies .ftc-item; başlık .ftc-title, metin .ftc-text; 1001 KMX 4 kart, 10122 12 kart (1 metinsiz atlanır).
+- br -> newline; small dipnot ayrı note; HTML etiketi temizlenir; boş kart atlanır.
+- Teknik özelliklerde (grup, özellik, değer) üçlüsü, feature'larda (title, text) ikilisi tekilleştirilir.
+- Değerler ham tutulur; birim dönüşümü yapılmaz.
+- catalog.json her zaman: out/catalog.json; ana products 11. sütun JSON; Excel/CSV aynı 11 sütunla yedek.
+- Özellik yoksa uyarı; eski cache korunur; medya/gif/resim/video isteği yok.
 
 ### 6.5 Kampanya koşulları
 
@@ -313,7 +320,7 @@ missing.txt, PRODUCT sitemap'inde olup bu koşuda taranmayan URL'lerin listesidi
 
 ## 9. Çıktı şeması
 
-### 9.1 products (ana import sayfası, 10 sütun)
+### 9.1 products (ana import sayfası, 11 sütun)
 
 | #   | Kolon                    | Scraper  | Not                       |
 | --- | ------------------------ | -------- | ------------------------- |
@@ -327,16 +334,21 @@ missing.txt, PRODUCT sitemap'inde olup bu koşuda taranmayan URL'lerin listesidi
 | 8   | Kredi Kartı Taban Fiyatı | boş      |                           |
 | 9   | Nakit Taban Fiyatı       | boş      |                           |
 | 10  | Aktif Kampanya           | boş      |                           |
+| 11  | Ürün Özellikleri (JSON)  | doldurur | features + specifications JSON |
 
---with-scraped-at verilirse 11. sütun scraped_at eklenir; varsayılan kapalıdır.
+--with-scraped-at verilirse 12. sütun scraped_at eklenir; varsayılan kapalıdır.
 
 ### 9.2 products_full
 
 Ürün ID, Ürün Adı, Kategori, Perakende Fiyat, Oliz İndirimli Fiyat, kind (product|warranty|explicit), code, title, url, category_path, source, scraped_at.
 
-### 9.3 product_specs
+### 9.3 catalog.json ve 11. sütun JSON
 
-Ürün Adı, code, group, spec, value, url, scraped_at. Uzun format; yalnızca açık ürünler.
+catalog.json: out/catalog.json; her zaman yazılır. Üst düzey schema_version, scraped_at, products[]. Her ürün: id, product_name, category, price, discounted_price, currency, source_url, features[], specifications[], kind, scraped_at. Ayrı product_code yok; products.id kullanılır.
+
+features[]: title, text, note (ftc-text; small/div parse edilir). specifications[]: group, name, value.
+
+Ana products 11. sütun: Ürün Özellikleri (JSON); değer {"features": [...], "specifications": [...]}. Excel/CSV aynı 11 sütunla yedek; ayrı _specs dosyası yok.
 
 ### 9.4 categories (list-categories)
 
@@ -357,14 +369,15 @@ Kampanya çıktısı iki katmanlıdır:
 
 ### 9.6 meta
 
-key/value: run_id, started_at, finished_at, duration_s, command, app_version, config_hash, git_commit, products, explicit_products, warranty_rows, campaigns, campaign_files, specs_rows, blank_prices, duplicate_names, category_unresolved, missing_product_ids, product_id_conflicts, http_status, abort_reason.
+key/value: run_id, started_at, finished_at, duration_s, command, app_version, config_hash, git_commit, products, explicit_products, warranty_rows, campaigns, campaign_files, specs_products, specs_rows, features_rows, specs_fetched, blank_prices, duplicate_names, category_unresolved, missing_product_ids, product_id_conflicts, http_status, abort_reason.
 
 ### 9.7 Dosyalar
 
 Dosya adları ASCII-güvenlidir; Türkçe karakterler slug'lanır. stamp = YYYYMMDD-HHMMSS (UTC).
 
-Ürün Excel: out/urunler_<stamp>.xlsx. Sayfalar: products, products_full, product_specs, meta, categories.
-Ürün CSV: out/urunler_<stamp>_products.csv, _products_full.csv, _product_specs.csv, _meta.csv, _categories.csv.
+Ürün Excel: out/urunler_<stamp>.xlsx. Sayfalar: products, products_full, meta, categories.
+Ürün CSV: out/urunler_<stamp>_products.csv, _products_full.csv, _meta.csv, _categories.csv.
+JSON: out/catalog.json (her zaman; schema_version, scraped_at, products[]).
 Kampanya Excel: out/kampanyalar/kampanyalar_<stamp>.xlsx (index) ve out/kampanyalar/kampanya-<stamp>-<kampanya-slug>.xlsx (Urunler + Kampanya).
 Kampanya CSV: out/kampanyalar/kampanya-<stamp>-<kampanya-slug>-urunler.csv ve ...-kampanya.csv; index CSV.
 Kategori: out/categories.txt, out/categories.toml.
@@ -379,17 +392,16 @@ Ek: run_report.json, missing.txt (opsiyonel), duplicates.txt (opsiyonel).
     arcelikPriceScrapper prices --exclude tablet,cep-telefonu
     arcelikPriceScrapper prices --format both --out-dir out
     arcelikPriceScrapper prices --report-missing
-    arcelikPriceScrapper specs --only-new
     arcelikPriceScrapper specs --only https://www.arcelik.com.tr/10-kg-kurutma-makinesi/1001-kmx-kurutma-makinesi
-    arcelikPriceScrapper specs --refresh
+    arcelikPriceScrapper specs --refresh-specs
     arcelikPriceScrapper campaigns
     arcelikPriceScrapper all --format both
     arcelikPriceScrapper list-categories
     arcelikPriceScrapper list-categories --format excel
 
-Ortak: --config config.toml, --format excel|csv|both, --out-dir out, --full, --with-scraped-at, --progress, --no-progress, -v.
-prices/all: --only (kategori slug/ad veya ürün URL'si), --exclude, --report-missing.
-specs: --only, --only-new, --refresh.
+Ortak: --config config.toml, --format json|excel|csv|both, --out-dir out, --full, --with-scraped-at, --progress, --no-progress, -v. Varsayılan format json.
+prices/all: --only (kategori slug/ad veya ürün URL'si), --exclude, --report-missing, --refresh-specs.
+specs: --only, --exclude, --refresh-specs, --format.
 
 Kurallar:
 
@@ -398,10 +410,12 @@ Kurallar:
 - Açık ürünler için haftalık koşu ağ isteği atmaz; specs komutu atar.
 - ID'siz ürünler raporda sayılır; aynı adda farklı ID varsa product_id_conflicts uyarısı yazılır.
 - warranties komutu yoktur; ek garanti prices/all içinde ürünlerle birlikte çekilir.
-- all = prices + campaigns (+ cache'teki specs). specs fetch etmez.
+- all = prices (specs dahil) + campaigns. specs komutu ayrıca specs cache'ini yeniler.
+- catalog.json her zaman yazılır; Excel/CSV yedeği --format ile üretilir; ana products 11 sütun.
+- specs medya indirmez; sadece metin.
 - campaigns çıktıları out/kampanyalar/ altında kampanya başına dosya olarak yazılır.
 
-M1 notu: specs ayrıştırma ve specs komutu M2'dedir. M1'de cache'te olmayan açık ürünler ilk prices koşusunda bir kez çekilir; --refresh-explicit tümünü zorlar; cache yalnızca ad/kategori/fiyat taşır.
+M1 notu: specs ayrıştırma ve specs komutu M2'dedir. M1'de cache'te olmayan açık ürünler ilk prices koşusunda bir kez çekilir; --refresh-explicit tümünü zorlar. M2 kapsamı ve JSON şeması docs/m2-specs-plan.md'de onaylandı ve uygulandı.
 
 ## 11. Config
 
@@ -414,10 +428,10 @@ M1 notu: specs ayrıştırma ve specs komutu M2'dedir. M1'de cache'te olmayan a�
     max_pages = 200
 
     [output]
-    format = "both"              # excel | csv | both
+    format = "json"              # json | excel | csv | both (json her zaman)
     dir = "out"
     warranty_category = "Ek Garanti"
-    with_scraped_at = false      # ana products sayfası 10 sütun kalsın (ID dahil)
+    with_scraped_at = false      # ana products 11 sütun kalsın; opt-in 12. sütun
 
     [categories]
     include_children = false     # seçili düğümün alt kategorileri de taransın mı
@@ -454,6 +468,7 @@ M1 notu: specs ayrıştırma ve specs komutu M2'dedir. M1'de cache'te olmayan a�
 
     [cache]
     explicit_file = "data/explicit_products.json"
+    specs_file = "data/specs_cache.json"
 
     [campaigns]
     enabled = true
@@ -496,7 +511,7 @@ Notlar:
 - Aynı ID birleşir; aynı ad farklı ID ayrı satır + uyarı; duplicates.txt.
 - ID'siz ürün: missing_product_ids uyarısı; ID kaynağı sayfa yapısına bağlı.
 - Açık ürün cache yok/bozuk: uyarı; fetch yok; config alanlarıyla satır veya atla.
-- Spec parse hatası: eski cache korunur; uyarı.
+- Spec fetch/parse hatası: uyarı; eski cache korunur; satır JSON'suz devam eder.
 - Garanti tablosu alınamazsa uyarı; ürün koşusu sürer; warranty_rows=0.
 - Kampanya sayfası hatası: uyarı; koşu sürer.
 - Katılım Koşulları parse edilemezse hücre boş + uyarı; kampanya ürün tablosu ve dosya yine yazılır.
@@ -513,7 +528,7 @@ Notlar:
 - permissions: contents: write (Release için), actions: read.
 - timeout-minutes: 90; hedef süre < 30 dk.
 - Adımlar: checkout → setup-python 3.12 → pip install . → komut → upload-artifact (14 gün) → Release (yalnızca başarılıysa).
-- Release: tag data-latest; out/urunler_<stamp>* ve out/kampanyalar/** dosyaları, run_report.json, missing/duplicates (varsa); overwrite.
+- Release: tag data-latest; out/catalog.json, out/urunler_<stamp>* ve out/kampanyalar/** dosyaları, run_report.json, missing/duplicates (varsa); overwrite.
 - Manuel: gh workflow run scrape.yml -f command=prices -f only=kurutma-makinesi -f format=both
 - Public repo notları:
   - Release ve artifact herkese görünür; fiyatlar zaten sitede public. Yine de iş verisi sayılıyorsa private repo/self-hosted düşünülmeli.
@@ -525,14 +540,14 @@ Notlar:
 
 | #   | Değişiklik                                                        | v0.6 durumu                                                                                                                                  |
 | --- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| I1  | scraped_at kolonunu oku; tarih alanlarında now yerine bunu kullan | Ana products 10 sütun (Ürün ID dahil) olduğu için v1'de zorunlu değil. products_full kullanılırsa opsiyonel. Zaman damgası dosya adı/meta ile de izlenebilir. |
+| I1  | scraped_at kolonunu oku; tarih alanlarında now yerine bunu kullan | Ana products 11 sütun (Ürün ID + özellik JSON) olduğu için v1'de zorunlu değil. products_full kullanılırsa opsiyonel. Zaman damgası dosya adı/meta ile de izlenebilir. |
 | I2  | Kategoriyi yalnızca yeni üründe veya mevcut kategori boşsa yaz    | Korunur; zorunlu. Aksi halde elle düzeltilen kategori her importta ezilir.                                                                   |
 | I3  | else dalındaki cost_price/dealer pricing tekrarını temizle        | Opsiyonel temizlik.                                                                                                                          |
-| I4  | Ürün kodu/SKU ile eşleştirme                                      | v1'de yok; ad anahtarı kullanılıyor. v2'de değerlendirilecek.                                                                                |
+| I4  | Ürün kodu/SKU ile eşleştirme                                      | v1'de products.id kullanılıyor; ayrı SKU eşleştirmesi v2'de değerlendirilecek.                                                                 |
 
 Yayın öncesi kontrol:
 
-- 10 sütunlu Excel (Ürün ID ilk sütun), Bayios preview_product_import ekranından hatasız geçiyor mu?
+- 11 sütunlu Excel (Ürün ID ilk, özellik JSON son), Bayios preview_product_import ekranından hatasız geçiyor mu?
 - Çıktıdaki her Kategori adı Bayios'ta mevcut mu, yoksa yeni kategori yaratması kabul ediliyor mu?
 - "Kurutma" / "Kurutma Makinesi" gibi eski-yeni ad farkları alias veya yeniden adlandırma ile çözüldü mü?
 
@@ -579,7 +594,7 @@ M1 (alpha):
 
 - list-categories varsayılan çıktıda 14 LV1 ve gerçek LV2/LV3 ağacını gösterir; samsung-galaxy-a17 gibi marka sayfaları varsayılan listede yoktur.
 - prices, seçili kategorilerle hatasız biter; 403/ban yok; Actions'ta da çalışır.
-- Ana products sayfası tam 10 sütundur (Ürün ID ilk sütun); Fiziksel Stok/Alış/Kredi/Nakit/Aktif Kampanya boştur; 0 yazılmaz.
+- Ana products sayfası tam 11 sütundur (Ürün ID ilk, Ürün Özellikleri JSON son); Fiziksel Stok/Alış/Kredi/Nakit/Aktif Kampanya boştur; 0 yazılmaz.
 - Kart/PDP ürünlerinde ID dolu; blog/ URL'leri ve blog kategori düğümleri çıktıda/kategorilerde yok; ID'siz ürünler raporda.
 - Telefon/tablet/bilgisayar kara listedeyse çıktıda bu kategorilerden ürün yoktur.
 - Aynı ID'ye sahip birden fazla satır products sayfasında yoktur; aynı ad farklı ID ayrı satır ve raporda.
@@ -588,31 +603,41 @@ M1 (alpha):
 - Ek garanti ayrı komut/dosya olmadan prices/all içinde gelir; 55 satır, kategori "Ek Garanti", statik tablo adlarıyla; products'ta kind=warranty.
 - Ürün dosyaları out/urunler_<stamp> adıyla yazılır.
 
-M2:
+M2 (ürün özellikleri):
+
+- 1001 KMX: 4 teknoloji metni + 6 grup/43 teknik özellik.
+- 10122: 12 teknoloji kartı (1 metinsiz atlanır) + 6 grup/42 teknik özellik.
+- catalog.json ve ana products 11. sütun JSON aynı veriyi taşır; Excel/CSV 11 sütun yedek.
+- ftc-text br -> newline, small -> note; HTML etiketi yok.
+- Medya/gif/resim/video indirilmez; ikinci koşu cache'ten gelir.
+
+M3 (kampanyalar):
 
 - Kampanyalar out/kampanyalar/ altında kampanya başına dosya; Bayios ürün tablosu 3 sütun; products'ta kampanya kolonu boş.
 - Katılım Koşulları: 5-10 madde sırayla tek Excel hücresinde; HTML etiketleri temiz; kırpılmaz.
-- Açık ürün 1001 KMX: ad "1001 KMX", kategori "Kurutma Makinesi", fiyat boş; product_specs 6 grup/43 satır.
-- Açık ürün ikinci koşuda 0 ağ isteği; cache'ten okunur.
-- specs komutu --refresh olmadan tekrar fetch etmez.
 
   1.0.0:
 
 - Üst üste 10 başarılı Actions koşusu; abort yolu test edilmiş; partial Release'e yüklenmiyor.
-- Nav, kart, PDP, spec ve garanti için fixture testleri.
+- Nav, kart, PDP, teknik spec/feature ve garanti için fixture testleri.
 - Üretilen Excel, Bayios preview_product_import'tan hatasız geçer (sözleşme testi).
 - Tek kategori koşusu dakikalar içinde biter; tam seçili set < 30 dk.
 
 ## 18. Açık sorular ve aksiyonlar
 
 1. Bayios'ta mevcut "Kurutma" kayıtları "Kurutma Makinesi" olarak mı güncellenecek, yoksa [categories.aliases] mi kullanılacak? Karar verilene kadar site adı yazılır; alias boş. Cevap: sitedeki kategori adı neyse onu kullanalım.
-2. Ana products sayfasına 11. sütun (scraped_at) eklenmesi Bayios importer tarafından yok sayılıyor mu? Doğrulanana kadar 10 sütun (ID dahil); --with-scraped-at opt-in. cevap: şu an scraped_at bayios tarafından bilinmiyor, onu şimdilik eklemeyelim.
+2. Ana products sayfasına 12. sütun (scraped_at) eklenmesi Bayios importer tarafından yok sayılıyor mu? Doğrulanana kadar 11 sütun (ID + JSON); --with-scraped-at opt-in. cevap: şu an scraped_at bayios tarafından bilinmiyor, onu şimdilik eklemeyelim.
 3. Bayios'un tam kategori listesi paylaşılırsa app_category eşlemesi birebir doğrulanır; paylaşılmazsa alias/override ile yönetilir. cevap: websitesindekileri kullan, bayios'da güncellerim.
 4. Televizyon ve Türk Kahve Makinesi kapsamda mı? TV için LV1 + include_children veya LV2/LV3 + app_category = "Televizyon"; Türk kahvesi için app_category = "Türk Kahve Makinesi" gerekir. cevap: direkt Televizyon ve Kahve Makinesi olarak genel kategori olsun, alt kategoriler sonra.
 5. Açık ürün listesi (10-50 URL) ve Bayios'taki birebir adları netleşmeli; name override için gerekli. CEVAP: örn olarak 1000 KMX, 901 KMP IG vb. ürün isimleri websitesinden olsun, bayios'ta oradakileri kullanıyor zaten, aynı ürün adı olur.
 6. Ek garanti satırları ana products import'una mı girecek, ayrı sheet mi olacak? Karar: ayrı komut/dosya yok; prices/all içinde ana products, kategori "Ek Garanti".
 7. GitHub Release public olacak; fiyatların public olması kabul ediliyor mu? Websitesi zaten public, legal olarak sorun yok. Te sorun, alış fiyatı public repo asla commit edilemez!!!! (Şu an zaten hiç öyle bir şey yok)
 8. Actions IP'lerinde 403 riski erken test edilmeli; gerekirse self-hosted runner.
+9. M2 specs kapsamı: tüm seçili ürünler (kategoriler + explicit). Karar verildi.
+10. Specs çıktı düzeni: catalog.json her zaman, ana products 11. sütun JSON, Excel/CSV 11 sütun yedek. Karar verildi.
+11. ftc-text small/div: parse edilir; small note alanına alınır. Karar verildi.
+12. Format: json|excel|csv|both; varsayılan json; JSON her zaman. Karar verildi.
+13. product_code yok; products.id kullanılır. Fiyat JSON'da sayı. Karar verildi.
 
 ## 19. Kaynaklar
 
@@ -626,6 +651,9 @@ M2:
 - docs/adr/0007-kampanya-cikti-formati.md
 - docs/adr/0008-garanti-kosullar-dosya-duzeni.md
 - docs/adr/0009-urun-id-ve-blog-istisnasi.md
+- docs/adr/0010-specs-json-ve-11-sutun.md
+- docs/spec.md (Bayios çoklu export/import planı)
+- docs/m2-specs-plan.md (scraper M2 specs planı)
 - docs/milestone-plan.md
 - docs/sorun.md, docs/todo.md, docs/whitelist.md, docs/kampanya-cek.md, docs/robots.txt (tarihsel girdi)
 - Canlı doğrulama: 2026-11-20, arcelik.com.tr; kayıtlı PDP: docs/index.html

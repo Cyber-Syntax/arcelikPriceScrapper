@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from decimal import Decimal
 
-from pydantic import BaseModel, field_validator
+from pydantic import BaseModel, Field, field_validator
 
 
 class ProductRow(BaseModel):
@@ -17,6 +17,9 @@ class ProductRow(BaseModel):
     url: str = ""
     category_path: str = ""
     source: str = ""
+    features: list[dict[str, str]] = Field(default_factory=list)
+    specifications: list[dict[str, str]] = Field(default_factory=list)
+    specs_scraped_at: str = ""
     scraped_at: str
 
     @field_validator("name")

@@ -13,5 +13,6 @@ Bu klasör, Arçelik Fiyat Scraper için alınan mimari ve ürün kararlarını 
 | 0007 | Kampanya çıktı formatı (Bayios) | Kabul edildi |
 | 0008 | Garanti entegrasyonu, kampanya koşulları ve dosya düzeni | Kabul edildi |
 | 0009 | Ürün ID ve blog istisnası | Kabul edildi |
+| 0010 | Specs kapsamı, catalog.json ve 11. sütun | Kabul edildi |
 
 Kararlar 2026-11-20–22 tarihlerinde, site canlı doğrulandıktan ve ürün sahibinin yanıtlarından sonra alınmıştır. Bir ADR'yi değiştirmek için yeni bir ADR yazılır; eski ADR silinmez, "Superseded by ADR-XXXX" notu eklenir.

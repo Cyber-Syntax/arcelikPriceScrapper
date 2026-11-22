@@ -20,7 +20,7 @@
 1. Ürün ID:
    - Kaynak sırası: data-product-id, data-product-code, JSON-LD sku/productID, gömülü JSON products[].id.
    - ID, ürünün kısa adıyla birlikte taşınır; ana products sayfasında ilk sütundur.
-   - Ana products 10 sütundur: Ürün ID, Ürün Adı, Kategori, Perakende, Oliz İndirimli, Fiziksel Stok, Alış, Kredi, Nakit, Aktif Kampanya.
+   - Ana products 11 sütundur: Ürün ID, Ürün Adı, Kategori, Perakende, Oliz İndirimli, Fiziksel Stok, Alış, Kredi, Nakit, Aktif Kampanya, Ürün Özellikleri (JSON).
    - products_full, explicit cache ve campaign_products referansı product_id taşır.
    - Garanti satırlarında ID yoktur (boş).
    - ID bulunamayan ürün sayısı raporda; aynı adda farklı ID varsa çakışma uyarısı.
@@ -39,7 +39,7 @@ Olumlu:
 - ID ve ad birlikte kullanılarak manuel kontrol kolaylaşır.
 
 Olumsuz / dikkat:
-- Bayios importer 10 sütuna güncellenene kadar ana products import'u eski 9 sütun bekliyorsa kırılabilir; ürün sahibi güncelleyecek.
+- Bayios importer 11 sütuna güncellenene kadar ana products import'u eski 9/10 sütun bekliyorsa kırılabilir; ürün sahibi güncelleyecek.
 - ID her üründe bulunmayabilir; garanti satırları bilinçli olarak boş.
 - Aynı adda farklı ID görülürse satırlar ayrı kalır ve rapor/uyarı üretilir; elle kontrol.
 - ID kaynağı sayfa yapısına bağlı; data-product-code değişirse JSON-LD/gömülü JSON fallback devrede.
@@ -56,4 +56,4 @@ Olumsuz / dikkat:
 - Card product_id = data-product-id veya data-product-code.
 - PDP product_id = JSON-LD sku/productID, data-product-code veya gömülü products[].id.
 - categories.ALWAYS_EXCLUDED_SLUGS = {"blog"}; is_blog_url URL'nin ilk segmentini kontrol eder.
-- Ana products başlıkları: Ürün ID, Ürün Adı, Kategori, Perakende Fiyat, Oliz İndirimli Fiyat, Fiziksel Stok, Alış Fiyatı, Kredi Kartı Taban Fiyatı, Nakit Taban Fiyatı, Aktif Kampanya.
+- Ana products başlıkları: Ürün ID, Ürün Adı, Kategori, Perakende Fiyat, Oliz İndirimli Fiyat, Fiziksel Stok, Alış Fiyatı, Kredi Kartı Taban Fiyatı, Nakit Taban Fiyatı, Aktif Kampanya, Ürün Özellikleri (JSON).

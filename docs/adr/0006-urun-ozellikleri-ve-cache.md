@@ -1,7 +1,8 @@
 # ADR-0006: Ürün özellikleri ve tek seferlik cache
 
-- Durum: Kabul edildi
+- Durum: Kısmen güncellendi (kapsam/çıktı: ADR-0010)
 - Tarih: 2026-11-20
+- Not: M2'de kapsam tüm seçili ürünler, çıktı catalog.json + 11. sütun oldu (ADR-0010); aşağıdaki 1/2/5/7 tarihsel karardır.
 - İlgili: PRD v0.4 bölüm 6.2, 6.4, 9.3; ADR-0002
 - Karar veren: Ürün sahibi + geliştirici
 
