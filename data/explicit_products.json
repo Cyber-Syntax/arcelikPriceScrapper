@@ -3539,5 +3539,21 @@
     "discounted_price": null,
     "scraped_at": "2026-11-22T11:53:05Z",
     "content_hash": "a39aa8da1d6c00ea86dd1d48274ba5c5d40c4d03"
+  },
+  "https://www.arcelik.com.tr/10-kg-camasir-makinesi/10120-imp-camasir-makinesi": {
+    "name": "10120 IMP",
+    "product_id": "7170520100",
+    "title": "10120 IMP 10 Kg Çamaşır Makinesi",
+    "url": "https://www.arcelik.com.tr/10-kg-camasir-makinesi/10120-imp-camasir-makinesi",
+    "category_path": "Beyaz Eşya > Çamaşır Makinesi > 10 Kg Çamaşır Makinesi",
+    "category_lv1": "Beyaz Eşya",
+    "category_lv2": "Çamaşır Makinesi",
+    "category_lv3": "10 Kg Çamaşır Makinesi",
+    "app_category": "Çamaşır Makinesi",
+    "code": "7170520100",
+    "price": "73899.00",
+    "discounted_price": "61999.00",
+    "scraped_at": "2026-11-22T12:22:29Z",
+    "content_hash": "d7d3c8ad605bcfcf5b0dc02ab4a7c6c8440d6ce5"
   }
 }

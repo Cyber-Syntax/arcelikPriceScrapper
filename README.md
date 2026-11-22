@@ -250,6 +250,7 @@ Tüm dosyayı config.toml'a yapıştırma; sadece istediğin blokları kopyala.
 - docs/prd.md
 - docs/milestone-plan.md
 - docs/m2-specs-plan.md
+- docs/bayios-entegrasyon.md
 - docs/spec.md
 - docs/adr/0008-garanti-kosullar-dosya-duzeni.md
 - docs/adr/0009-urun-id-ve-blog-istisnasi.md
