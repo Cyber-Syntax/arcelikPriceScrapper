@@ -1,9 +1,14 @@
 from __future__ import annotations
 
+import asyncio
+import contextlib
+import logging
 import os
 import sys
 import time
 from typing import TextIO
+
+log = logging.getLogger("scrapper.progress")
 
 
 def default_enabled(force: bool = False, no_progress: bool = False) -> bool:
@@ -91,3 +96,72 @@ class Progress:
             self.stream.write("\n")
             self.stream.flush()
             self._active = False
+
+
+class LogHeartbeat:
+    """TTY olmasa da uzun suren islemlerde periyodik INFO satiri yazar."""
+
+    def __init__(self, label: str, total: int, interval: float = 30.0) -> None:
+        self.label = label
+        self.total = max(0, total)
+        self.interval = interval
+        self.done = 0
+        self.fetched = 0
+        self.failures = 0
+        self.current = ""
+        self.http_status: dict[str, int] = {}
+        self._start = time.monotonic()
+        self._task: asyncio.Task | None = None
+
+    def start(self) -> None:
+        self._start = time.monotonic()
+        self._task = asyncio.create_task(self._run())
+
+    async def _run(self) -> None:
+        while True:
+            await asyncio.sleep(self.interval)
+            elapsed = time.monotonic() - self._start
+            rate = self.done / elapsed if elapsed else 0.0
+            eta = (
+                (self.total - self.done) / rate
+                if rate > 0 and self.total >= self.done
+                else None
+            )
+            log.info(
+                "%s: %d/%d | gecen %.0fs | %.2f urun/sn | ETA %s | "
+                "okunan=%d hata=%d | current=%s | http=%s",
+                self.label,
+                self.done,
+                self.total,
+                elapsed,
+                rate,
+                f"{eta:.0f}s" if eta is not None else "?",
+                self.fetched,
+                self.failures,
+                self.current[:140] or "-",
+                self.http_status or "-",
+            )
+
+    def tick(self, fetched: bool = False, failed: bool = False) -> None:
+        self.done += 1
+        if fetched:
+            self.fetched += 1
+        if failed:
+            self.failures += 1
+
+    async def stop(self) -> None:
+        if self._task is None:
+            return
+        self._task.cancel()
+        with contextlib.suppress(asyncio.CancelledError):
+            await self._task
+        elapsed = time.monotonic() - self._start
+        log.info(
+            "%s: bitti %d/%d | gecen %.0fs | okunan=%d hata=%d",
+            self.label,
+            self.done,
+            self.total,
+            elapsed,
+            self.fetched,
+            self.failures,
+        )

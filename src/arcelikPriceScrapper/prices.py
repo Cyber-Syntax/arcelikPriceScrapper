@@ -23,7 +23,7 @@ from .categories import (
 from .config import CategoryEntry, Config, ExplicitProduct
 from .http import BASE, AbortRun, Http
 from .models import ProductRow
-from .progress import Progress
+from .progress import LogHeartbeat, Progress
 from .report import Report
 
 log = logging.getLogger("scrapper.prices")
@@ -438,8 +438,18 @@ async def refresh_explicit_products(
             or product.fetch == "always"
         )
     ]
+    log.info(
+        "explicit: %d aday, %d cache'te, %d PDP cekilecek (force=%s)",
+        len(items),
+        len(items) - len(to_fetch),
+        len(to_fetch),
+        force,
+    )
     if progress is not None and to_fetch:
         progress.start("acik urunler", len(to_fetch))
+    heartbeat = LogHeartbeat("explicit", len(to_fetch)) if to_fetch else None
+    if heartbeat is not None:
+        heartbeat.start()
     try:
         for product in items:
             url = product.url
@@ -455,23 +465,36 @@ async def refresh_explicit_products(
                 progress.set_detail(
                     product.name or url.rsplit("/", 1)[-1]
                 )
+            if heartbeat is not None:
+                heartbeat.current = url
+                heartbeat.http_status = dict(http.status)
             html = await http.get(url)
+            if heartbeat is not None:
+                heartbeat.http_status = dict(http.status)
             if not html:
                 report.warn(f"acik urun alinamadi: {url}")
+                if heartbeat is not None:
+                    heartbeat.tick(failed=True)
                 if progress is not None:
                     progress.advance()
                 continue
             summary = parse_pdp_summary(html, url)
             if not (product.name or summary.name):
                 report.warn(f"acik urun adi bulunamadi: {url}")
+                if heartbeat is not None:
+                    heartbeat.tick(failed=True)
                 if progress is not None:
                     progress.advance()
                 continue
             cache[url] = _explicit_record(product, summary, scraped_at, html)
             changed = True
+            if heartbeat is not None:
+                heartbeat.tick(fetched=True)
             if progress is not None:
                 progress.advance(products=1)
     finally:
+        if heartbeat is not None:
+            await heartbeat.stop()
         if changed:
             try:
                 _write_explicit_cache(path, cache)

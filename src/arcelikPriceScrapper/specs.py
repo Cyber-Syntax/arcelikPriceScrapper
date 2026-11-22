@@ -11,7 +11,7 @@ from selectolax.lexbor import LexborHTMLParser as HTMLParser
 from .config import Config
 from .http import Http
 from .models import ProductRow
-from .progress import Progress
+from .progress import LogHeartbeat, Progress
 from .report import Report
 
 log = logging.getLogger("scrapper.specs")
@@ -175,8 +175,18 @@ async def enrich_specs(
             _apply(row, entry)
         else:
             to_fetch.append(row)
+    log.info(
+        "specs: %d aday, %d cache'te, %d PDP cekilecek",
+        len(candidates),
+        len(candidates) - len(to_fetch),
+        len(to_fetch),
+    )
     if progress is not None and to_fetch:
         progress.start("specs", len(to_fetch))
+    heartbeat: LogHeartbeat | None = None
+    if to_fetch:
+        heartbeat = LogHeartbeat("specs", len(to_fetch))
+        heartbeat.start()
     fetched = 0
     failures = 0
     changed = False
@@ -186,10 +196,21 @@ async def enrich_specs(
                 break
             if progress is not None:
                 progress.set_detail(row.product_id or row.name)
+            if heartbeat is not None:
+                heartbeat.current = row.url
+                heartbeat.http_status = dict(
+                    getattr(http, "status", {})
+                )
             html = await http.get(row.url)
+            if heartbeat is not None:
+                heartbeat.http_status = dict(
+                    getattr(http, "status", {})
+                )
             if not html:
                 failures += 1
                 report.warn(f"spec sayfasi alinamadi: {row.url}")
+                if heartbeat is not None:
+                    heartbeat.tick(failed=True)
                 if progress is not None:
                     progress.advance()
                 continue
@@ -198,6 +219,8 @@ async def enrich_specs(
             except Exception as exc:  # noqa: BLE001
                 failures += 1
                 report.warn(f"spec parse hatasi ({row.url}): {exc}")
+                if heartbeat is not None:
+                    heartbeat.tick(failed=True)
                 if progress is not None:
                     progress.advance()
                 continue
@@ -209,14 +232,24 @@ async def enrich_specs(
             _apply(row, cache[_key(row)])
             fetched += 1
             changed = True
+            if heartbeat is not None:
+                heartbeat.tick(fetched=True)
             if progress is not None:
                 progress.advance(products=1)
     finally:
+        if heartbeat is not None:
+            await heartbeat.stop()
         if changed:
             try:
                 write_specs_cache(path, cache)
             except OSError as exc:
                 report.warn(f"specs cache yazilamadi: {exc}")
+    log.info(
+        "specs: tamamlandi fetched=%d failures=%d cache=%d",
+        fetched,
+        failures,
+        len(cache),
+    )
     report.set("specs_products", len(candidates))
     report.set("specs_fetched", fetched)
     report.set("specs_failures", failures)
