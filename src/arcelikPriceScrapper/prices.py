@@ -1169,11 +1169,18 @@ async def scrape_prices(
         {product.url for product in missing_list + always_list}
     )
     cap = run_cfg.products.max_auto_fetch
+    if refresh_explicit:
+        log.info(
+            "refresh-explicit aktif: max_auto_fetch=%d yok sayilacak, "
+            "%d explicit aday islenecek",
+            cap,
+            len(explicit_products),
+        )
     if auto_count > cap and not refresh_explicit:
         report.warn(
             f"{auto_count} acik urun otomatik fetch limitini ({cap}) asiyor; "
-            "cache'te olanlar kullanilacak. --only ile daraltin veya "
-            "--refresh-explicit kullanin."
+            "cache'te olanlar kullanilacak (refresh_explicit=False). "
+            "--only ile daraltin veya --refresh-explicit kullanin."
         )
         report.set("explicit_auto_fetch_skipped", auto_count)
     elif refresh_explicit or missing_list or always_list:

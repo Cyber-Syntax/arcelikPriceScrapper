@@ -159,8 +159,9 @@ def _load_product_url_file(cfg: Config, config_path: Path) -> None:
         added += 1
     if added > 100:
         log.warning(
-            "products.include_file: %d URL; buyuk liste, kategori kosusunda "
-            "filtre uygulanir (max_auto_fetch=%d)",
+            "products.include_file: %d URL; buyuk liste. Eksik explicit'ler "
+            "normal kosuda max_auto_fetch=%d ile sinirlanir; "
+            "--refresh-explicit bu siniri atlar.",
             added,
             cfg.products.max_auto_fetch,
         )
