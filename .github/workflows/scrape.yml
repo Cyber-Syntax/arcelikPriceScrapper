@@ -129,7 +129,7 @@ jobs:
                 ARGS+=(--only "${ONLY}")
               fi
 
-              if [ "${CMD}" = "prices" ] && [ "${REFRESH_EXPLICIT}" = "true" ]; then
+              if { [ "${CMD}" = "prices" ] || [ "${CMD}" = "all" ]; } && [ "${REFRESH_EXPLICIT}" = "true" ]; then
                 ARGS+=(--refresh-explicit)
               fi
 
