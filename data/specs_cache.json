@@ -11065,5 +11065,1517 @@
     "features": [],
     "specifications": [],
     "scraped_at": "2026-11-22T14:26:27Z"
+  },
+  "7638510177": {
+    "features": [
+      {
+        "title": "Otomatik Kapı Açma Özelliği",
+        "text": "Otomatik Kapı Açma Özelliği Program sonunda kapıyı otomatik açarak ortamdaki doğal hava akışını kullanır ve ekstra enerji harcamadan kurutma performansını üst seviyeye çıkarır. Doğal hava akışı ile bulaşıklar 5 kata kadar daha iyi kurur.\"",
+        "note": "\"Bağımsız 3. parti laboratuvar tarafından Mini 30 programında, kapı açık ve kapalı senaryoları ile yapılan testlerde, otomatik kapı açma teknolojisi ile 5 kata kadar daha yüksek kurutma performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.\""
+      },
+      {
+        "title": "Ekstra Kurutma App",
+        "text": "Programın sonunda gerçekleşen ekstra kurutma ve buhar uygulaması sayesinde bulaşıkların üzerinde kalan su damlalarının küçülmesini ve yok olmasını sağlar. Bu sayede daha parlak cam ve porselenlere sahip olmanıza yardımcı olur. Ekstra Kurutma uygulamasını HomeWhiz mobil uygulaması üzerinden indirebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Hızlı 49’Programı",
+        "text": "Hızlı bir yıkama programı tercih etmek istediğinizde kullanabileceğiniz beklemiş ama normal kirlilik seviyesine sahip bulaşıkları 60°C ile yıkıyor. 49 dakika süren bu program günlük olarak kullanıma da oldukça uygun.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Tipi",
+        "value": "Solo"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Tipi",
+        "value": "LED"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Paslanmaz Çelik İç Gövde",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "B"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "46 dBA"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "14"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Yüksekliği Ayarlanabilir Fincan Rafları",
+        "value": "Var"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Fincan Raf Sayısı",
+        "value": "2"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Alt Sepet Katlanır Tel Sayısı",
+        "value": "4"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Üst Sepet Katlanır Tel Sayısı",
+        "value": "3"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çatal Kaşık Sepeti",
+        "value": "Hareketli"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Otomatik Kapı Açma Özelliği",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 1",
+        "value": "HomeWhiz"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 2",
+        "value": "HijyenMax (App)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 3",
+        "value": "Extra kurutma (app)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Motor Tipi",
+        "value": "Standart"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Yarım Yük Yıkama",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Üst Sepet Ayar Tipi",
+        "value": "3 Kademeli Ayar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Zaman Erteleme Fonksiyonu",
+        "value": "30 dk ile 24 saate kadar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Ekonomi 50 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Yoğun 70 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Hızlı 49'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "İndirilen Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program Sıcaklıkları (°C)",
+        "value": "35-40-50-65-70"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Mini 30"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Optimum 65 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Ön Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Makine Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Hassas 40"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "46 dBA"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ekonomi Programı Süresi (dk)",
+        "value": "237"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Güç (W)",
+        "value": "1800 - 2100 W"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Akım (A)",
+        "value": "10"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Enerji Tüketimi",
+        "value": "0.645 kWh"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Su Tüketimi",
+        "value": "10.9 L"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "43.2 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "85 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60 cm"
+      },
+      {
+        "group": "Diğer",
+        "name": "Parlatıcı Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Tuz Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Su Güvenlik Sistemi",
+        "value": "Taşma Emniyeti"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:44:21Z"
+  },
+  "7640010177": {
+    "features": [
+      {
+        "title": "Otomatik Kapı Açma Özelliği",
+        "text": "Otomatik Kapı Açma Özelliği Program sonunda kapıyı otomatik açarak ortamdaki doğal hava akışını kullanır ve ekstra enerji harcamadan kurutma performansını üst seviyeye çıkarır. Doğal hava akışı ile bulaşıklar 5 kata kadar daha iyi kurur.\"",
+        "note": "\"Bağımsız 3. parti laboratuvar tarafından Mini 30 programında, kapı açık ve kapalı senaryoları ile yapılan testlerde, otomatik kapı açma teknolojisi ile 5 kata kadar daha yüksek kurutma performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.\""
+      },
+      {
+        "title": "Ekstra Kurutma App",
+        "text": "Programın sonunda gerçekleşen ekstra kurutma ve buhar uygulaması sayesinde bulaşıkların üzerinde kalan su damlalarının küçülmesini ve yok olmasını sağlar. Bu sayede daha parlak cam ve porselenlere sahip olmanıza yardımcı olur. Ekstra Kurutma uygulamasını HomeWhiz mobil uygulaması üzerinden indirebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Hızlı 49’Programı",
+        "text": "Hızlı bir yıkama programı tercih etmek istediğinizde kullanabileceğiniz beklemiş ama normal kirlilik seviyesine sahip bulaşıkları 60°C ile yıkıyor. 49 dakika süren bu program günlük olarak kullanıma da oldukça uygun.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Beyaz Cam"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Tipi",
+        "value": "Solo"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Tipi",
+        "value": "LED"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Paslanmaz Çelik İç Gövde",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "B"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "46 dBA"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "14"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Yüksekliği Ayarlanabilir Fincan Rafları",
+        "value": "Var"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Fincan Raf Sayısı",
+        "value": "2"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Alt Sepet Katlanır Tel Sayısı",
+        "value": "4"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Üst Sepet Katlanır Tel Sayısı",
+        "value": "3"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çatal Kaşık Sepeti",
+        "value": "Hareketli"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Otomatik Kapı Açma Özelliği",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 1",
+        "value": "HomeWhiz"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 2",
+        "value": "HijyenMax (App)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 3",
+        "value": "Extra kurutma (app)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Motor Tipi",
+        "value": "Standart"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Yarım Yük Yıkama",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Üst Sepet Ayar Tipi",
+        "value": "3 Kademeli Ayar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Zaman Erteleme Fonksiyonu",
+        "value": "30 dk ile 24 saate kadar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Ekonomi 50 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Yoğun 70 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Hızlı 49'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "İndirilen Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program Sıcaklıkları (°C)",
+        "value": "35-40-50-65-70"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Mini 30"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Optimum 65 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Ön Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Makine Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Hassas 40"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "46 dBA"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ekonomi Programı Süresi (dk)",
+        "value": "237"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Güç (W)",
+        "value": "1800 - 2100 W"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Akım (A)",
+        "value": "10"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Enerji Tüketimi",
+        "value": "0.645 kWh"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Su Tüketimi",
+        "value": "10.9 L"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "50.1 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "85 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60 cm"
+      },
+      {
+        "group": "Diğer",
+        "name": "Parlatıcı Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Tuz Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Su Güvenlik Sistemi",
+        "value": "Taşma Emniyeti"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:44:21Z"
+  },
+  "7639910177": {
+    "features": [
+      {
+        "title": "Otomatik Kapı Açma Özelliği",
+        "text": "Otomatik Kapı Açma Özelliği Program sonunda kapıyı otomatik açarak ortamdaki doğal hava akışını kullanır ve ekstra enerji harcamadan kurutma performansını üst seviyeye çıkarır. Doğal hava akışı ile bulaşıklar 5 kata kadar daha iyi kurur.\"",
+        "note": "\"Bağımsız 3. parti laboratuvar tarafından Mini 30 programında, kapı açık ve kapalı senaryoları ile yapılan testlerde, otomatik kapı açma teknolojisi ile 5 kata kadar daha yüksek kurutma performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.\""
+      },
+      {
+        "title": "Ekstra Kurutma App",
+        "text": "Programın sonunda gerçekleşen ekstra kurutma ve buhar uygulaması sayesinde bulaşıkların üzerinde kalan su damlalarının küçülmesini ve yok olmasını sağlar. Bu sayede daha parlak cam ve porselenlere sahip olmanıza yardımcı olur. Ekstra Kurutma uygulamasını HomeWhiz mobil uygulaması üzerinden indirebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Hızlı 49’Programı",
+        "text": "Hızlı bir yıkama programı tercih etmek istediğinizde kullanabileceğiniz beklemiş ama normal kirlilik seviyesine sahip bulaşıkları 60°C ile yıkıyor. 49 dakika süren bu program günlük olarak kullanıma da oldukça uygun.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Glass Manhattan Grey"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Tipi",
+        "value": "Solo"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Tipi",
+        "value": "LED"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Paslanmaz Çelik İç Gövde",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "B"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "46 dBA"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "14"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Yüksekliği Ayarlanabilir Fincan Rafları",
+        "value": "Var"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Fincan Raf Sayısı",
+        "value": "2"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Alt Sepet Katlanır Tel Sayısı",
+        "value": "4"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Üst Sepet Katlanır Tel Sayısı",
+        "value": "3"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çatal Kaşık Sepeti",
+        "value": "Hareketli"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Otomatik Kapı Açma Özelliği",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 1",
+        "value": "HomeWhiz"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 2",
+        "value": "HijyenMax (App)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 3",
+        "value": "Extra kurutma (app)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Motor Tipi",
+        "value": "Standart"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Yarım Yük Yıkama",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Üst Sepet Ayar Tipi",
+        "value": "3 Kademeli Ayar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Zaman Erteleme Fonksiyonu",
+        "value": "30 dk ile 24 saate kadar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Ekonomi 50 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Yoğun 70 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Hızlı 49'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "İndirilen Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program Sıcaklıkları (°C)",
+        "value": "35-40-50-65-70"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Mini 30"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Optimum 65 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Ön Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Makine Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Hassas 40"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "46 dBA"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ekonomi Programı Süresi (dk)",
+        "value": "237"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Güç (W)",
+        "value": "1800 - 2100 W"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Akım (A)",
+        "value": "10"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Enerji Tüketimi",
+        "value": "0.645 kWh"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Su Tüketimi",
+        "value": "10.9 L"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "50.1 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "85 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60 cm"
+      },
+      {
+        "group": "Diğer",
+        "name": "Parlatıcı Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Tuz Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Su Güvenlik Sistemi",
+        "value": "Taşma Emniyeti"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:44:21Z"
+  },
+  "7638310177": {
+    "features": [
+      {
+        "title": "Otomatik Kapı Açma Özelliği",
+        "text": "Otomatik Kapı Açma Özelliği Program sonunda kapıyı otomatik açarak ortamdaki doğal hava akışını kullanır ve ekstra enerji harcamadan kurutma performansını üst seviyeye çıkarır. Doğal hava akışı ile bulaşıklar 5 kata kadar daha iyi kurur.\"",
+        "note": "\"Bağımsız 3. parti laboratuvar tarafından Mini 30 programında, kapı açık ve kapalı senaryoları ile yapılan testlerde, otomatik kapı açma teknolojisi ile 5 kata kadar daha yüksek kurutma performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.\""
+      },
+      {
+        "title": "Ekstra Kurutma App",
+        "text": "Programın sonunda gerçekleşen ekstra kurutma ve buhar uygulaması sayesinde bulaşıkların üzerinde kalan su damlalarının küçülmesini ve yok olmasını sağlar. Bu sayede daha parlak cam ve porselenlere sahip olmanıza yardımcı olur. Ekstra Kurutma uygulamasını HomeWhiz mobil uygulaması üzerinden indirebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Hızlı 49’Programı",
+        "text": "Hızlı bir yıkama programı tercih etmek istediğinizde kullanabileceğiniz beklemiş ama normal kirlilik seviyesine sahip bulaşıkları 60°C ile yıkıyor. 49 dakika süren bu program günlük olarak kullanıma da oldukça uygun.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "İnoks"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Tipi",
+        "value": "Solo"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Tipi",
+        "value": "LED"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Paslanmaz Çelik İç Gövde",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "B"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "46 dBA"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "14"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Yüksekliği Ayarlanabilir Fincan Rafları",
+        "value": "Var"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Fincan Raf Sayısı",
+        "value": "2"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Alt Sepet Katlanır Tel Sayısı",
+        "value": "4"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Üst Sepet Katlanır Tel Sayısı",
+        "value": "3"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çatal Kaşık Sepeti",
+        "value": "Hareketli"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Otomatik Kapı Açma Özelliği",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 1",
+        "value": "HomeWhiz"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 2",
+        "value": "HijyenMax (App)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 3",
+        "value": "Extra kurutma (app)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Motor Tipi",
+        "value": "Standart"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Yarım Yük Yıkama",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Üst Sepet Ayar Tipi",
+        "value": "3 Kademeli Ayar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Zaman Erteleme Fonksiyonu",
+        "value": "30 dk ile 24 saate kadar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Ekonomi 50 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Yoğun 70 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Hızlı 49'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "İndirilen Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program Sıcaklıkları (°C)",
+        "value": "35-40-50-65-70"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Mini 30"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Optimum 65 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Ön Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Makine Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Hassas 40"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "46 dBA"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ekonomi Programı Süresi (dk)",
+        "value": "237"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Güç (W)",
+        "value": "1800 - 2100 W"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Akım (A)",
+        "value": "10"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Enerji Tüketimi",
+        "value": "0.645 kWh"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Su Tüketimi",
+        "value": "10.9 L"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "43.2 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "85 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60 cm"
+      },
+      {
+        "group": "Diğer",
+        "name": "Parlatıcı Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Tuz Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Su Güvenlik Sistemi",
+        "value": "Taşma Emniyeti"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:44:21Z"
+  },
+  "7639810177": {
+    "features": [
+      {
+        "title": "Otomatik Kapı Açma Özelliği",
+        "text": "Otomatik Kapı Açma Özelliği Program sonunda kapıyı otomatik açarak ortamdaki doğal hava akışını kullanır ve ekstra enerji harcamadan kurutma performansını üst seviyeye çıkarır. Doğal hava akışı ile bulaşıklar 5 kata kadar daha iyi kurur.\"",
+        "note": "\"Bağımsız 3. parti laboratuvar tarafından Mini 30 programında, kapı açık ve kapalı senaryoları ile yapılan testlerde, otomatik kapı açma teknolojisi ile 5 kata kadar daha yüksek kurutma performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.\""
+      },
+      {
+        "title": "Ekstra Kurutma App",
+        "text": "Programın sonunda gerçekleşen ekstra kurutma ve buhar uygulaması sayesinde bulaşıkların üzerinde kalan su damlalarının küçülmesini ve yok olmasını sağlar. Bu sayede daha parlak cam ve porselenlere sahip olmanıza yardımcı olur. Ekstra Kurutma uygulamasını HomeWhiz mobil uygulaması üzerinden indirebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Hızlı 49’Programı",
+        "text": "Hızlı bir yıkama programı tercih etmek istediğinizde kullanabileceğiniz beklemiş ama normal kirlilik seviyesine sahip bulaşıkları 60°C ile yıkıyor. 49 dakika süren bu program günlük olarak kullanıma da oldukça uygun.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Siyah Cam"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Tipi",
+        "value": "Solo"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Tipi",
+        "value": "LED"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Paslanmaz Çelik İç Gövde",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "B"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "46 dBA"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "14"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Yüksekliği Ayarlanabilir Fincan Rafları",
+        "value": "Var"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Fincan Raf Sayısı",
+        "value": "2"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Alt Sepet Katlanır Tel Sayısı",
+        "value": "4"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Üst Sepet Katlanır Tel Sayısı",
+        "value": "3"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çatal Kaşık Sepeti",
+        "value": "Hareketli"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Otomatik Kapı Açma Özelliği",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 1",
+        "value": "HomeWhiz"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 2",
+        "value": "HijyenMax (App)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 3",
+        "value": "Extra kurutma (app)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Motor Tipi",
+        "value": "Standart"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Yarım Yük Yıkama",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Üst Sepet Ayar Tipi",
+        "value": "3 Kademeli Ayar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Zaman Erteleme Fonksiyonu",
+        "value": "30 dk ile 24 saate kadar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Ekonomi 50 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Yoğun 70 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Hızlı 49'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "İndirilen Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program Sıcaklıkları (°C)",
+        "value": "35-40-50-65-70"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Mini 30"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Optimum 65 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Ön Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Makine Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Hassas 40"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "46 dBA"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ekonomi Programı Süresi (dk)",
+        "value": "237"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Güç (W)",
+        "value": "1800 - 2100 W"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Akım (A)",
+        "value": "10"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Enerji Tüketimi",
+        "value": "0.645 kWh"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Su Tüketimi",
+        "value": "10.9 L"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "50.1 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "85 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60 cm"
+      },
+      {
+        "group": "Diğer",
+        "name": "Parlatıcı Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Tuz Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Su Güvenlik Sistemi",
+        "value": "Taşma Emniyeti"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:44:21Z"
+  },
+  "7638810177": {
+    "features": [
+      {
+        "title": "Otomatik Kapı Açma Özelliği",
+        "text": "Otomatik Kapı Açma Özelliği Program sonunda kapıyı otomatik açarak ortamdaki doğal hava akışını kullanır ve ekstra enerji harcamadan kurutma performansını üst seviyeye çıkarır. Doğal hava akışı ile bulaşıklar 5 kata kadar daha iyi kurur.\"",
+        "note": "\"Bağımsız 3. parti laboratuvar tarafından Mini 30 programında, kapı açık ve kapalı senaryoları ile yapılan testlerde, otomatik kapı açma teknolojisi ile 5 kata kadar daha yüksek kurutma performansı ölçülmüştür. Kullanım koşullarına göre değişebilir.\""
+      },
+      {
+        "title": "Ekstra Kurutma App",
+        "text": "Programın sonunda gerçekleşen ekstra kurutma ve buhar uygulaması sayesinde bulaşıkların üzerinde kalan su damlalarının küçülmesini ve yok olmasını sağlar. Bu sayede daha parlak cam ve porselenlere sahip olmanıza yardımcı olur. Ekstra Kurutma uygulamasını HomeWhiz mobil uygulaması üzerinden indirebilirsiniz.",
+        "note": ""
+      },
+      {
+        "title": "Hızlı 49’Programı",
+        "text": "Hızlı bir yıkama programı tercih etmek istediğinizde kullanabileceğiniz beklemiş ama normal kirlilik seviyesine sahip bulaşıkları 60°C ile yıkıyor. 49 dakika süren bu program günlük olarak kullanıma da oldukça uygun.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Rengi",
+        "value": "Black Inox"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Tipi",
+        "value": "Solo"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Tipi",
+        "value": "LED"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Paslanmaz Çelik İç Gövde",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "B"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "46 dBA"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Kapasite",
+        "value": "14"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Yüksekliği Ayarlanabilir Fincan Rafları",
+        "value": "Var"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Fincan Raf Sayısı",
+        "value": "2"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Alt Sepet Katlanır Tel Sayısı",
+        "value": "4"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Üst Sepet Katlanır Tel Sayısı",
+        "value": "3"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Çatal Kaşık Sepeti",
+        "value": "Hareketli"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Otomatik Kapı Açma Özelliği",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 1",
+        "value": "HomeWhiz"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 2",
+        "value": "HijyenMax (App)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Fonksiyon 3",
+        "value": "Extra kurutma (app)"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Motor Tipi",
+        "value": "Standart"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Yarım Yük Yıkama",
+        "value": "Var"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Üst Sepet Ayar Tipi",
+        "value": "3 Kademeli Ayar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Zaman Erteleme Fonksiyonu",
+        "value": "30 dk ile 24 saate kadar"
+      },
+      {
+        "group": "Fonksiyon ve Teknolojiler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Ekonomi 50 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Yoğun 70 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "Hızlı 49'"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program",
+        "value": "İndirilen Program"
+      },
+      {
+        "group": "Programlar",
+        "name": "Program Sıcaklıkları (°C)",
+        "value": "35-40-50-65-70"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Karma"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Mini 30"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Optimum 65 °C"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Ön Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Makine Yıkama"
+      },
+      {
+        "group": "Programlar",
+        "name": "İndirilebilir Program",
+        "value": "Hassas 40"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ses Seviyesi (dBA)",
+        "value": "46 dBA"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Ekonomi Programı Süresi (dk)",
+        "value": "237"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Güç (W)",
+        "value": "1800 - 2100 W"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Akım (A)",
+        "value": "10"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Enerji Tüketimi",
+        "value": "0.645 kWh"
+      },
+      {
+        "group": "Tüketim Bilgileri",
+        "name": "Su Tüketimi",
+        "value": "10.9 L"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "42.6 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Yükseklik",
+        "value": "85 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "59.8 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "60 cm"
+      },
+      {
+        "group": "Diğer",
+        "name": "Parlatıcı Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Tuz Göstergesi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Çocuk Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Su Güvenlik Sistemi",
+        "value": "Taşma Emniyeti"
+      }
+    ],
+    "scraped_at": "2026-11-22T14:44:21Z"
   }
 }
