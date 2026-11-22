@@ -136,6 +136,7 @@
   },
   "https://www.arcelik.com.tr/10-kg-camasir-makinesi/10120-mx-camasir-makinesi": {
     "name": "10120 MX",
+    "product_id": "457100000011",
     "title": "10120 MX 10 Kg Çamaşır Makinesi",
     "url": "https://www.arcelik.com.tr/10-kg-camasir-makinesi/10120-mx-camasir-makinesi",
     "category_path": "Beyaz Eşya > Çamaşır Makinesi > 10 Kg Çamaşır Makinesi",
@@ -146,11 +147,12 @@
     "code": "457100000011",
     "price": null,
     "discounted_price": null,
-    "scraped_at": "2026-11-21T19:19:55Z",
-    "content_hash": "45e5939d4f7ce4f9a0d8a69128f27bb54d33e463"
+    "scraped_at": "2026-11-22T13:28:39Z",
+    "content_hash": "feeaf3315317e2737ceedfacb7d3136991fa58c9"
   },
   "https://www.arcelik.com.tr/10-kg-camasir-makinesi/10120-mxs-camasir-makinesi": {
     "name": "10120 MXS",
+    "product_id": "457100000015",
     "title": "10120 MXS 10 Kg Çamaşır Makinesi",
     "url": "https://www.arcelik.com.tr/10-kg-camasir-makinesi/10120-mxs-camasir-makinesi",
     "category_path": "Beyaz Eşya > Çamaşır Makinesi > 10 Kg Çamaşır Makinesi",
@@ -161,11 +163,12 @@
     "code": "457100000015",
     "price": null,
     "discounted_price": null,
-    "scraped_at": "2026-11-21T19:19:55Z",
-    "content_hash": "d438bd9a402ae8589d03403d07ade122be32740e"
+    "scraped_at": "2026-11-22T13:28:39Z",
+    "content_hash": "7b8498edf309084cf98e2282420d8d5a81cfe0d4"
   },
   "https://www.arcelik.com.tr/10-kg-camasir-makinesi/10140-pm-camasir-makinesi": {
     "name": "10140 PM",
+    "product_id": "7178520300",
     "title": "10140 PM 10 Kg Çamaşır Makinesi",
     "url": "https://www.arcelik.com.tr/10-kg-camasir-makinesi/10140-pm-camasir-makinesi",
     "category_path": "Beyaz Eşya > Çamaşır Makinesi > 10 Kg Çamaşır Makinesi",
@@ -176,11 +179,12 @@
     "code": "7178520300",
     "price": null,
     "discounted_price": null,
-    "scraped_at": "2026-11-21T19:19:55Z",
-    "content_hash": "c7b52b99b2ffccffdba135066d5435984129e1a5"
+    "scraped_at": "2026-11-22T13:28:39Z",
+    "content_hash": "97d5d62c871b2e70f76d235c890d97fe568c83d4"
   },
   "https://www.arcelik.com.tr/10-kg-camasir-makinesi/10140-pmi-camasir-makinesi": {
     "name": "10140 PMI",
+    "product_id": "7175750100",
     "title": "10140 PMI 10 Kg Çamaşır Makinesi",
     "url": "https://www.arcelik.com.tr/10-kg-camasir-makinesi/10140-pmi-camasir-makinesi",
     "category_path": "Beyaz Eşya > Çamaşır Makinesi > 10 Kg Çamaşır Makinesi",
@@ -191,11 +195,12 @@
     "code": "7175750100",
     "price": null,
     "discounted_price": null,
-    "scraped_at": "2026-11-21T19:19:55Z",
-    "content_hash": "2ddca8920fe0c6960c0c9391b471e378580fd23d"
+    "scraped_at": "2026-11-22T13:28:39Z",
+    "content_hash": "1c4f264fb629f8e85b3198f2259bf94b08f96974"
   },
   "https://www.arcelik.com.tr/11-kg-camasir-makinesi/11141-m-camasir-makinesi": {
     "name": "11141 M",
+    "product_id": "7164171300",
     "title": "11141 M 11 Kg Çamaşır Makinesi",
     "url": "https://www.arcelik.com.tr/11-kg-camasir-makinesi/11141-m-camasir-makinesi",
     "category_path": "Beyaz Eşya > Çamaşır Makinesi > 11 Kg Çamaşır Makinesi",
@@ -206,11 +211,12 @@
     "code": "7164171300",
     "price": null,
     "discounted_price": null,
-    "scraped_at": "2026-11-21T19:19:55Z",
-    "content_hash": "d92ecf6dbf5dfec26968812af3a26feedf021050"
+    "scraped_at": "2026-11-22T13:28:39Z",
+    "content_hash": "a1946ad3927897c442e36bc49f481ccfad7d4faa"
   },
   "https://www.arcelik.com.tr/12-kg-camasir-makinesi/12140-pm-camasir-makinesi": {
     "name": "12140 PM",
+    "product_id": "7178524100",
     "title": "12140 PM 12 Kg Çamaşır Makinesi",
     "url": "https://www.arcelik.com.tr/12-kg-camasir-makinesi/12140-pm-camasir-makinesi",
     "category_path": "Beyaz Eşya > Çamaşır Makinesi > 12 Kg Çamaşır Makinesi",
@@ -221,8 +227,8 @@
     "code": "7178524100",
     "price": null,
     "discounted_price": null,
-    "scraped_at": "2026-11-21T19:19:55Z",
-    "content_hash": "55b9d14f1705234f039351e79aa9b781426bd427"
+    "scraped_at": "2026-11-22T13:28:39Z",
+    "content_hash": "15f3d6883e8097d8b607d3ca6050c5bae5599b6b"
   },
   "https://www.arcelik.com.tr/3-programli-bulasik-makinesi/6433-bulasik-makinesi": {
     "name": "Star Serisi Solo Bulaşık Makinesi",

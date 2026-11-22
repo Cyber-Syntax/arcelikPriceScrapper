@@ -2,7 +2,11 @@ name: scrape
 
 on:
   schedule:
-    - cron: "0 3 * * 1" # Her pazartesi 03:00 UTC
+    - cron: "0 3 15 * *" # Her ayın 15'i, 03:00 Türkiye saati.
+      timezone: "Europe/Istanbul"
+
+    - cron: "0 3 1 * *" # Her ayın 1'i, 03:00 Türkiye saati.
+      timezone: "Europe/Istanbul"
 
   workflow_dispatch:
     inputs:
@@ -31,6 +35,11 @@ on:
           - csv
           - both
         default: json
+
+      refresh_explicit:
+        description: "Explicit fiyatlari da yenile"
+        type: boolean
+        default: false
 
   issues:
     types: [labeled]
@@ -65,41 +74,69 @@ jobs:
         run: pip install .
 
       - name: Run scraper
+        id: scraper
         env:
+          EVENT_NAME: ${{ github.event_name }}
           INPUT_COMMAND: ${{ github.event.inputs.command }}
           INPUT_ONLY: ${{ github.event.inputs.only }}
           INPUT_FORMAT: ${{ github.event.inputs.format }}
+          INPUT_REFRESH_EXPLICIT: ${{ github.event.inputs.refresh_explicit }}
           LABEL: ${{ github.event.label.name }}
 
         run: |
           set -euo pipefail
 
+          # Zamanlanmış çalıştırma:
+          # Her ayın 1'i ve 15'inde prices + campaigns.
+          if [ "${EVENT_NAME}" = "schedule" ]; then
+            echo "Zamanlanmis scraper calistiriliyor."
+
+            arcelikPriceScrapper prices \
+              --format json \
+              --out-dir out
+
+            arcelikPriceScrapper campaigns \
+              --format json \
+              --out-dir out
+
+            echo "ran=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
           CMD="${INPUT_COMMAND:-prices}"
           FORMAT="${INPUT_FORMAT:-both}"
           ONLY="${INPUT_ONLY:-}"
+          REFRESH_EXPLICIT="${INPUT_REFRESH_EXPLICIT:-false}"
 
+          # Issue etiketiyle tetiklenirse kategori fiyatlarini cek.
           if [ -n "${LABEL:-}" ]; then
             CMD="prices"
             ONLY="${LABEL#scrape:}"
           fi
 
+          # Slug kontrolü
           if [ -n "${ONLY}" ] && ! [[ "${ONLY}" =~ ^[a-z0-9,-]+$ ]]; then
             echo "Gecersiz slug: ${ONLY}"
             exit 1
           fi
 
+          # Komut çalıştırma
           case "${CMD}" in
             prices|all|specs)
+              ARGS=()
+
               if [ -n "${ONLY}" ]; then
-                arcelikPriceScrapper "${CMD}" \
-                  --only "${ONLY}" \
-                  --format "${FORMAT}" \
-                  --out-dir out
-              else
-                arcelikPriceScrapper "${CMD}" \
-                  --format "${FORMAT}" \
-                  --out-dir out
+                ARGS+=(--only "${ONLY}")
               fi
+
+              if [ "${CMD}" = "prices" ] && [ "${REFRESH_EXPLICIT}" = "true" ]; then
+                ARGS+=(--refresh-explicit)
+              fi
+
+              arcelikPriceScrapper "${CMD}" \
+                "${ARGS[@]}" \
+                --format "${FORMAT}" \
+                --out-dir out
               ;;
 
             campaigns|list-categories)
@@ -118,6 +155,8 @@ jobs:
               ;;
           esac
 
+          echo "ran=true" >> "$GITHUB_OUTPUT"
+
       - name: Upload workflow artifact
         if: always()
         uses: actions/upload-artifact@v7
@@ -128,15 +167,15 @@ jobs:
           if-no-files-found: warn
 
       - name: Publish GitHub Release
-        if: success()
-        uses: softprops/action-gh-release@v3.0.4
+        if: success() && steps.scraper.outputs.ran == 'true'
+        uses: softprops/action-gh-release@v3.0.3
         with:
           tag_name: data-latest
           name: "Arcelik fiyat verisi"
           body: |
-            Haftalik veya manuel scraper ciktisi.
+            Aylik veya manuel scraper ciktisi.
 
-            Dosya adlarinda UTC tarih/saat bilgisi bulunur.
+            Dosya adlarinda UTC tarih/saat bilgisi vardir.
             Bu Release her yeni scraper calismasinda guncellenir.
 
           files: out/*
