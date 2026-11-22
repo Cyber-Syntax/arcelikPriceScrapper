@@ -2,28 +2,39 @@ name: scrape
 
 on:
   schedule:
-    - cron: "0 3 * * 1" # her pazartesi 03:00 UTC
+    - cron: "0 3 * * 1" # Her pazartesi 03:00 UTC
+
   workflow_dispatch:
     inputs:
       command:
         description: "Calistirilacak komut"
         type: choice
-        options: [prices, all, campaigns, list-categories]
+        options:
+          - prices
+          - all
+          - campaigns
+          - list-categories
         default: prices
+
       only:
-        description: "Tek kategori slug (bos = config'teki tum kategoriler)"
+        description: "Tek kategori slug (bos = tum kategoriler)"
         required: false
         default: ""
+
       format:
         description: "Cikti formati"
         type: choice
-        options: [excel, csv, both]
+        options:
+          - excel
+          - csv
+          - both
         default: both
+
   issues:
-    types: [labeled] # mobil: issue'ya 'scrape:<slug>' etiketi ekle
+    types: [labeled]
 
 permissions:
-  contents: write # GitHub Release icin
+  contents: write
 
 concurrency:
   group: arcelik-scrape
@@ -31,64 +42,101 @@ concurrency:
 
 jobs:
   scrape:
-    if: github.event_name != 'issues' || startsWith(github.event.label.name, 'scrape:')
+    if: >-
+      github.event_name != 'issues' ||
+      startsWith(github.event.label.name, 'scrape:')
+
     runs-on: ubuntu-latest
     timeout-minutes: 90
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Setup Python
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - run: pip install .
+          cache: pip
+
+      - name: Install scraper
+        run: pip install .
+
       - name: Run scraper
         env:
           INPUT_COMMAND: ${{ github.event.inputs.command }}
           INPUT_ONLY: ${{ github.event.inputs.only }}
           INPUT_FORMAT: ${{ github.event.inputs.format }}
           LABEL: ${{ github.event.label.name }}
+
         run: |
           set -euo pipefail
+
           CMD="${INPUT_COMMAND:-prices}"
           FORMAT="${INPUT_FORMAT:-both}"
           ONLY="${INPUT_ONLY:-}"
+
           if [ -n "${LABEL:-}" ]; then
             CMD="prices"
             ONLY="${LABEL#scrape:}"
           fi
+
           if [ -n "${ONLY}" ] && ! [[ "${ONLY}" =~ ^[a-z0-9,-]+$ ]]; then
-            echo "gecersiz slug: ${ONLY}"; exit 1
+            echo "Gecersiz slug: ${ONLY}"
+            exit 1
           fi
+
           case "${CMD}" in
             prices|all)
               if [ -n "${ONLY}" ]; then
-                arcelikPriceScrapper "${CMD}" --only "${ONLY}" --format "${FORMAT}" --out-dir out
+                arcelikPriceScrapper "${CMD}" \
+                  --only "${ONLY}" \
+                  --format "${FORMAT}" \
+                  --out-dir out
               else
-                arcelikPriceScrapper "${CMD}" --format "${FORMAT}" --out-dir out
+                arcelikPriceScrapper "${CMD}" \
+                  --format "${FORMAT}" \
+                  --out-dir out
               fi
               ;;
+
             campaigns|list-categories)
               if [ -n "${ONLY}" ]; then
-                echo "uyari: ${CMD} komutu --only kabul etmiyor; yok sayildi"
+                echo "Uyari: ${CMD} --only kabul etmiyor; yok sayildi"
               fi
-              arcelikPriceScrapper "${CMD}" --format "${FORMAT}" --out-dir out
+
+              arcelikPriceScrapper "${CMD}" \
+                --format "${FORMAT}" \
+                --out-dir out
               ;;
+
             *)
-              echo "gecersiz komut: ${CMD}"; exit 1
+              echo "Gecersiz komut: ${CMD}"
+              exit 1
               ;;
           esac
-      - uses: actions/upload-artifact@v4
+
+      - name: Upload workflow artifact
         if: always()
+        uses: actions/upload-artifact@v7
         with:
           name: scrape-output
           path: out/
           retention-days: 14
-      - name: Publish release
+          if-no-files-found: warn
+
+      - name: Publish GitHub Release
         if: success()
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3.0.4
         with:
           tag_name: data-latest
           name: "Arcelik fiyat verisi"
-          body: "Haftalik veya manuel scraper ciktisi. Dosya adinda UTC tarih/saat vardir."
+          body: |
+            Haftalik veya manuel scraper ciktisi.
+
+            Dosya adlarinda UTC tarih/saat bilgisi bulunur.
+            Bu Release her yeni scraper calismasinda guncellenir.
+
           files: out/*
-          fail_on_unmatched_files: false
+          fail_on_unmatched_files: true
           overwrite_files: true
