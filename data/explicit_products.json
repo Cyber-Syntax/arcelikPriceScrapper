@@ -27734,5 +27734,21 @@
     "discounted_price": null,
     "scraped_at": "2026-11-22T19:04:39Z",
     "content_hash": "a1dda6f80d84e550ac9d6bc4df3ae34d45f6e906"
+  },
+  "https://www.arcelik.com.tr/kahve-demleme-ekipmanlari/kartalwoodart---zeytin-agaci-tamper-kahve-makinesi": {
+    "name": "KartalWoodArt - Zeytin ağacı Tamper",
+    "product_id": "9274291600",
+    "title": "KartalWoodArt - Zeytin ağacı Tamper Kahve Demleme Ekipmanları",
+    "url": "https://www.arcelik.com.tr/kahve-demleme-ekipmanlari/kartalwoodart---zeytin-agaci-tamper-kahve-makinesi",
+    "category_path": "Küçük Ev Aletleri > Kahve Makinesi > Kahve Demleme Ekipmanları",
+    "category_lv1": "Küçük Ev Aletleri",
+    "category_lv2": "Kahve Makinesi",
+    "category_lv3": "Kahve Demleme Ekipmanları",
+    "app_category": "Kahve Makinesi",
+    "code": "9274291600",
+    "price": "3705.00",
+    "discounted_price": null,
+    "scraped_at": "2026-11-24T20:47:23Z",
+    "content_hash": "3d8d58e1f7143984b3e19994734f6cd8917cfb71"
   }
 }

@@ -296559,5 +296559,818 @@
     "specifications": [],
     "cache_version": 2,
     "scraped_at": "2026-11-22T19:04:39Z"
+  },
+  "7519520064": {
+    "features": [
+      {
+        "title": "Tazelik Teknolojisi / VitaminZone",
+        "text": "Arçelik VitaminZone teknolojisi doğal gün ışığı döngüsünü simüle eder. Böylece buzdolabınızdaki meyve ve sebzelerin taze ve canlı görünümünün yanı sıra vitamin değerleri de daha uzun süre korunur.\n*Testler bağımsız kuruluş laboratuvarlarında, farklı sebze-meyve grupları için Vitamin A ve Vitamin C seviyeleri ölçülerek ve depolama öncesi değerlerle kıyaslanarak gerçekleştirilmiştir.",
+        "note": ""
+      },
+      {
+        "title": "Soğutucu Aydınlatması",
+        "text": "",
+        "note": ""
+      }
+    ],
+    "specifications": [],
+    "cache_version": 2,
+    "scraped_at": "2026-11-24T20:47:23Z"
+  },
+  "7768270262": {
+    "features": [
+      {
+        "title": "HomeWhiz Tarif Dünyası",
+        "text": "1500+ tarif, tek dokunuşla fırına aktarım ve uzaktan kontrol. HomeWhiz Tarif Dünyası ile tarifleri keşfedin, seçtiğiniz tarifi tek dokunuşla fırına gönderin ve pişirme sürecini dilediğiniz yerden takip edin. HomeWhiz, yemek hazırlığını daha kolay, daha akıllı ve daha keyifli hale getirir.",
+        "note": ""
+      },
+      {
+        "title": "3D Pişirme Teknolojisi",
+        "text": "Yeni nesil 3D Pişirme teknolojisi fırındaki alt, üst ve turbo ısıtıcıları aynı anda çalıştırarak ısıyı eşit bir yoğunlukla dağıtır. Bu sayede yemeklerin tüm yüzeylerine ısı dengeli bir şekilde dağılır ve ideal pişirme gerçekleşir. 3D Pişirme teknolojisiyle yemekleriniz yanmadan, eşit bir şekilde pişer.",
+        "note": ""
+      },
+      {
+        "title": "Buharlı Temizleme",
+        "text": "Buharın gücü ile fırın temizliği artık çok kolay! Pişirme sonrası fırının tabanına 1 bardak su döküp fırın sıcaklığını 100° C'ye ayarladığınızda 20 dakika bekleterek, kirleri yumuşaratak kolayca temizleyebilirsiniz. Yanmış noktaların ve kirlerin kimyasal kullanılmadan ne kadar kolaylıkla temizlendiğine inanamayacaksınız.",
+        "note": ""
+      },
+      {
+        "title": "Hot Aero Pro Teknolojisi",
+        "text": "Yeni Nesil pişirme teknolojisi: AeroPerfect! AeroPerfect Teknolojisi sayesinde sıcak hava fırın içerisinde mükemmel şekilde dağılırak, tek tepside pişirme performansı %40 iyileşir.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Aksesuarlar",
+        "name": "Standart Tepsi Adedi",
+        "value": "1"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Derin Tepsi Adedi",
+        "value": "1"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Tel Izgara",
+        "value": "1"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Fırın Rengi",
+        "value": "Siyah"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Serisi",
+        "value": "S4"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Fırın Hacmi",
+        "value": "72 L"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Saat Tipi",
+        "value": "LED Display - Touch Control Core UI Grundig"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Serisi",
+        "value": "Fibona Serisi"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "3 Boyutlu Pişirme Özelliği",
+        "value": "Alt, üst ve turbo ısıtıcılar aynı anda çalışarak ısı eşit bir yoğunlukla dağılır ve ideal pişirme gerçekleşir."
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Pizza Pişirme",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Buz Çözme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Fan Destekli Isıtıcı",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Elektroturbo (Fan Destekli Pişirme)",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Statik Fonksiyon",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Buharlı Temizleme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Alt Isıtıcı",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Izgara",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Küçük Izgara",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Teleskopik Ray Sistemi",
+        "value": "1 Seviye Tam Açılır"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Eko-Turbo Pişirme",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Sıcak Tutma Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Kolayca Sökülebilir ve Temizlenebilir Komple İç Cam",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Elektrikli Izgara",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Fırın Fonksiyon Adedi",
+        "value": "13"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Motor Teknolojisi",
+        "value": "Hot Aero Pro"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Homewhiz",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Buhar Destekli Pişirme",
+        "value": "Mevcut Değil"
+      },
+      {
+        "group": "Diğer",
+        "name": "Statik Fonksiyon",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Ana Fırın Ön Kapak Cam Sayısı",
+        "value": "3"
+      },
+      {
+        "group": "Diğer",
+        "name": "Kapı Açılınca Işık Yanma Özelliği",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Kapak Açılma Yönü",
+        "value": "Aşağı Açılır"
+      },
+      {
+        "group": "Diğer",
+        "name": "Ekran Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Izgara",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Alt Isıtıcı",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Elektroturbo (Fan Destekli Pişirme)",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Fan Destekli Isıtıcı",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Küçük Izgara",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Sıcak Tutma Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Fırın Fonksiyon Adedi",
+        "value": "13"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Eko-Turbo Pişirme",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Pizza Pişirme",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Buharlı Temizleme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Ankastre Fırın Tüketim Bilgileri",
+        "name": "Enerji Sınıfı",
+        "value": "A+"
+      }
+    ],
+    "cache_version": 2,
+    "scraped_at": "2026-11-24T20:47:23Z"
+  },
+  "7768270264": {
+    "features": [
+      {
+        "title": "HomeWhiz Tarif Dünyası",
+        "text": "1500+ tarif, tek dokunuşla fırına aktarım ve uzaktan kontrol. HomeWhiz Tarif Dünyası ile tarifleri keşfedin, seçtiğiniz tarifi tek dokunuşla fırına gönderin ve pişirme sürecini dilediğiniz yerden takip edin. HomeWhiz, yemek hazırlığını daha kolay, daha akıllı ve daha keyifli hale getirir.",
+        "note": ""
+      },
+      {
+        "title": "3D Pişirme Teknolojisi",
+        "text": "Yeni nesil 3D Pişirme teknolojisi fırındaki alt, üst ve turbo ısıtıcıları aynı anda çalıştırarak ısıyı eşit bir yoğunlukla dağıtır. Bu sayede yemeklerin tüm yüzeylerine ısı dengeli bir şekilde dağılır ve ideal pişirme gerçekleşir. 3D Pişirme teknolojisiyle yemekleriniz yanmadan, eşit bir şekilde pişer.",
+        "note": ""
+      },
+      {
+        "title": "Buharlı Temizleme",
+        "text": "Buharın gücü ile fırın temizliği artık çok kolay! Pişirme sonrası fırının tabanına 1 bardak su döküp fırın sıcaklığını 100° C'ye ayarladığınızda 20 dakika bekleterek, kirleri yumuşaratak kolayca temizleyebilirsiniz. Yanmış noktaların ve kirlerin kimyasal kullanılmadan ne kadar kolaylıkla temizlendiğine inanamayacaksınız.",
+        "note": ""
+      },
+      {
+        "title": "Hot Aero Pro Teknolojisi",
+        "text": "Yeni Nesil pişirme teknolojisi: AeroPerfect! AeroPerfect Teknolojisi sayesinde sıcak hava fırın içerisinde mükemmel şekilde dağılırak, tek tepside pişirme performansı %40 iyileşir.",
+        "note": ""
+      }
+    ],
+    "specifications": [
+      {
+        "group": "Aksesuarlar",
+        "name": "Standart Tepsi Adedi",
+        "value": "1"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Derin Tepsi Adedi",
+        "value": "1"
+      },
+      {
+        "group": "Aksesuarlar",
+        "name": "Tel Izgara",
+        "value": "1"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Fırın Rengi",
+        "value": "Gri Cam Yüzey (Grion)"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Serisi",
+        "value": "S4"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Fırın Hacmi",
+        "value": "72 L"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Enerji Sınıfı",
+        "value": "A+"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Saat Tipi",
+        "value": "LED Display - Touch Control Core UI Grundig"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Bağlantı",
+        "value": "Wi-Fi + BLE"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ürün Serisi",
+        "value": "Fibona Serisi"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "3 Boyutlu Pişirme Özelliği",
+        "value": "Alt, üst ve turbo ısıtıcılar aynı anda çalışarak ısı eşit bir yoğunlukla dağılır ve ideal pişirme gerçekleşir."
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Pizza Pişirme",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Buz Çözme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Fan Destekli Isıtıcı",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Elektroturbo (Fan Destekli Pişirme)",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Statik Fonksiyon",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Buharlı Temizleme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Alt Isıtıcı",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Izgara",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Küçük Izgara",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Teleskopik Ray Sistemi",
+        "value": "1 Seviye Tam Açılır"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Eko-Turbo Pişirme",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Sıcak Tutma Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Kolayca Sökülebilir ve Temizlenebilir Komple İç Cam",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Elektrikli Izgara",
+        "value": "Var"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Fırın Fonksiyon Adedi",
+        "value": "13"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Motor Teknolojisi",
+        "value": "Hot Aero Pro"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Homewhiz",
+        "value": "Wi-Fi"
+      },
+      {
+        "group": "Pişirme Fonksiyonları ve Teknolojileri",
+        "name": "Buhar Destekli Pişirme",
+        "value": "Mevcut Değil"
+      },
+      {
+        "group": "Diğer",
+        "name": "Statik Fonksiyon",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Ana Fırın Ön Kapak Cam Sayısı",
+        "value": "3"
+      },
+      {
+        "group": "Diğer",
+        "name": "Kapı Açılınca Işık Yanma Özelliği",
+        "value": "Var"
+      },
+      {
+        "group": "Diğer",
+        "name": "Kapak Açılma Yönü",
+        "value": "Aşağı Açılır"
+      },
+      {
+        "group": "Diğer",
+        "name": "Ekran Kilidi",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Izgara",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Alt Isıtıcı",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Elektroturbo (Fan Destekli Pişirme)",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Fan Destekli Isıtıcı",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Küçük Izgara",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Sıcak Tutma Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Fırın Fonksiyon Adedi",
+        "value": "13"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Eko-Turbo Pişirme",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Pizza Pişirme",
+        "value": "Var"
+      },
+      {
+        "group": "Fırın (Ana Bölme)",
+        "name": "Buharlı Temizleme Fonksiyonu",
+        "value": "Var"
+      },
+      {
+        "group": "Ankastre Fırın Tüketim Bilgileri",
+        "name": "Enerji Sınıfı",
+        "value": "A+"
+      }
+    ],
+    "cache_version": 2,
+    "scraped_at": "2026-11-24T20:47:23Z"
+  },
+  "9178008958": {
+    "features": [],
+    "specifications": [],
+    "cache_version": 2,
+    "scraped_at": "2026-11-24T20:47:23Z"
+  },
+  "9191512264": {
+    "features": [],
+    "specifications": [],
+    "cache_version": 2,
+    "scraped_at": "2026-11-24T20:47:23Z"
+  },
+  "9273641600": {
+    "features": [],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Dolby-Atmos",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Boyutu",
+        "value": "55'"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çözünürlük",
+        "value": "4K UHD QLED"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Türü",
+        "value": "DLED QD"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Renk",
+        "value": "Mat siyah"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "HDR10+",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Dolby-Vision",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Renk Geliştirme Teknolojisi ile mükemmel renkler",
+        "value": "Var"
+      },
+      {
+        "group": "Ekran Özellikleri",
+        "name": "Panel",
+        "value": "DLED QD"
+      },
+      {
+        "group": "Ekran Özellikleri",
+        "name": "Ekran Boyutu",
+        "value": "55'"
+      },
+      {
+        "group": "Ekran Özellikleri",
+        "name": "Çözünürlük",
+        "value": "4K UHD QLED"
+      },
+      {
+        "group": "Ekran Özellikleri",
+        "name": "HDR10+",
+        "value": "Var"
+      },
+      {
+        "group": "Ekran Özellikleri",
+        "name": "Parlaklık",
+        "value": "300nits"
+      },
+      {
+        "group": "Ses Özellikleri",
+        "name": "Dolby-Atmos",
+        "value": "Var"
+      },
+      {
+        "group": "Bağlantı Özellikleri",
+        "name": "HDMI Girişi",
+        "value": "3"
+      },
+      {
+        "group": "Bağlantı Özellikleri",
+        "name": "HDMI Girişleri",
+        "value": "1"
+      },
+      {
+        "group": "Bağlantı Özellikleri",
+        "name": "USB Girişi",
+        "value": "2"
+      },
+      {
+        "group": "Bağlantı Özellikleri",
+        "name": "Bluetooth",
+        "value": "Var"
+      },
+      {
+        "group": "Akıllı TV Özellikleri",
+        "name": "Storage",
+        "value": "8GB"
+      },
+      {
+        "group": "Akıllı TV Özellikleri",
+        "name": "Kumanda Sesli Kontrol",
+        "value": "Uzaktan Kumanda"
+      },
+      {
+        "group": "Tasarım Özellikleri",
+        "name": "Renk",
+        "value": "Mat siyah"
+      },
+      {
+        "group": "Tasarım Özellikleri",
+        "name": "Duvara Monte Desteği",
+        "value": "200 x 100 mm"
+      },
+      {
+        "group": "Enerji Tüketimi",
+        "name": "Enerji Sınıfı",
+        "value": "G"
+      }
+    ],
+    "cache_version": 2,
+    "scraped_at": "2026-11-24T20:47:23Z"
+  },
+  "9273651600": {
+    "features": [],
+    "specifications": [
+      {
+        "group": "Genel Özellikler",
+        "name": "Dolby-Atmos",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Boyutu",
+        "value": "65'"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Çözünürlük",
+        "value": "4K UHD QLED"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Ekran Türü",
+        "value": "DLED QD"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Renk",
+        "value": "Mat siyah"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "HDR10+",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Dolby-Vision",
+        "value": "Var"
+      },
+      {
+        "group": "Genel Özellikler",
+        "name": "Renk Geliştirme Teknolojisi ile mükemmel renkler",
+        "value": "Var"
+      },
+      {
+        "group": "Ekran Özellikleri",
+        "name": "Panel",
+        "value": "DLED QD"
+      },
+      {
+        "group": "Ekran Özellikleri",
+        "name": "Ekran Boyutu",
+        "value": "65'"
+      },
+      {
+        "group": "Ekran Özellikleri",
+        "name": "Çözünürlük",
+        "value": "4K UHD QLED"
+      },
+      {
+        "group": "Ekran Özellikleri",
+        "name": "HDR10+",
+        "value": "Var"
+      },
+      {
+        "group": "Ekran Özellikleri",
+        "name": "Parlaklık",
+        "value": "330nits"
+      },
+      {
+        "group": "Ses Özellikleri",
+        "name": "Dolby-Atmos",
+        "value": "Var"
+      },
+      {
+        "group": "Bağlantı Özellikleri",
+        "name": "HDMI Girişi",
+        "value": "3"
+      },
+      {
+        "group": "Bağlantı Özellikleri",
+        "name": "HDMI Girişleri",
+        "value": "1"
+      },
+      {
+        "group": "Bağlantı Özellikleri",
+        "name": "USB Girişi",
+        "value": "2"
+      },
+      {
+        "group": "Bağlantı Özellikleri",
+        "name": "Bluetooth",
+        "value": "Var"
+      },
+      {
+        "group": "Akıllı TV Özellikleri",
+        "name": "Storage",
+        "value": "8GB"
+      },
+      {
+        "group": "Akıllı TV Özellikleri",
+        "name": "Kumanda Sesli Kontrol",
+        "value": "Uzaktan Kumanda"
+      },
+      {
+        "group": "Tasarım Özellikleri",
+        "name": "Renk",
+        "value": "Mat siyah"
+      },
+      {
+        "group": "Tasarım Özellikleri",
+        "name": "Duvara Monte Desteği",
+        "value": "400*300 mm"
+      },
+      {
+        "group": "Enerji Tüketimi",
+        "name": "Enerji Sınıfı",
+        "value": "G"
+      }
+    ],
+    "cache_version": 2,
+    "scraped_at": "2026-11-24T20:47:23Z"
+  },
+  "9178018430": {
+    "features": [],
+    "specifications": [],
+    "cache_version": 2,
+    "scraped_at": "2026-11-24T20:47:23Z"
+  },
+  "8910171100": {
+    "features": [],
+    "specifications": [
+      {
+        "group": "Ölçüler",
+        "name": "Ağırlık: Paketsiz",
+        "value": "1 kg"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Boyut (cm) (GxYxD)",
+        "value": "20 cm"
+      },
+      {
+        "group": "Ölçüler",
+        "name": "Derinlik",
+        "value": "12.6 cm"
+      }
+    ],
+    "cache_version": 2,
+    "scraped_at": "2026-11-24T20:47:23Z"
+  },
+  "9178064049": {
+    "features": [],
+    "specifications": [],
+    "cache_version": 2,
+    "scraped_at": "2026-11-24T20:47:23Z"
   }
 }
