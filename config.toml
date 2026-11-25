@@ -1,0 +1,1472 @@
+[http]
+concurrency = 2
+delay_min = 0.5
+delay_max = 1.5
+timeout = 20
+retries = 4
+max_pages = 200
+
+[output]
+format = "json"                  # json | excel | csv | both (json her zaman)
+dir = "out"
+warranty_category = "Ek Garanti"
+with_scraped_at = false          # ana products 11 sutun kalsin; opt-in 12. sutun
+
+[categories]
+include_children = true # secili dugumun alt kategorileri de taransin mi
+# Agac-duyarli: "bilgisayar" yazinca Laptop/Tablet/Masaustu de kapsam disi kalir.
+exclude = [
+  "tablet",
+  "cep-telefonu",
+  "bilgisayar",
+  "laptop",
+  "kulaklik",
+  "akilli-saat",
+]
+
+[categories.aliases]
+# Bayios'ta eski ad varsa burada esle; bos birakilirsa site adi yazilir.
+# "Kurutma Makinesi" = "Kurutma"
+
+# [L1] Yapay Zeka Destekli Ürünler
+[[categories.include]]
+slug = "yapay-zeka-destekli-urunler"
+include_children = true              # tum alt kategoriler icin
+
+# [L1] Beyaz Eşya
+[[categories.include]]
+slug = "beyaz-esya"
+include_children = true # tum alt kategoriler icin
+
+# [L2] Beyaz Eşya > Çeyiz Seti
+[[categories.include]]
+slug = "ceyiz-seti"
+app_category = "Çeyiz Seti"
+
+# [L2] Beyaz Eşya > Buzdolabı [config]
+[[categories.include]]
+slug = "buzdolabi"
+app_category = "Buzdolabı"
+
+# [L3] Beyaz Eşya > Buzdolabı > No Frost Buzdolabı
+[[categories.include]]
+slug = "no-frost-buzdolabi"
+app_category = "Buzdolabı"
+
+# [L3] Beyaz Eşya > Buzdolabı > Alttan Donduruculu Buzdolabı
+[[categories.include]]
+slug = "alttan-donduruculu-buzdolabi"
+app_category = "Buzdolabı"
+
+# [L3] Beyaz Eşya > Buzdolabı > Üstten Donduruculu Buzdolabı
+[[categories.include]]
+slug = "ustten-donduruculu-buzdolabi"
+app_category = "Buzdolabı"
+
+# [L3] Beyaz Eşya > Buzdolabı > Gardırop Tipi Buzdolabı
+[[categories.include]]
+slug = "gardirop-tipi-buzdolabi"
+app_category = "Buzdolabı"
+
+# [L3] Beyaz Eşya > Buzdolabı > Statik Buzdolabı
+[[categories.include]]
+slug = "statik-buzdolabi"
+app_category = "Buzdolabı"
+
+# [L3] Beyaz Eşya > Buzdolabı > Mini Buzdolabı
+[[categories.include]]
+slug = "mini-buzdolabi"
+app_category = "Buzdolabı"
+
+# [L3] Beyaz Eşya > Buzdolabı > Ankastre Buzdolabı
+[[categories.include]]
+slug = "ankastre-buzdolabi"
+app_category = "Buzdolabı"
+
+# [L3] Beyaz Eşya > Buzdolabı > Cam Serisi Buzdolabı
+[[categories.include]]
+slug = "cam-serisi-buzdolabi"
+app_category = "Buzdolabı"
+
+# [L3] Beyaz Eşya > Buzdolabı > XXL Buzdolabı
+[[categories.include]]
+slug = "xxl-buzdolabi"
+app_category = "Buzdolabı"
+
+# [L2] Beyaz Eşya > Derin Dondurucu
+[[categories.include]]
+slug = "derin-dondurucu"
+app_category = "Derin Dondurucu"
+
+# [L3] Beyaz Eşya > Derin Dondurucu > Sandık Tipi Derin Dondurucu
+[[categories.include]]
+slug = "sandik-tipi-derin-dondurucu"
+app_category = "Derin Dondurucu"
+
+# [L3] Beyaz Eşya > Derin Dondurucu > Çekmeceli Derin Dondurucu
+[[categories.include]]
+slug = "cekmeceli-derin-dondurucu"
+app_category = "Derin Dondurucu"
+
+# [L3] Beyaz Eşya > Derin Dondurucu > Statik Derin Donducu
+[[categories.include]]
+slug = "statik-derin-donducu"
+app_category = "Derin Dondurucu"
+
+# [L3] Beyaz Eşya > Derin Dondurucu > No Frost Derin Dondurucu
+[[categories.include]]
+slug = "no-frost-derin-dondurucu"
+app_category = "Derin Dondurucu"
+
+# [L3] Beyaz Eşya > Derin Dondurucu > Ticari Derin Dondurucular
+[[categories.include]]
+slug = "ticari-derin-dondurucular"
+app_category = "Derin Dondurucu"
+
+# [L2] Beyaz Eşya > İçecek Soğutucu
+[[categories.include]]
+slug = "icecek-sogutucu"
+app_category = "İçecek Soğutucu"
+
+# [L2] Beyaz Eşya > Bulaşık Makinesi [config]
+[[categories.include]]
+slug = "bulasik-makinesi"
+app_category = "Bulaşık Makinesi"
+
+# [L3] Beyaz Eşya > Bulaşık Makinesi > Diamond Serisi Solo Bulaşık Makinesi
+[[categories.include]]
+slug = "diamond-serisi-solo-bulasik-makinesi"
+app_category = "Bulaşık Makinesi"
+
+# [L3] Beyaz Eşya > Bulaşık Makinesi > Star Serisi Solo Bulaşık Makinesi
+[[categories.include]]
+slug = "star-serisi-solo-bulasik-makinesi"
+app_category = "Bulaşık Makinesi"
+
+# [L3] Beyaz Eşya > Bulaşık Makinesi > Prestige Serisi Solo Bulaşık Makinesi
+[[categories.include]]
+slug = "prestige-serisi-solo-bulasik-makinesi"
+app_category = "Bulaşık Makinesi"
+
+# [L3] Beyaz Eşya > Bulaşık Makinesi > Ankastre Bulaşık Makinesi
+[[categories.include]]
+slug = "ankastre-bulasik-makinesi"
+app_category = "Bulaşık Makinesi"
+
+# [L2] Beyaz Eşya > Çamaşır Makinesi [config]
+[[categories.include]]
+slug = "camasir-makinesi"
+app_category = "Çamaşır Makinesi"
+
+# [L3] Beyaz Eşya > Çamaşır Makinesi > 8 Kg Çamaşır Makinesi
+[[categories.include]]
+slug = "8-kg-camasir-makinesi"
+app_category = "Çamaşır Makinesi"
+
+# [L3] Beyaz Eşya > Çamaşır Makinesi > 9 Kg Çamaşır Makinesi
+[[categories.include]]
+slug = "9-kg-camasir-makinesi"
+app_category = "Çamaşır Makinesi"
+
+# [L3] Beyaz Eşya > Çamaşır Makinesi > 10 Kg Çamaşır Makinesi
+[[categories.include]]
+slug = "10-kg-camasir-makinesi"
+app_category = "Çamaşır Makinesi"
+
+# [L3] Beyaz Eşya > Çamaşır Makinesi > 11 Kg Çamaşır Makinesi
+[[categories.include]]
+slug = "11-kg-camasir-makinesi"
+app_category = "Çamaşır Makinesi"
+
+# [L3] Beyaz Eşya > Çamaşır Makinesi > 12 Kg Çamaşır Makinesi
+[[categories.include]]
+slug = "12-kg-camasir-makinesi"
+app_category = "Çamaşır Makinesi"
+
+# [L3] Beyaz Eşya > Çamaşır Makinesi > 13 Kg Çamaşır Makinesi
+[[categories.include]]
+slug = "13-kg-camasir-makinesi"
+app_category = "Çamaşır Makinesi"
+
+# [L2] Beyaz Eşya > Kurutma Makinesi [config]
+[[categories.include]]
+slug = "kurutma-makinesi"
+app_category = "Kurutma Makinesi"
+
+# [L3] Beyaz Eşya > Kurutma Makinesi > 8 Kg Kurutma Makinesi
+[[categories.include]]
+slug = "8-kg-kurutma-makinesi"
+app_category = "Kurutma Makinesi"
+
+# [L3] Beyaz Eşya > Kurutma Makinesi > 9 Kg Kurutma Makinesi
+[[categories.include]]
+slug = "9-kg-kurutma-makinesi"
+app_category = "Kurutma Makinesi"
+
+# [L3] Beyaz Eşya > Kurutma Makinesi > 10 Kg Kurutma Makinesi
+[[categories.include]]
+slug = "10-kg-kurutma-makinesi"
+app_category = "Kurutma Makinesi"
+
+# [L3] Beyaz Eşya > Kurutma Makinesi > 11 Kg Kurutma Makinesi
+[[categories.include]]
+slug = "11-kg-kurutma-makinesi"
+app_category = "Kurutma Makinesi"
+
+# [L3] Beyaz Eşya > Kurutma Makinesi > 12 Kg Kurutma Makinesi
+[[categories.include]]
+slug = "12-kg-kurutma-makinesi"
+app_category = "Kurutma Makinesi"
+
+# [L2] Beyaz Eşya > Kurutmalı Çamaşır Makinesi
+[[categories.include]]
+slug = "kurutmali-camasir-makinesi"
+app_category = "Kurutmalı Çamaşır Makinesi"
+
+# [L2] Beyaz Eşya > Fırın
+[[categories.include]]
+slug = "firin"
+app_category = "Fırın"
+
+# [L3] Beyaz Eşya > Fırın > Ocaklı Fırın
+[[categories.include]]
+slug = "ocakli-firin"
+app_category = "Fırın"
+
+# [L3] Beyaz Eşya > Fırın > Mini Fırın
+[[categories.include]]
+slug = "mini-firin"
+app_category = "Fırın"
+
+# [L3] Beyaz Eşya > Fırın > Kuzine Fırın
+[[categories.include]]
+slug = "kuzine-firin"
+app_category = "Fırın"
+
+# [L2] Beyaz Eşya > Mikrodalga Fırın
+[[categories.include]]
+slug = "mikrodalga-firin"
+app_category = "Mikrodalga Fırın"
+
+# [L2] Beyaz Eşya > Set Üstü Ocak
+[[categories.include]]
+slug = "set-ustu-ocak"
+app_category = "Set Üstü Ocak"
+
+# [L2] Beyaz Eşya > Beyaz Eşya Yedek Parça ve Aksesuarları
+[[categories.include]]
+slug = "beyaz-esya-yedek-parca-ve-aksesuarlari"
+app_category = "Beyaz Eşya Yedek Parça ve Aksesuarları"
+
+# [L3] Beyaz Eşya > Beyaz Eşya Yedek Parça ve Aksesuarları > Buzdolabı Aksesuarları
+[[categories.include]]
+slug = "buzdolabi-aksesuarlari"
+app_category = "Beyaz Eşya Yedek Parça ve Aksesuarları"
+
+# [L3] Beyaz Eşya > Beyaz Eşya Yedek Parça ve Aksesuarları > Bulaşık Makinesi Aksesuarları
+[[categories.include]]
+slug = "bulasik-makinesi-aksesuarlari"
+app_category = "Beyaz Eşya Yedek Parça ve Aksesuarları"
+
+# [L1] Ankastre
+[[categories.include]]
+slug = "ankastre"
+include_children = true # tum alt kategoriler icin
+
+# [L2] Ankastre > Ankastre Set
+[[categories.include]]
+slug = "ankastre-set"
+app_category = "Ankastre Set"
+
+# [L2] Ankastre > Ankastre Fırın [config]
+[[categories.include]]
+slug = "ankastre-firin"
+app_category = "Ankastre Fırın"
+
+# [L3] Ankastre > Ankastre Fırın > Ankastre Standart Fırın
+[[categories.include]]
+slug = "buhar-destekli-firin"
+app_category = "Ankastre Fırın"
+
+# [L3] Ankastre > Ankastre Fırın > Buhar Destekli Fırın
+[[categories.include]]
+slug = "ankastre-standart-firin"
+app_category = "Ankastre Fırın"
+
+# [L3] Ankastre > Ankastre Fırın > AFry Buhar Destekli Fırın
+[[categories.include]]
+slug = "afry-buhar-destekli-firin"
+app_category = "Ankastre Fırın"
+
+# [L3] Ankastre > Ankastre Fırın > Yapay Zeka Destekli Kameralı Ankastre Fırın
+[[categories.include]]
+slug = "yapay-zeka-destekli-kamerali-ankastre-firin"
+app_category = "Ankastre Fırın"
+
+# [L3] Ankastre > Ankastre Fırın > 45 cm Mikrodalga Ankastre Fırın
+[[categories.include]]
+slug = "45-cm-mikrodalga--ankastre-firin"
+app_category = "Ankastre Fırın"
+
+# [L2] Ankastre > Ankastre Mikrodalga
+[[categories.include]]
+slug = "ankastre-mikrodalga"
+app_category = "Ankastre Mikrodalga"
+
+# [L3] Ankastre > Ankastre Mikrodalga > Ankastre Mikrodalga [duplicate slug]
+
+# [L3] Ankastre > Ankastre Mikrodalga > Ankastre Mikrodalga Çerçevesi
+[[categories.include]]
+slug = "ankastre-mikrodalga-cercevesi"
+app_category = "Ankastre Mikrodalga"
+
+# [L2] Ankastre > Ankastre Ocak
+[[categories.include]]
+slug = "ankastre-ocak"
+app_category = "Ankastre Ocak"
+
+# [L3] Ankastre > Ankastre Ocak > Entegre Davlumbazlı Ocak
+[[categories.include]]
+slug = "entegre-davlumbazli-ocak"
+app_category = "Ankastre Ocak"
+
+# [L3] Ankastre > Ankastre Ocak > İndüksiyonlu Ocak
+[[categories.include]]
+slug = "induksiyonlu-ocak"
+app_category = "Ankastre Ocak"
+
+# [L3] Ankastre > Ankastre Ocak > Vitroseramik Ocak
+[[categories.include]]
+slug = "vitroseramik-ocak"
+app_category = "Ankastre Ocak"
+
+# [L3] Ankastre > Ankastre Ocak > Gazlı Cam Tablalı Ocak
+[[categories.include]]
+slug = "gazli-cam-tablali-ocak"
+app_category = "Ankastre Ocak"
+
+# [L3] Ankastre > Ankastre Ocak > Gazlı Metal Tablalı Ocak
+[[categories.include]]
+slug = "gazli-metal-tablali-ocak"
+app_category = "Ankastre Ocak"
+
+# [L3] Ankastre > Ankastre Ocak > Domino Ocak
+[[categories.include]]
+slug = "domino-ocak"
+app_category = "Ankastre Ocak"
+
+# [L3] Ankastre > Ankastre Ocak > Elektrikli Ocak
+[[categories.include]]
+slug = "elektrikli-ocak"
+app_category = "Ankastre Ocak"
+
+# [L2] Ankastre > Ankastre Davlumbaz
+[[categories.include]]
+slug = "ankastre-davlumbaz"
+app_category = "Ankastre Davlumbaz"
+
+# [L3] Ankastre > Ankastre Davlumbaz > Ankastre Ada Tipi Davlumbaz
+[[categories.include]]
+slug = "ankastre-ada-tipi-davlumbaz"
+app_category = "Ankastre Davlumbaz"
+
+# [L3] Ankastre > Ankastre Davlumbaz > Ankastre Duvar Tipi Davlumbaz
+[[categories.include]]
+slug = "ankastre-duvar-tipi-davlumbaz"
+app_category = "Ankastre Davlumbaz"
+
+# [L2] Ankastre > Ankastre Aspiratör
+[[categories.include]]
+slug = "ankastre-aspirator"
+app_category = "Ankastre Aspiratör"
+
+# [L3] Ankastre > Ankastre Aspiratör > Ankastre Sürgülü Aspiratör
+[[categories.include]]
+slug = "ankastre-surgulu-aspirator"
+app_category = "Ankastre Aspiratör"
+
+# [L3] Ankastre > Ankastre Aspiratör > Ankastre Gömme Aspiratör
+[[categories.include]]
+slug = "ankastre-gomme-aspirator"
+app_category = "Ankastre Aspiratör"
+
+# [L2] Ankastre > Ankastre Bulaşık Makinesi [duplicate slug]
+
+# [L3] Ankastre > Ankastre Bulaşık Makinesi > Tam Ankastre Bulaşık Makinesi
+[[categories.include]]
+slug = "tam-ankastre-bulasik-makinesi"
+app_category = "Ankastre Bulaşık Makinesi"
+
+# [L3] Ankastre > Ankastre Bulaşık Makinesi > Yarı Ankastre Bulaşık Makinesi
+[[categories.include]]
+slug = "yari-ankastre-bulasik-makinesi"
+app_category = "Ankastre Bulaşık Makinesi"
+
+# [L2] Ankastre > Ankastre Buzdolabı [duplicate slug]
+
+# [L2] Ankastre > Pişirici Yedek Parça ve Aksesuarları
+[[categories.include]]
+slug = "pisirici-yedek-parca-ve-aksesuarlari"
+app_category = "Pişirici Yedek Parça ve Aksesuarları"
+
+# [L1] Küçük Ev Aletleri
+[[categories.include]]
+slug = "kucuk-ev-aletleri"
+include_children = true    # tum alt kategoriler icin
+
+# [L2] Küçük Ev Aletleri > Küçük Ev Aletleri Mutfak Setleri
+[[categories.include]]
+slug = "kucuk-ev-aletleri-seti"
+app_category = "Küçük Ev Aletleri Mutfak Setleri"
+
+# [L2] Küçük Ev Aletleri > Elektrikli Süpürge
+[[categories.include]]
+slug = "elektrikli-supurge"
+app_category = "Elektrikli Süpürge"
+
+# [L3] Küçük Ev Aletleri > Elektrikli Süpürge > Dikey Süpürge
+[[categories.include]]
+slug = "dikey-supurge"
+app_category = "Elektrikli Süpürge"
+
+# [L3] Küçük Ev Aletleri > Elektrikli Süpürge > Robot Süpürge
+[[categories.include]]
+slug = "robot-supurge"
+app_category = "Elektrikli Süpürge"
+
+# [L3] Küçük Ev Aletleri > Elektrikli Süpürge > Toz Torbalı Süpürge
+[[categories.include]]
+slug = "toz-torbali-supurge"
+app_category = "Elektrikli Süpürge"
+
+# [L3] Küçük Ev Aletleri > Elektrikli Süpürge > Toz Torbasız Süpürge
+[[categories.include]]
+slug = "toz-torbasiz-supurge"
+app_category = "Elektrikli Süpürge"
+
+# [L3] Küçük Ev Aletleri > Elektrikli Süpürge > Islak Kuru Süpürge
+[[categories.include]]
+slug = "islak-kuru-supurge"
+app_category = "Elektrikli Süpürge"
+
+# [L3] Küçük Ev Aletleri > Elektrikli Süpürge > Kablolu Dikey Süpürge
+[[categories.include]]
+slug = "kablolu-dikey-supurge"
+app_category = "Elektrikli Süpürge"
+
+# [L3] Küçük Ev Aletleri > Elektrikli Süpürge > Şarjlı Dikey Süpürge
+[[categories.include]]
+slug = "sarjli-dikey-supurge"
+app_category = "Elektrikli Süpürge"
+
+# [L3] Küçük Ev Aletleri > Elektrikli Süpürge > El Süpürgesi
+[[categories.include]]
+slug = "el-supurgesi"
+app_category = "Elektrikli Süpürge"
+
+# [L3] Küçük Ev Aletleri > Elektrikli Süpürge > Süpürge Aksesuarları
+[[categories.include]]
+slug = "supurge-aksesuarlari"
+app_category = "Elektrikli Süpürge"
+
+# [L2] Küçük Ev Aletleri > Ev Temizlik Ekipmanları ve Teknolojileri
+[[categories.include]]
+slug = "ev-temizlik-ekipmanlari-ve-teknolojileri"
+app_category = "Ev Temizlik Ekipmanları ve Teknolojileri"
+
+# [L3] Küçük Ev Aletleri > Ev Temizlik Ekipmanları ve Teknolojileri > Halı ve Koltuk Yıkama Makineleri
+[[categories.include]]
+slug = "hali-ve-koltuk-yikama-makineleri"
+app_category = "Ev Temizlik Ekipmanları ve Teknolojileri"
+
+# [L3] Küçük Ev Aletleri > Ev Temizlik Ekipmanları ve Teknolojileri > Buharlı Temizleyiciler
+[[categories.include]]
+slug = "buharli-temizleyiciler"
+app_category = "Ev Temizlik Ekipmanları ve Teknolojileri"
+
+# [L3] Küçük Ev Aletleri > Ev Temizlik Ekipmanları ve Teknolojileri > Cam Temizleme Makineleri ve Robotları
+[[categories.include]]
+slug = "cam-temizleme-makineleri-ve-robotlari"
+app_category = "Ev Temizlik Ekipmanları ve Teknolojileri"
+
+# [L2] Küçük Ev Aletleri > Ütü
+[[categories.include]]
+slug = "utu"
+app_category = "Ütü"
+
+# [L3] Küçük Ev Aletleri > Ütü > Buharlı Ütü
+[[categories.include]]
+slug = "buharli-utu"
+app_category = "Ütü"
+
+# [L3] Küçük Ev Aletleri > Ütü > Kazanlı Ütü
+[[categories.include]]
+slug = "kazanli-utu"
+app_category = "Ütü"
+
+# [L3] Küçük Ev Aletleri > Ütü > Buharlı Kırışık Giderici
+[[categories.include]]
+slug = "buharli-kirisik-giderici"
+app_category = "Ütü"
+
+# [L3] Küçük Ev Aletleri > Ütü > Seyahat Ütüsü
+[[categories.include]]
+slug = "seyahat-utusu"
+app_category = "Ütü"
+
+# [L3] Küçük Ev Aletleri > Ütü > Ütü Masası
+[[categories.include]]
+slug = "utu-masasi"
+app_category = "Ütü"
+
+# [L2] Küçük Ev Aletleri > Kahve Makinesi
+[[categories.include]]
+slug = "kahve-makinesi"
+app_category = "Kahve Makinesi"
+
+# [L3] Küçük Ev Aletleri > Kahve Makinesi > Espresso Makinesi
+[[categories.include]]
+slug = "espresso-makinesi"
+app_category = "Kahve Makinesi"
+
+# [L3] Küçük Ev Aletleri > Kahve Makinesi > Türk Kahve Makinesi [config]
+[[categories.include]]
+slug = "turk-kahve-makinesi"
+app_category = "Türk Kahve Makinesi"
+
+# [L3] Küçük Ev Aletleri > Kahve Makinesi > Filtre Kahve Makinesi
+[[categories.include]]
+slug = "filtre-kahve-makinesi"
+app_category = "Kahve Makinesi"
+
+# [L3] Küçük Ev Aletleri > Kahve Makinesi > Kapsül Kahve Makinesi
+[[categories.include]]
+slug = "kapsul-kahve-makinesi"
+app_category = "Kahve Makinesi"
+
+# [L3] Küçük Ev Aletleri > Kahve Makinesi > Kapsül Kahve
+[[categories.include]]
+slug = "kahve-kapsulu"
+app_category = "Kahve Makinesi"
+
+# [L3] Küçük Ev Aletleri > Kahve Makinesi > Kahve Öğütücü
+[[categories.include]]
+slug = "kahve-ogutucu"
+app_category = "Kahve Makinesi"
+
+# [L3] Küçük Ev Aletleri > Kahve Makinesi > Kahve Demleme Ekipmanları
+[[categories.include]]
+slug = "kahve-demleme-ekipmanlari"
+app_category = "Kahve Makinesi"
+
+# [L2] Küçük Ev Aletleri > Çay Makinesi
+[[categories.include]]
+slug = "cay-makinesi"
+app_category = "Çay Makinesi"
+
+# [L2] Küçük Ev Aletleri > Dondurma Makinesi
+[[categories.include]]
+slug = "dondurma-makinesi"
+app_category = "Dondurma Makinesi"
+
+# [L2] Küçük Ev Aletleri > Frozen ve Slush Makinesi
+[[categories.include]]
+slug = "frozen-ve-slush-makinesi"
+app_category = "Frozen ve Slush Makinesi"
+
+# [L2] Küçük Ev Aletleri > Semaver
+[[categories.include]]
+slug = "semaver"
+app_category = "Semaver"
+
+# [L2] Küçük Ev Aletleri > Kettle
+[[categories.include]]
+slug = "kettle"
+app_category = "Kettle"
+
+# [L2] Küçük Ev Aletleri > Katı Meyve Sıkacağı
+[[categories.include]]
+slug = "kati-meyve-sikacagi"
+app_category = "Katı Meyve Sıkacağı"
+
+# [L2] Küçük Ev Aletleri > Narenciye Sıkacağı
+[[categories.include]]
+slug = "narenciye-sikacagi"
+app_category = "Narenciye Sıkacağı"
+
+# [L2] Küçük Ev Aletleri > Karıştırıcı & Doğrayıcı
+[[categories.include]]
+slug = "karistirici-dograyici"
+app_category = "Karıştırıcı & Doğrayıcı"
+
+# [L3] Küçük Ev Aletleri > Karıştırıcı & Doğrayıcı > El Blender
+[[categories.include]]
+slug = "el-blender"
+app_category = "Karıştırıcı & Doğrayıcı"
+
+# [L3] Küçük Ev Aletleri > Karıştırıcı & Doğrayıcı > Blender
+[[categories.include]]
+slug = "blender"
+app_category = "Karıştırıcı & Doğrayıcı"
+
+# [L3] Küçük Ev Aletleri > Karıştırıcı & Doğrayıcı > Mikser
+[[categories.include]]
+slug = "mikser"
+app_category = "Karıştırıcı & Doğrayıcı"
+
+# [L3] Küçük Ev Aletleri > Karıştırıcı & Doğrayıcı > Doğrayıcı
+[[categories.include]]
+slug = "dograyici"
+app_category = "Karıştırıcı & Doğrayıcı"
+
+# [L3] Küçük Ev Aletleri > Karıştırıcı & Doğrayıcı > Kıyma Makinesi
+[[categories.include]]
+slug = "kiyma-makinesi"
+app_category = "Karıştırıcı & Doğrayıcı"
+
+# [L3] Küçük Ev Aletleri > Karıştırıcı & Doğrayıcı > Mutfak Robotu
+[[categories.include]]
+slug = "mutfak-robotu"
+app_category = "Karıştırıcı & Doğrayıcı"
+
+# [L3] Küçük Ev Aletleri > Karıştırıcı & Doğrayıcı > Hamur Yoğurma ve Mutfak Makinesi
+[[categories.include]]
+slug = "hamur-yogurma-ve-mutfak-makinesi"
+app_category = "Karıştırıcı & Doğrayıcı"
+
+# [L2] Küçük Ev Aletleri > Pişirici
+[[categories.include]]
+slug = "pisirici"
+app_category = "Pişirici"
+
+# [L3] Küçük Ev Aletleri > Pişirici > Tost Makinesi
+[[categories.include]]
+slug = "tost-makinesi"
+app_category = "Pişirici"
+
+# [L3] Küçük Ev Aletleri > Pişirici > Ekmek Kızartma Makinesi
+[[categories.include]]
+slug = "ekmek-kizartma-makinesi"
+app_category = "Pişirici"
+
+# [L3] Küçük Ev Aletleri > Pişirici > Çok Amaçlı Pişirici
+[[categories.include]]
+slug = "cok-amacli-pisirici"
+app_category = "Pişirici"
+
+# [L3] Küçük Ev Aletleri > Pişirici > Airfryer & Az Yağlı Fritöz
+[[categories.include]]
+slug = "airfryer-az-yagli-fritoz"
+app_category = "Pişirici"
+
+# [L3] Küçük Ev Aletleri > Pişirici > Waffle Makinesi
+[[categories.include]]
+slug = "waffle-makinesi"
+app_category = "Pişirici"
+
+# [L3] Küçük Ev Aletleri > Pişirici > Akıllı Mutfak Robotu
+[[categories.include]]
+slug = "akilli-mutfak-robotu"
+app_category = "Pişirici"
+
+# [L2] Küçük Ev Aletleri > Kişisel Bakım
+[[categories.include]]
+slug = "kisisel-bakim"
+app_category = "Kişisel Bakım"
+
+# [L3] Küçük Ev Aletleri > Kişisel Bakım > Saç Kurutma Makinesi
+[[categories.include]]
+slug = "sac-kurutma-makinesi"
+app_category = "Kişisel Bakım"
+
+# [L3] Küçük Ev Aletleri > Kişisel Bakım > Saç Düzleştirici
+[[categories.include]]
+slug = "sac-duzlestirici"
+app_category = "Kişisel Bakım"
+
+# [L3] Küçük Ev Aletleri > Kişisel Bakım > Saç Maşası
+[[categories.include]]
+slug = "sac-masasi"
+app_category = "Kişisel Bakım"
+
+# [L3] Küçük Ev Aletleri > Kişisel Bakım > Baskül
+[[categories.include]]
+slug = "baskul"
+app_category = "Kişisel Bakım"
+
+# [L3] Küçük Ev Aletleri > Kişisel Bakım > Tıraş Makineleri
+[[categories.include]]
+slug = "tiras-makineleri"
+app_category = "Kişisel Bakım"
+
+# [L3] Küçük Ev Aletleri > Kişisel Bakım > Saç Sakal Kesme Makineleri
+[[categories.include]]
+slug = "sac-sakal-kesme-makineleri"
+app_category = "Kişisel Bakım"
+
+# # [L3] Küçük Ev Aletleri > Kişisel Bakım > Epilatör
+# [[categories.include]]
+# slug = "epilator"
+# app_category = "Kişisel Bakım"
+
+# [L2] Küçük Ev Aletleri > Yoğurt & Kefir Makinesi
+[[categories.include]]
+slug = "yogurt-kefir-makinesi"
+app_category = "Yoğurt & Kefir Makinesi"
+
+# [L2] Küçük Ev Aletleri > Outdoor Ekipman
+[[categories.include]]
+slug = "outdoor-ekipman"
+app_category = "Outdoor Ekipman"
+
+# [L3] Küçük Ev Aletleri > Outdoor Ekipman > Termos
+[[categories.include]]
+slug = "termos"
+app_category = "Outdoor Ekipman"
+
+# [L3] Küçük Ev Aletleri > Outdoor Ekipman > Kahve Demleme Ekipmanları [duplicate slug]
+
+# [L2] Küçük Ev Aletleri > Küçük Ev Aletleri Yedek Parça ve Aksesuarları
+[[categories.include]]
+slug = "kucuk-ev-aletleri-yedek-parca-ve-aksesuarlari"
+app_category = "Küçük Ev Aletleri Yedek Parça ve Aksesuarları"
+
+# [L3] Küçük Ev Aletleri > Küçük Ev Aletleri Yedek Parça ve Aksesuarları > Türk Kahve Makinesi Aksesuarları
+[[categories.include]]
+slug = "turk-kahve-makinesi-aksesuarlari"
+app_category = "Küçük Ev Aletleri Yedek Parça ve Aksesuarları"
+
+# [L3] Küçük Ev Aletleri > Küçük Ev Aletleri Yedek Parça ve Aksesuarları > Çay Makinesi Aksesuarları
+[[categories.include]]
+slug = "cay-makinesi-aksesuarlari"
+app_category = "Küçük Ev Aletleri Yedek Parça ve Aksesuarları"
+
+# [L3] Küçük Ev Aletleri > Küçük Ev Aletleri Yedek Parça ve Aksesuarları > Filtre Kahve Makinesi Aksesuarları
+[[categories.include]]
+slug = "filtre-kahve-makinesi-aksesuarlari"
+app_category = "Küçük Ev Aletleri Yedek Parça ve Aksesuarları"
+
+# [L3] Küçük Ev Aletleri > Küçük Ev Aletleri Yedek Parça ve Aksesuarları > Mikser & Blender Aksesuarları
+[[categories.include]]
+slug = "mikser-blender-aksesuarlari"
+app_category = "Küçük Ev Aletleri Yedek Parça ve Aksesuarları"
+
+# [L3] Küçük Ev Aletleri > Küçük Ev Aletleri Yedek Parça ve Aksesuarları > Ütü Aksesuarları
+[[categories.include]]
+slug = "utu-aksesuarlari"
+app_category = "Küçük Ev Aletleri Yedek Parça ve Aksesuarları"
+
+# [L2] Küçük Ev Aletleri > Buz Makinesi
+[[categories.include]]
+slug = "buz-makinesi"
+app_category = "Buz Makinesi"
+
+# # [L2] Küçük Ev Aletleri > Güzellik ve Bakım
+# [[categories.include]]
+# slug = "guzellik-ve-bakim"
+# app_category = "Güzellik ve Bakım"
+#
+# # [L3] Küçük Ev Aletleri > Güzellik ve Bakım > Cilt Bakım
+# [[categories.include]]
+# slug = "cilt-bakim"
+# app_category = "Güzellik ve Bakım"
+#
+# # [L3] Küçük Ev Aletleri > Güzellik ve Bakım > Ağız Bakım
+# [[categories.include]]
+# slug = "agiz-bakim"
+# app_category = "Güzellik ve Bakım"
+#
+# # [L3] Küçük Ev Aletleri > Güzellik ve Bakım > Yaşlanma Karşıtı Bakım
+# [[categories.include]]
+# slug = "yaslanma-karsiti-bakim"
+# app_category = "Güzellik ve Bakım"
+
+# # [L3] Küçük Ev Aletleri > Güzellik ve Bakım > Özel Bakımlar
+# [[categories.include]]
+# slug = "ozel-bakimlar"
+# app_category = "Güzellik ve Bakım"
+
+# [L2] Küçük Ev Aletleri > Kahve ve Sofra Ürünleri
+[[categories.include]]
+slug = "kahve-ve-sofra-urunleri"
+app_category = "Kahve ve Sofra Ürünleri"
+
+# # [L3] Küçük Ev Aletleri > Kahve ve Sofra Ürünleri > Kahve Fincanları
+# [[categories.include]]
+# slug = "kahve-fincanlari"
+# app_category = "Kahve ve Sofra Ürünleri"
+
+# [L1] Televizyon [config]
+[[categories.include]]
+slug = "televizyon"
+app_category = "Televizyon"
+include_children = true     # tum alt kategoriler icin
+
+# [L2] Televizyon > OLED
+[[categories.include]]
+slug = "oled"
+app_category = "OLED"
+
+# [L2] Televizyon > QLED
+[[categories.include]]
+slug = "qled"
+app_category = "QLED"
+
+# [L2] Televizyon > Yapay Zeka TV
+[[categories.include]]
+slug = "yapay-zeka-tv"
+app_category = "Yapay Zeka TV"
+
+# [L2] Televizyon > Oyun TV
+[[categories.include]]
+slug = "oyun-tv"
+app_category = "Oyun TV"
+
+# [L2] Televizyon > Dev Ekran TV
+[[categories.include]]
+slug = "dev-ekran-tv"
+app_category = "Dev Ekran TV"
+
+# [L2] Televizyon > Smart TV
+[[categories.include]]
+slug = "smart-tv"
+app_category = "Smart TV"
+
+# [L2] Televizyon > Google TV
+[[categories.include]]
+slug = "google-tv"
+app_category = "Google TV"
+
+# [L2] Televizyon > Full HD & HD
+[[categories.include]]
+slug = "full-hd-hd"
+app_category = "Full HD & HD"
+
+# [L2] Televizyon > 4K TV
+[[categories.include]]
+slug = "4k-tv"
+app_category = "4K TV"
+
+# [L2] Televizyon > LED TV
+[[categories.include]]
+slug = "led-tv"
+app_category = "LED TV"
+
+# [L2] Televizyon > Mutfak Televizyonu
+[[categories.include]]
+slug = "mutfak-televizyonu"
+app_category = "Mutfak Televizyonu"
+
+# [L2] Televizyon > Hotel TV
+[[categories.include]]
+slug = "hotel-tv"
+app_category = "Hotel TV"
+
+# [L2] Televizyon > Ekran Boyutuna Göre Tv'ler
+[[categories.include]]
+slug = "ekran-boyutuna-gore-tvler"
+app_category = "Ekran Boyutuna Göre Tv'ler"
+
+# [L3] Televizyon > Ekran Boyutuna Göre Tv'ler > 32 İnç (80 Ekran) TV
+[[categories.include]]
+slug = "32-inc-80-ekran-tv"
+app_category = "Ekran Boyutuna Göre Tv'ler"
+
+# [L3] Televizyon > Ekran Boyutuna Göre Tv'ler > 43 İnç (109 Ekran) TV
+[[categories.include]]
+slug = "43-inc-109-ekran-tv"
+app_category = "Ekran Boyutuna Göre Tv'ler"
+
+# [L3] Televizyon > Ekran Boyutuna Göre Tv'ler > 50 İnç (127 Ekran) TV
+[[categories.include]]
+slug = "50-inc-127-ekran-tv"
+app_category = "Ekran Boyutuna Göre Tv'ler"
+
+# [L3] Televizyon > Ekran Boyutuna Göre Tv'ler > 55 İnç (140 Ekran) TV
+[[categories.include]]
+slug = "55-inc-140-ekran-tv"
+app_category = "Ekran Boyutuna Göre Tv'ler"
+
+# [L3] Televizyon > Ekran Boyutuna Göre Tv'ler > 65 İnç (165 Ekran) TV
+[[categories.include]]
+slug = "65-inc-165-ekran-tv"
+app_category = "Ekran Boyutuna Göre Tv'ler"
+
+# [L3] Televizyon > Ekran Boyutuna Göre Tv'ler > 75 İnç (190 Ekran) TV
+[[categories.include]]
+slug = "75-inc-190-ekran-tv"
+app_category = "Ekran Boyutuna Göre Tv'ler"
+
+# [L3] Televizyon > Ekran Boyutuna Göre Tv'ler > 85 İnç (215 Ekran) TV
+[[categories.include]]
+slug = "85-inc-215-ekran-tv"
+app_category = "Ekran Boyutuna Göre Tv'ler"
+
+# [L3] Televizyon > Ekran Boyutuna Göre Tv'ler > 100 İnç (248 Ekran) TV
+[[categories.include]]
+slug = "100-inc-248-ekran-tv"
+app_category = "Ekran Boyutuna Göre Tv'ler"
+
+# # [L2] Televizyon > Mini LED
+# [[categories.include]]
+# slug = "mini-led"
+# app_category = "Mini LED"
+
+# # [L1] Elektronik
+# [[categories.include]]
+# slug = "elektronik"
+# include_children = true # tum alt kategoriler icin
+#
+# # [L2] Elektronik > Cep Telefonu [excluded]
+# [[categories.include]]
+# slug = "cep-telefonu"
+# app_category = "Cep Telefonu"
+#
+# # [L3] Elektronik > Cep Telefonu > iPhone Telefon Modelleri [excluded]
+# [[categories.include]]
+# slug = "iphone-telefon-modelleri"
+# app_category = "Cep Telefonu"
+#
+# # [L3] Elektronik > Cep Telefonu > Android Telefon Modelleri [excluded]
+# [[categories.include]]
+# slug = "android-telefon-modelleri"
+# app_category = "Cep Telefonu"
+
+# [L2] Elektronik > Ödeme Sistemleri
+[[categories.include]]
+slug = "odeme-sistemleri"
+app_category = "Ödeme Sistemleri"
+
+# [L3] Elektronik > Ödeme Sistemleri > Yazar Kasa POS
+[[categories.include]]
+slug = "yazar-kasa-pos"
+app_category = "Ödeme Sistemleri"
+
+# [L3] Elektronik > Ödeme Sistemleri > Akaryakıt Çözümleri
+[[categories.include]]
+slug = "akaryakit-cozumleri"
+app_category = "Ödeme Sistemleri"
+
+# [L3] Elektronik > Ödeme Sistemleri > Aksesuarlar
+[[categories.include]]
+slug = "odeme-aksesuarlari"
+app_category = "Ödeme Sistemleri"
+
+# # [L2] Elektronik > Cep Telefonu Aksesuarları
+# [[categories.include]]
+# slug = "cep-telefonu-aksesuar"
+# app_category = "Cep Telefonu Aksesuarları"
+#
+# # [L3] Elektronik > Cep Telefonu Aksesuarları > Şarj Cihazları
+# [[categories.include]]
+# slug = "sarj-cihazlari"
+# app_category = "Cep Telefonu Aksesuarları"
+#
+# # [L3] Elektronik > Cep Telefonu Aksesuarları > Şarj Kabloları
+# [[categories.include]]
+# slug = "sarj-kablolari"
+# app_category = "Cep Telefonu Aksesuarları"
+#
+# # [L3] Elektronik > Cep Telefonu Aksesuarları > Powerbank
+# [[categories.include]]
+# slug = "powerbank"
+# app_category = "Cep Telefonu Aksesuarları"
+#
+# # [L3] Elektronik > Cep Telefonu Aksesuarları > Diğer Telefon Aksesuarları
+# [[categories.include]]
+# slug = "diger-telefon-aksesuarlari"
+# app_category = "Cep Telefonu Aksesuarları"
+#
+# # [L3] Elektronik > Cep Telefonu Aksesuarları > Telefon Kulaklığı
+# [[categories.include]]
+# slug = "telefon-kulakligi"
+# app_category = "Cep Telefonu Aksesuarları"
+#
+# # [L3] Elektronik > Cep Telefonu Aksesuarları > Telefon Kılıfı
+# [[categories.include]]
+# slug = "telefon-kilifi"
+# app_category = "Cep Telefonu Aksesuarları"
+#
+# # [L2] Elektronik > Bilgisayar [excluded]
+# [[categories.include]]
+# slug = "bilgisayar"
+# app_category = "Bilgisayar"
+#
+# # [L3] Elektronik > Bilgisayar > Laptop [excluded]
+# [[categories.include]]
+# slug = "laptop"
+# app_category = "Bilgisayar"
+#
+# # [L3] Elektronik > Bilgisayar > Tablet [excluded]
+# [[categories.include]]
+# slug = "tablet"
+# app_category = "Bilgisayar"
+
+# # [L3] Elektronik > Bilgisayar > Masaüstü Bilgisayar [excluded]
+# [[categories.include]]
+# slug = "masaustu-bilgisayar"
+# app_category = "Bilgisayar"
+#
+# # [L2] Elektronik > Ses Görüntü
+# [[categories.include]]
+# slug = "ses-ve-goruntu-sistemleri"
+# app_category = "Ses Görüntü"
+#
+# # [L3] Elektronik > Ses Görüntü > Ses Sistemleri
+# [[categories.include]]
+# slug = "ses-sistemleri"
+# app_category = "Ses Görüntü"
+#
+# # [L3] Elektronik > Ses Görüntü > Kulaklık [excluded]
+# [[categories.include]]
+# slug = "kulaklik"
+# app_category = "Ses Görüntü"
+#
+# # [L3] Elektronik > Ses Görüntü > Medya Oynatıcı
+# [[categories.include]]
+# slug = "medya-oynatici"
+# app_category = "Ses Görüntü"
+
+# # [L3] Elektronik > Ses Görüntü > Araç İçi Kameralar
+# [[categories.include]]
+# slug = "arac-ici-kameralar"
+# app_category = "Ses Görüntü"
+#
+# # [L3] Elektronik > Ses Görüntü > Ev İçi Akıllı Kamera Sistemleri
+# [[categories.include]]
+# slug = "ev-ici-akilli-kamera-sistemleri"
+# app_category = "Ses Görüntü"
+#
+# # [L2] Elektronik > Giyilebilir Teknoloji
+# [[categories.include]]
+# slug = "giyilebilir-teknoloji"
+# app_category = "Giyilebilir Teknoloji"
+#
+# # [L3] Elektronik > Giyilebilir Teknoloji > VR Gözlük
+# [[categories.include]]
+# slug = "vr-gozluk"
+# app_category = "Giyilebilir Teknoloji"
+#
+# # [L3] Elektronik > Giyilebilir Teknoloji > Akıllı Saat [excluded]
+# [[categories.include]]
+# slug = "akilli-saat"
+# app_category = "Giyilebilir Teknoloji"
+#
+# # [L3] Elektronik > Giyilebilir Teknoloji > Akıllı Bileklik
+# [[categories.include]]
+# slug = "akilli-bileklik"
+# app_category = "Giyilebilir Teknoloji"
+#
+# # [L3] Elektronik > Giyilebilir Teknoloji > Saat ve Bileklik Aksesuarı
+# [[categories.include]]
+# slug = "saat-ve-bileklik-aksesuari"
+# app_category = "Giyilebilir Teknoloji"
+#
+# # [L2] Elektronik > Hobi - Oyun (Gaming) Ürünleri
+# [[categories.include]]
+# slug = "hobi-oyun-gaming-urunleri"
+# app_category = "Hobi - Oyun (Gaming) Ürünleri"
+#
+# # [L3] Elektronik > Hobi - Oyun (Gaming) Ürünleri > Oyun Konsolu
+# [[categories.include]]
+# slug = "oyun-konsolu"
+# app_category = "Hobi - Oyun (Gaming) Ürünleri"
+#
+# # [L3] Elektronik > Hobi - Oyun (Gaming) Ürünleri > Fotoğraf Kamera
+# [[categories.include]]
+# slug = "fotograf-kamera"
+# app_category = "Hobi - Oyun (Gaming) Ürünleri"
+#
+# # [L3] Elektronik > Hobi - Oyun (Gaming) Ürünleri > Bilgisayar Aksesuarları
+# [[categories.include]]
+# slug = "bilgisayar-aksesuarlari"
+# app_category = "Hobi - Oyun (Gaming) Ürünleri"
+#
+# # [L3] Elektronik > Hobi - Oyun (Gaming) Ürünleri > Oyuncu Ekipmanları
+# [[categories.include]]
+# slug = "oyuncu-ekipmanlari"
+# app_category = "Hobi - Oyun (Gaming) Ürünleri"
+#
+# # [L3] Elektronik > Hobi - Oyun (Gaming) Ürünleri > Konsol Oyunları
+# [[categories.include]]
+# slug = "konsol-oyunlari"
+# app_category = "Hobi - Oyun (Gaming) Ürünleri"
+#
+# # [L3] Elektronik > Hobi - Oyun (Gaming) Ürünleri > Oyun Konsolu Aksesuarları
+# [[categories.include]]
+# slug = "oyun-konsolu-aksesuarlari"
+# app_category = "Hobi - Oyun (Gaming) Ürünleri"
+#
+# # [L3] Elektronik > Hobi - Oyun (Gaming) Ürünleri > Masaüstü Bilgisayarlar
+# [[categories.include]]
+# slug = "masaustu-bilgisayarlar"
+# app_category = "Hobi - Oyun (Gaming) Ürünleri"
+#
+# # [L3] Elektronik > Hobi - Oyun (Gaming) Ürünleri > Bilgisayar Çevre Birimleri
+# [[categories.include]]
+# slug = "bilgisayar-cevre-birimleri"
+# app_category = "Hobi - Oyun (Gaming) Ürünleri"
+
+# [L1] Isıtma Soğutma
+[[categories.include]]
+slug = "isitma-sogutma"
+include_children = true # tum alt kategoriler icin
+
+# [L2] Isıtma Soğutma > Klima
+[[categories.include]]
+slug = "klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > Split Klima
+[[categories.include]]
+slug = "split-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > Salon Tipi Klima
+[[categories.include]]
+slug = "salon-tipi-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > Portatif Klima
+[[categories.include]]
+slug = "portatif-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > Kaset Tipi Klima
+[[categories.include]]
+slug = "kaset-tipi-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > Multi Klima
+[[categories.include]]
+slug = "multi-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > 7000 BTU Klima
+[[categories.include]]
+slug = "7000-btu-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > 9000 BTU Klima
+[[categories.include]]
+slug = "9000-btu-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > 12000 BTU Klima
+[[categories.include]]
+slug = "12000-btu-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > 15000 BTU Klima
+[[categories.include]]
+slug = "15000-btu-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > 18000 BTU Klima
+[[categories.include]]
+slug = "18000-btu-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > 24000 BTU Klima
+[[categories.include]]
+slug = "24000-btu-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > 26000 BTU Klima
+[[categories.include]]
+slug = "26000-btu-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > 34000 BTU Klima
+[[categories.include]]
+slug = "34000-btu-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > 48000 BTU Klima
+[[categories.include]]
+slug = "48000-btu-klima"
+app_category = "Klima"
+
+# [L3] Isıtma Soğutma > Klima > 55000 BTU Klima
+[[categories.include]]
+slug = "55000-btu-klima"
+app_category = "Klima"
+
+# [L2] Isıtma Soğutma > Hava Soğutucu
+[[categories.include]]
+slug = "hava-sogutucu"
+app_category = "Hava Soğutucu"
+
+# [L2] Isıtma Soğutma > Hava Temizleyici
+[[categories.include]]
+slug = "hava-temizleyici"
+app_category = "Hava Temizleyici"
+
+# [L2] Isıtma Soğutma > Vantilatör
+[[categories.include]]
+slug = "vantilator"
+app_category = "Vantilatör"
+
+# [L3] Isıtma Soğutma > Vantilatör > Ayaklı Vantilator
+[[categories.include]]
+slug = "ayakli-vantilator"
+app_category = "Vantilatör"
+
+# [L3] Isıtma Soğutma > Vantilatör > Tavan Tipi Vantilatör
+[[categories.include]]
+slug = "tavan-tipi-vantilator"
+app_category = "Vantilatör"
+
+# [L3] Isıtma Soğutma > Vantilatör > Kule Tipi Vantilatör
+[[categories.include]]
+slug = "kule-tipi-vantilator"
+app_category = "Vantilatör"
+
+# # [L2] Isıtma Soğutma > Nem Alma Cihazı
+# [[categories.include]]
+# slug = "nem-alma-cihazi"
+# app_category = "Nem Alma Cihazı"
+
+# [L2] Isıtma Soğutma > Termosifon
+[[categories.include]]
+slug = "termosifon"
+app_category = "Termosifon"
+
+# [L3] Isıtma Soğutma > Termosifon > Standart Termosifon
+[[categories.include]]
+slug = "standart-termosifon"
+app_category = "Termosifon"
+
+# [L3] Isıtma Soğutma > Termosifon > Dijital Termosifon
+[[categories.include]]
+slug = "dijital-termosifon"
+app_category = "Termosifon"
+
+# [L2] Isıtma Soğutma > Elektrikli Isıtıcı
+[[categories.include]]
+slug = "elektrikli-isitici"
+app_category = "Elektrikli Isıtıcı"
+
+# [L3] Isıtma Soğutma > Elektrikli Isıtıcı > Seramik Isıtıcı
+[[categories.include]]
+slug = "seramik-isitici"
+app_category = "Elektrikli Isıtıcı"
+
+# [L3] Isıtma Soğutma > Elektrikli Isıtıcı > Infrared Isıtıcı
+[[categories.include]]
+slug = "infrared-isitici"
+app_category = "Elektrikli Isıtıcı"
+
+# [L3] Isıtma Soğutma > Elektrikli Isıtıcı > Yağlı Radyatör
+[[categories.include]]
+slug = "yagli-radyator"
+app_category = "Elektrikli Isıtıcı"
+
+# [L3] Isıtma Soğutma > Elektrikli Isıtıcı > Konvektör Isıtıcı
+[[categories.include]]
+slug = "konvektor-isitici"
+app_category = "Elektrikli Isıtıcı"
+
+# [L2] Isıtma Soğutma > Kombi
+[[categories.include]]
+slug = "kombi"
+app_category = "Kombi"
+
+# [L3] Isıtma Soğutma > Kombi > Premix Yoğuşmalı Kombi
+[[categories.include]]
+slug = "premix-yogusmali-kombi"
+app_category = "Kombi"
+
+# [L3] Isıtma Soğutma > Kombi > Oda Termostatı
+[[categories.include]]
+slug = "oda-termostati"
+app_category = "Kombi"
+
+# [L2] Isıtma Soğutma > Isı Pompası
+[[categories.include]]
+slug = "isi-pompasi"
+app_category = "Isı Pompası"
+
+# [L2] Isıtma Soğutma > Isıtma Soğutma Yedek Parça ve Aksesuarları
+[[categories.include]]
+slug = "isitma-sogutma-yedek-parca-ve-aksesuarlari"
+app_category = "Isıtma Soğutma Yedek Parça ve Aksesuarları"
+
+# [L3] Isıtma Soğutma > Isıtma Soğutma Yedek Parça ve Aksesuarları > Klima Aksesuarları
+[[categories.include]]
+slug = "klima-aksesuarlari"
+app_category = "Isıtma Soğutma Yedek Parça ve Aksesuarları"
+
+# [L1] Su Sebili & Su Arıtma
+[[categories.include]]
+slug = "su-sebili-su-aritma"
+include_children = true      # tum alt kategoriler icin
+
+# [L2] Su Sebili & Su Arıtma > Su Arıtma Cihazı
+[[categories.include]]
+slug = "su-aritma-cihazi"
+app_category = "Su Arıtma Cihazı"
+
+# [L2] Su Sebili & Su Arıtma > Su Sebili
+[[categories.include]]
+slug = "su-sebili"
+app_category = "Su Sebili"
+
+# [L3] Su Sebili & Su Arıtma > Su Sebili > Buz Yapan Su Sebili
+[[categories.include]]
+slug = "buz-yapan-su-sebili"
+app_category = "Su Sebili"
+
+# [L2] Spor ve Outdoor > Araç Buzdolabı
+[[categories.include]]
+slug = "arac-buzdolabi"
+app_category = "Araç Buzdolabı"
+
+# # [L1] Yedek Parça Ve Aksesuar
+# [[categories.include]]
+# slug = "yedek-parca-ve-aksesuar"
+# include_children = true          # tum alt kategoriler icin
+#
+# # [L2] Yedek Parça Ve Aksesuar > Aksesuarlar
+# [[categories.include]]
+# slug = "aksesuarlar"
+# app_category = "Aksesuarlar"
+
+# [L3] Yedek Parça Ve Aksesuar > Aksesuarlar > Beyaz Eşya Yedek Parça ve Aksesuarları [duplicate slug]
+# [L3] Yedek Parça Ve Aksesuar > Aksesuarlar > Pişirici Yedek Parça ve Aksesuarları [duplicate slug]
+# [L3] Yedek Parça Ve Aksesuar > Aksesuarlar > Küçük Ev Aletleri Yedek Parça ve Aksesuarları [duplicate slug]
+
+# # [L3] Yedek Parça Ve Aksesuar > Aksesuarlar > Taşınabilir Güneş Paneli Aksesuarları
+# [[categories.include]]
+# slug = "tasinabilir-gunes-paneli-aksesuarlari"
+# app_category = "Aksesuarlar"
+#
+# # [L3] Yedek Parça Ve Aksesuar > Aksesuarlar > Kitler
+# [[categories.include]]
+# slug = "kitler"
+# app_category = "Aksesuarlar"
+#
+# # [L3] Yedek Parça Ve Aksesuar > Aksesuarlar > Televizyon Aksesuarları
+# [[categories.include]]
+# slug = "televizyon-aksesuarlari"
+# app_category = "Aksesuarlar"
+#
+# # [L1] Arçelik Enerji Çözümleri
+# [[categories.include]]
+# slug = "arcelik-enerji-cozumleri"
+# include_children = true           # tum alt kategoriler icin
+#
+# # [L2] Arçelik Enerji Çözümleri > Taşınabilir Güneş Paneli
+# [[categories.include]]
+# slug = "tasinabilir-gunes-paneli"
+# app_category = "Taşınabilir Güneş Paneli"
+#
+# # [L2] Arçelik Enerji Çözümleri > Inverter
+# [[categories.include]]
+# slug = "inverter"
+# app_category = "Inverter"
+#
+# # [L2] Arçelik Enerji Çözümleri > Güneş Paneli
+# [[categories.include]]
+# slug = "gunes-paneli"
+# app_category = "Güneş Paneli"
+
+# [L2] Arçelik Enerji Çözümleri > Taşınabilir Güneş Paneli Aksesuarları [duplicate slug]
+
+# # [L2] Arçelik Enerji Çözümleri > Elektrikli Araç Şarj İstasyonu
+# [[categories.include]]
+# slug = "elektrikli-arac-sarj-istasyonu"
+# app_category = "Elektrikli Araç Şarj İstasyonu"
+
+# # [L1] UmutKent Koleksiyonu
+# [[categories.include]]
+# slug = "umutkent-koleksiyonu"
+# include_children = true       # tum alt kategoriler icin
+#
+# # [L2] UmutKent Koleksiyonu > UmutKent Koleksiyonu Ürünleri
+# [[categories.include]]
+# slug = "umutkent-koleksiyonu-urunleri"
+# app_category = "UmutKent Koleksiyonu Ürünleri"
+#
+# # [L1] İz Bırak
+# [[categories.include]]
+# slug = "iz-birak"
+# include_children = true # tum alt kategoriler icin
+#
+# # [L2] İz Bırak > İz Bırak Ürünleri
+# [[categories.include]]
+# slug = "iz-birak-urunleri"
+# app_category = "İz Bırak Ürünleri"
+
+# # [L1] Spor ve Outdoor
+# [[categories.include]]
+# slug = "spor-ve-outdoor"
+# include_children = true  # tum alt kategoriler icin
+
+# # [L2] Spor ve Outdoor > Elektrikli Scooter
+# [[categories.include]]
+# slug = "elektrikli-scooter"
+# app_category = "Elektrikli Scooter"
+
+# # [L2] Spor ve Outdoor > Kamp ve Outdoor Ekipmanları
+# [[categories.include]]
+# slug = "kamp-ve-outdoor-ekipmanlari"
+# app_category = "Kamp ve Outdoor Ekipmanları"
+
+# # [L2] Spor ve Outdoor > Elektrikli Bisiklet
+# [[categories.include]]
+# slug = "elektrikli-bisiklet"
+# app_category = "Elektrikli Bisiklet"
+
+
+# # [L2] Spor ve Outdoor > Deniz & Su Sporları Ekipmanları
+# [[categories.include]]
+# slug = "deniz-su-sporlari-ekipmanlari"
+# app_category = "Deniz & Su Sporları Ekipmanları"
+
+# # [L1] Anne & Bebek Ürünleri
+# [[categories.include]]
+# slug = "anne-ve-bebek"
+# include_children = true # tum alt kategoriler icin
+
+# # [L2] Anne & Bebek Ürünleri > Biberon Isıtıcısı
+# [[categories.include]]
+# slug = "biberon-isiticisi"
+# app_category = "Biberon Isıtıcısı"
+
+[cache]
+categories_file = "data/categories.json"
+explicit_file = "data/explicit_products.json"
+specs_file = "data/specs_cache.json"
+
+[campaigns]
+enabled = true
+
+[warranties]
+enabled = true # prices/all icinde; ayri komut yok
+
+[products]
+include_file = "data/product_urls.txt"
+default_specs = true
+default_fetch = "once"
+# Tek koşuda otomatik çekilecek eksik açık ürün sayısı üst sınırı.
+# Büyük listede full koşu tümünü çekmesin; --only ile daralt veya
+# --refresh-explicit ile bilinçli olarak zorla.
+max_auto_fetch = 50
+# Istisna urunlerde ad/kategori override'i icin asagidaki gibi
+# [[products.include]] blogu eklenebilir; ayni URL dosyada olsa bile
+# buradaki kayit once gelir.
+#
+# [[products.include]]
+# url = "https://www.arcelik.com.tr/10-kg-kurutma-makinesi/1001-kmx-kurutma-makinesi"
+# name = "1001 KMX"
+# app_category = "Kurutma Makinesi"
+# force = true                 # kara listeye ragmen dahil et
+
+
+# KURAL: blog/... fiyat kaynagi degil; kod ve ADR-0009 ile her zaman dislanir.
+# Asagidaki blog kategorisi bilincli olarak commented; config'e almayin.
+# # [L2] Su Sebili & Su Arıtma > Su Arıtma Blog
+# [[categories.include]]
+# slug = "blog/su-aritma"
+# app_category = "Su Arıtma Blog"
